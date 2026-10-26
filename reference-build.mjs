@@ -13,7 +13,7 @@ const paragraphs = list => list.map(text=>`<p>${esc(text)}</p>`).join('');
 const out = path.join(root, 'dist');
 await mkdir(path.join(out, 'assets'), {recursive:true});
 // Publish only reviewed website assets, including the author’s LinkedIn photos.
-for (const file of ['reference.css', 'site.js', 'favicon.svg', 'portrait-approved-a.png', 'trb-front-2024.jpg', 'informs-poster-2025.jpg', 'trb-discussion-2024.jpg', 'trb-talk-2024.jpg', 'defense-colleagues-2025.jpg', 'informs-colleagues-2025.jpg']) {
+for (const file of ['reference.css', 'site.js', 'favicon.svg', 'portrait-approved-a-clear.jpg', 'trb-front-2024.jpg', 'informs-poster-2025.jpg', 'trb-discussion-2024.jpg', 'trb-talk-2024.jpg', 'defense-colleagues-2025.jpg', 'informs-colleagues-2025.jpg']) {
   await copyFile(path.join(root, 'assets', file), path.join(out, 'assets', file));
 }
 for (const file of ['bokang-linkedin.jpg','defense-2025.jpg','informs-2025.jpg','headshot.png', 'portrait.jpg', 'social.svg', 'style.css', 'academic.css', 'algorithms.svg', 'maritime.svg', 'resilience.svg']) {
