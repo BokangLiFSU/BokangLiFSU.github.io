@@ -6,7 +6,7 @@
   "email": "libokangfsu@gmail.com",
   "orcid": "https://orcid.org/0000-0002-5383-8195",
   "description": "Bokang Li studies operations research, mathematical optimization and AI for operations, supply chains, resilience and sustainable systems.",
-  "bio": "My research interests lie in operations research, mathematical optimization and AI, with applications across operations and supply chains, logistics, transportation and public systems. I am interested in how connected decisions can be modeled, coordinated and adapted as conditions change.",
+  "bio": "I develop optimization models and algorithms for scheduling, resource allocation and supply chain planning. My interests also include AI-assisted optimization, resilience and public-service operations.",
   "background": [
     {
       "period": "June 2026 – present",
@@ -43,17 +43,17 @@
     {
       "id": "algorithms",
       "title": "Mathematical optimization, learning & AI",
-      "description": "Models, decomposition, adaptive algorithms and AI-assisted decision support, including emerging computational approaches."
+      "description": "Mathematical programming, decomposition, adaptive search and AI-assisted formulation and algorithms."
     },
     {
       "id": "maritime",
       "title": "Operations, supply chains & technology",
-      "description": "Coordinated planning across production, inventories, distribution and services; investment and operating decisions for automation and electrification."
+      "description": "Production, inventory, distribution and service planning; investment and operations for automated and electric systems."
     },
     {
       "id": "resilience",
       "title": "Resilience, sustainability & public services",
-      "description": "Preparedness and recovery, decisions under uncertainty, energy and environmental objectives, healthcare and humanitarian operations."
+      "description": "Planning under uncertainty, disruption recovery, energy and emissions, healthcare and humanitarian logistics."
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -85,14 +85,14 @@
     {
       "course": "EGN 5480 · Metaheuristics and Hybrid Algorithms",
       "level": "Graduate · in person",
-      "institution": "Florida State University, College of Engineering",
+      "institution": "Florida State University",
       "role": "Teaching Assistant with Delegated Instructor Responsibilities",
       "detail": "Delivered lectures and led discussions on evolutionary algorithms, classical metaheuristics, local search, hybridization and selected exact methods. Graded assignments and guided group projects in scheduling, resource allocation and logistics."
     },
     {
       "course": "TTE 5074 · Freight Terminals and Distribution Facilities",
       "level": "Graduate · online",
-      "institution": "Florida State University, College of Engineering",
+      "institution": "Florida State University",
       "role": "Teaching Assistant",
       "detail": "Supported instruction through Canvas, organized materials, moderated discussions, assisted students, graded assignments and developed assessments on freight terminals and distribution facilities."
     }
@@ -101,12 +101,12 @@
     {
       "year": "2025",
       "title": "Civil and Environmental Engineering Future Faculty Award",
-      "issuer": "Florida State University, College of Engineering"
+      "issuer": "Florida State University"
     },
     {
       "year": "2023",
       "title": "Civil and Environmental Engineering Graduate Research Excellence Award",
-      "issuer": "Florida State University, College of Engineering"
+      "issuer": "Florida State University"
     }
   ],
   "service": [
@@ -143,7 +143,7 @@
       "period": "June 2026 – present",
       "sponsor": "U.S. Department of Transportation / Washington State Department of Transportation",
       "detail": "AI-assisted geospatial inventory of speed-management infrastructure in rural-to-town transition areas and rural community corridors.",
-      "context": "The research combines AI-assisted identification with geospatial analysis to build an inventory of speed-management features along rural corridors and transitions into towns. My contribution as co-PI connects the inventory methodology with the transportation decisions the resulting data are intended to support."
+      "context": "As co-PI, I contribute to methods for identifying and mapping speed-management features on rural roads and approaches to towns in Washington. The inventory is intended to help researchers and agencies locate treatments and select sites for further evaluation."
     },
     {
       "title": "Automated Active Transportation Facility Inventory for Rural Towns Using Computer Vision Techniques",
@@ -151,7 +151,7 @@
       "period": "June 2026 – present",
       "sponsor": "U.S. Department of Transportation",
       "detail": "Computer vision and GIS methods for identifying sidewalk and bicycle facilities from aerial imagery and maintaining geospatial inventories.",
-      "context": "I contribute to methods for identifying pedestrian and bicycle facilities from aerial imagery and representing them in GIS. The work addresses the construction of consistent facility inventories that can support analysis of coverage, connectivity and gaps in rural towns."
+      "context": "I develop computer-vision and GIS methods for identifying pedestrian and bicycle facilities in aerial imagery. The work includes checking facility locations and building records for the analysis of coverage and connectivity in rural towns."
     },
     {
       "title": "Solution to Meet the Air Force Artificial Intelligence (AI)-based Scheduling — Phase II",
@@ -159,7 +159,7 @@
       "period": "December 2022 – May 2025",
       "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
       "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
-      "context": "I contributed to research on optimization and AI-based scheduling for humanitarian logistics planning. This experience connects my work on scheduling and resource allocation with the preparation and coordination of operations under demanding service requirements."
+      "context": "I contributed to optimization and AI-based scheduling research for humanitarian logistics. The project addressed strategic planning and the coordination of resources under service requirements."
     },
     {
       "title": "Selection of Level Crossings for Closure in the State of Florida: An Optimization-based Approach",
@@ -168,7 +168,7 @@
       "sponsor": "Florida Department of Transportation",
       "detail": "Decision support for level-crossing closure selection, combining highway safety with freight-flow considerations.",
       "url": "https://doi.org/10.13140/RG.2.2.26835.80167",
-      "context": "I contributed to optimization-based decision support for highway-rail crossing closure selection. The project produced an FDOT technical report and related journal research, evaluating safety, delay, economic and environmental consequences within a common allocation framework."
+      "context": "I contributed to optimization models for selecting highway-rail crossings for closure. The project considered safety, traffic delay, economic and environmental effects and produced an FDOT technical report and related journal articles."
     }
   ],
   "talks": [
@@ -195,19 +195,18 @@
   ],
   "researchStatement": "I study how optimization and AI can improve the design, coordination and resilience of operations and supply chain systems.",
   "biography": [
-    "I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali. My research brings together operations research, mathematical optimization and AI to study scheduling, resource allocation and coordination in operations and supply chains.",
+    "I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali. I develop optimization models and algorithms for planning and scheduling, with interests in supply chains, transportation and public services.",
     "Previously, I was a postdoctoral research scholar at Florida State University, where I received my Ph.D. in Civil Engineering in August 2025 under the supervision of Maxim A. Dulebenets. I received my B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022."
   ],
   "homeResearch": [
-    "My research interests center on the design and management of complex operations: how organizations coordinate decisions, use limited resources and adapt when conditions change. I draw on operations research, mathematical optimization and AI to study problems across production, supply chains, logistics, service systems and public infrastructure.",
-    "The questions extend across planning levels and organizations. How should capacity investments and daily schedules be coordinated? When do information sharing, shared resources or joint planning improve performance? How should existing commitments be revised under disruption, and where does flexibility create the greatest value?",
-    "I am also interested in how learning and language models can work with mathematical optimization, and in the operating implications of electrification and automation. Healthcare, humanitarian operations and public services offer further settings for studying reliability, access, resource use and the consequences of decisions."
+    "My research is in operations research, with a focus on planning, scheduling and resource allocation. I study decisions that span facilities, organizations and time periods: coordinating production and distribution, choosing capacity investments, and adapting operating plans when demand or resources change.",
+    "I develop mathematical models and algorithms for these problems. My methodological interests include decomposition, adaptive search and AI-assisted optimization. I am also interested in automation and electrification, healthcare operations and humanitarian logistics, particularly how investment and operating decisions affect cost, reliability and access to services."
   ],
   "academicContext": [
-    "My training began in harbor, waterway and coastal engineering at Wuhan University and developed toward operations research during my doctoral studies at Florida State University. The common thread is the planning of systems in which service requirements, shared resources and physical constraints interact.",
-    "My Ph.D. research, advised by Maxim A. Dulebenets, examined adaptive and hybrid optimization algorithms for berth scheduling. Related research extended to cross-docking, ship schedule recovery and infrastructure resource allocation. A Graduate Certificate in Engineering Data Analytics complemented this work with training in data analysis, machine learning and deep learning.",
-    "After completing my Ph.D. in August 2025, I continued at Florida State University as a postdoctoral research scholar. I joined the University of Washington, Tacoma Campus in June 2026, working with Angela Kitali. My current work combines optimization research with AI-assisted infrastructure inventories and broader questions about operations, public services and sustainable resource use.",
-    "I have contributed to projects supported by the U.S. Department of Defense, Florida Department of Transportation and U.S. Department of Transportation. I currently serve as co-principal investigator on research concerning speed-management infrastructure in Washington. My teaching experience includes graduate optimization and freight-facility courses, alongside undergraduate and master’s research mentorship and external thesis committee service."
+    "I studied Harbor, Waterway and Coastal Engineering at Wuhan University before pursuing a Ph.D. in Civil Engineering at Florida State University. During my doctoral studies, my focus shifted to operations research and the development of optimization algorithms.",
+    "Working with Maxim A. Dulebenets, I studied adaptive and hybrid algorithms for berth scheduling. My related work covers cross-docking, ship schedule recovery and infrastructure resource allocation. I also completed a Graduate Certificate in Engineering Data Analytics, with coursework in data analysis, machine learning and deep learning.",
+    "After receiving my Ph.D. in August 2025, I remained at Florida State University as a postdoctoral research scholar. I joined the University of Washington, Tacoma Campus in June 2026. With Angela Kitali, I work on AI-assisted infrastructure inventories, including speed-management features and pedestrian and bicycle facilities.",
+    "My project experience includes research supported by the U.S. Department of Defense, Florida Department of Transportation and U.S. Department of Transportation. I am a co-principal investigator on the Washington speed-management inventory project. I have taught and assisted with graduate courses in optimization and freight facilities, mentored undergraduate and master’s researchers, and served on an external master’s thesis committee."
   ],
   "portrait": {
     "file": "portrait-approved-a-clear.jpg",
@@ -230,7 +229,7 @@
       "width": 2048,
       "height": 1462,
       "alt": "Presenters at the TRB 2026 Current Research in Port Optimization session",
-      "caption": "I presented a compact and efficient optimization model for berth scheduling at marine container terminals at the 105th TRB Annual Meeting. The AW011 session, moderated by EunSu Lee, brought together work on port capacity, vessel turnaround, shore power and berth scheduling. With fellow presenters after the session.",
+      "caption": "After the “Current Research in Port Optimization” session at the 105th TRB Annual Meeting. I presented a compact optimization model for berth scheduling. EunSu Lee moderated the session, which also included research on port capacity, vessel turnaround and shore power.",
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7416525315067326464/",
       "label": "Session report and photographs by EunSu Lee"
     },
@@ -241,7 +240,7 @@
       "width": 1200,
       "height": 1600,
       "alt": "Bokang Li at the 2025 INFORMS Annual Meeting",
-      "caption": "I presented research on combining hyperheuristic search with exact optimization for berth allocation and scheduling. The meeting provided an opportunity to discuss mathematical modeling, algorithm design and applications in operations research with colleagues.",
+      "caption": "At INFORMS in Atlanta, I presented a poster on combining hyperheuristic search with exact optimization for berth allocation and scheduling.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
       "label": "LinkedIn activity",
       "photos": [
@@ -260,8 +259,8 @@
       "file": "defense-colleagues-2025.jpg",
       "width": 1280,
       "height": 720,
-      "alt": "Bokang Li with colleagues following his doctoral defense at the Florida State University, College of Engineering",
-      "caption": "With colleagues after my doctoral defense. My dissertation examined hyperheuristic algorithms for berth scheduling; the broader methodological questions concern how search strategies can adapt and how heuristics can work with exact optimization.",
+      "alt": "Bokang Li with colleagues after his doctoral defense at Florida State University",
+      "caption": "With colleagues after my doctoral defense. My dissertation studied hyperheuristic algorithms for berth scheduling, including adaptive search and hybrid methods that use exact optimization.",
       "url": "https://eng.famu.fsu.edu/event/dissertation-defense-bokang-li",
       "label": "University defense announcement"
     },
@@ -272,7 +271,7 @@
       "width": 1170,
       "height": 878,
       "alt": "Bokang Li standing beside a research poster at the 103rd TRB Annual Meeting",
-      "caption": "At the 103rd TRB Annual Meeting, I presented and discussed research on maritime scheduling and disruption recovery. Contributions covered berth scheduling, multi-objective ship schedule recovery, and the interaction of recovery choices with environmental constraints.",
+      "caption": "At the 103rd TRB Annual Meeting, I presented and discussed work on berth scheduling and ship schedule recovery, including trade-offs between delay, cost and environmental constraints.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/images/",
       "label": "LinkedIn photo album",
       "photos": [
@@ -300,21 +299,21 @@
   ],
   "media": [
     {
-      "title": "New berth-scheduling model aims to cut global port delays",
-      "outlet": "Florida State University, College of Engineering",
-      "text": "A university feature on our compact optimization formulation and decomposition methods, including the practical planning questions behind the study.",
+      "title": "New Model Speeds Up Ship Scheduling at the World’s Busiest Ports",
+      "outlet": "FAMU-FSU College of Engineering",
+      "text": "The article describes our berth-scheduling model and decomposition algorithms, with comments from Maxim A. Dulebenets and me on the planning problem and computational tests.",
       "url": "https://eng.famu.fsu.edu/news/new-model-speeds-ship-scheduling-worlds-busiest-ports"
     },
     {
       "title": "Postdoctoral researcher spotlight",
       "outlet": "RIDER Center · LinkedIn",
-      "text": "A professional profile discussing my work on optimization and AI for logistics, supply chains, humanitarian response and infrastructure planning.",
+      "text": "A RIDER Center profile of my research in optimization, logistics, humanitarian response and infrastructure planning.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/"
     },
     {
       "title": "Closed-loop pharmaceutical supply chains",
       "outlet": "RIDER Center · LinkedIn",
-      "text": "Research communication about a coauthored review of medicine collection, recovery, reverse logistics and sustainable healthcare supply chains.",
+      "text": "A summary of our review of medicine collection, recovery and reverse logistics in pharmaceutical supply chains.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/"
     }
   ],
@@ -322,28 +321,28 @@
     {
       "title": "Mathematical optimization and logistics",
       "people": "Maxim A. Dulebenets and collaborators",
-      "text": "My doctoral and postdoctoral work at Florida State University developed through research with Maxim A. Dulebenets. Our joint studies connect compact mathematical formulations, decomposition, adaptive search and exact improvement with berth scheduling and cross-docking operations.",
+      "text": "I worked with Maxim A. Dulebenets during my Ph.D. and postdoctoral appointment at Florida State University. Our berth-scheduling and cross-docking studies use compact formulations, decomposition, adaptive search and exact optimization.",
       "url": "work-berth-model.html",
       "label": "Compact models and decomposition"
     },
     {
       "title": "Transportation infrastructure and public decisions",
       "people": "Angela Kitali and University of Washington collaborators",
-      "text": "At the University of Washington, Tacoma Campus, I work with Angela Kitali on AI-assisted infrastructure information and transportation research. My current contributions include speed-management inventory development and computer-vision methods for pedestrian and bicycle facilities, connecting data quality with the questions an agency needs to answer.",
+      "text": "I work with Angela Kitali on transportation infrastructure inventories at the University of Washington, Tacoma Campus. My contributions include methods for identifying speed-management features and detecting pedestrian and bicycle facilities in imagery.",
       "url": "https://ctil-research.libokangfsu.chatgpt.site/people.html",
       "label": "CTIL research team"
     },
     {
       "title": "Safety and resource allocation",
       "people": "Ren Moses, Eren E. Ozguven, John Sobanjo and research coauthors",
-      "text": "The Florida highway-rail crossing project brought optimization into a public infrastructure decision involving safety, traffic delay and other consequences. The technical report and related journal paper connect the allocation model with the assumptions and evidence used to evaluate alternatives.",
+      "text": "Our Florida highway-rail crossing research uses optimization to compare closure choices while accounting for safety, traffic delay and other costs. The technical report and journal articles describe the models, data and sensitivity analyses.",
       "url": "work-level-crossings.html",
       "label": "Rail-crossing decision study"
     },
     {
       "title": "Adaptive algorithms and sustainable systems",
       "people": "Marta Borowska-Stefańska, Szymon Wiśniewski, Yui-Yip Lau and research coauthors",
-      "text": "Collaborative publications connect adaptive algorithm design with logistics, schedule recovery and sustainable supply chains. The shared methodological interest is how computational approaches can handle coupled decisions and competing operating objectives across different applications.",
+      "text": "Our coauthored studies cover adaptive scheduling algorithms, ship schedule recovery and sustainable supply chains. They examine how algorithms handle interdependent decisions and trade-offs between operating objectives.",
       "url": "publications.html",
       "label": "Joint publications and full author lists"
     }
@@ -354,7 +353,7 @@
       "width": 800,
       "height": 360,
       "alt": "Conceptual relationship between mathematical modeling, solution methods and learning",
-      "caption": "Research interests connect model development, computational methods and learning through feedback.",
+      "caption": "Models define the decision problem; algorithms solve it; learning can inform both.",
       "author": "Bokang Li website",
       "license": "Original conceptual illustration",
       "source": "",
@@ -369,7 +368,7 @@
       "width": 1280,
       "height": 881,
       "alt": "Mobile robots operating in an automated warehouse",
-      "caption": "Warehouse automation makes routing, capacity, inventories and service schedules interdependent."
+      "caption": "An automated warehouse: robot routes, storage capacity and order schedules must be planned together."
     },
     "resilience": {
       "file": "research-flood-observation.jpg",
@@ -380,7 +379,7 @@
       "width": 5882,
       "height": 1662,
       "alt": "NASA SMAP maps of changing flood extent after Hurricane Harvey in August 2017",
-      "caption": "Changing flood conditions illustrate why preparedness and operating plans need to respond to evolving information. NASA SMAP, Hurricane Harvey, 2017."
+      "caption": "NASA SMAP observations of flooding after Hurricane Harvey, August 2017. Flood-response plans must account for changing conditions."
     }
   }
 }
