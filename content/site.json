@@ -227,13 +227,12 @@
   ],
   "researchStatement": "I study how optimization and AI can improve the design, coordination and resilience of operations and supply chain systems.",
   "biography": [
-    "I work at the intersection of operations research, mathematical optimization and AI, developing methods for operations and supply chain systems. My interests center on planning, scheduling and resource allocation: how to coordinate connected decisions, use limited capacity effectively, and adapt operating plans when conditions change. I develop mathematical models and exact, heuristic and learning-based solution methods, with applications spanning logistics, transportation, industrial operations and public systems.",
-    "I am a postdoctoral scholar in the School of Engineering and Technology at the University of Washington, Tacoma Campus, working with Dr. Angela Kitali. My current work connects optimization, AI and geospatial data with transportation decisions, including a co-principal investigator role on an AI-assisted inventory of speed-management infrastructure on Washington’s rural roads.",
-    "Before joining UW in June 2026, I was a postdoctoral research scholar at Florida State University. I completed my Ph.D. in Civil Engineering there in August 2025, advised by Dr. Maxim A. Dulebenets, with a dissertation on hyperheuristic algorithms for berth scheduling. My training also includes an FSU graduate certificate in Engineering Data Analytics (2024) and a B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University (2022)."
+    "I study how optimization and artificial intelligence can support decisions in complex operations and supply chains. I am interested in the design of decision models and algorithms, and in how organizations can coordinate resources, adapt to disruption and balance competing objectives.",
+    "I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali. I received my Ph.D. in Civil Engineering from Florida State University in 2025, advised by Maxim A. Dulebenets. My training spans operations research, engineering data analytics, and harbor, waterway and coastal engineering."
   ],
   "homeResearch": [
-    "I study the interaction between mathematical structure and computational intelligence. My interests include mixed-integer programming, decomposition, exact and approximate algorithms, adaptive search, and ways for AI and language models to work with optimization solvers. A developing interest is quantum computing for optimization.",
-    "The longer-term questions extend beyond any one application: how should decisions be coordinated across an operating system; what flexibility should be built in before disruptions occur; and how can efficiency, resilience and environmental consequences inform the same decision? My work in ports, distribution facilities, shipping networks and infrastructure planning provides concrete settings for these questions."
+    "My research connects three questions: how to represent a decision problem mathematically, how to solve it efficiently, and how the resulting decisions should change when data, resources or priorities change. I work with mathematical programming, decomposition, adaptive search and learning, and am interested in their interaction with language models and emerging computing approaches.",
+    "The application space is operations and supply chain management: production, distribution, logistics, industrial and service systems, humanitarian operations and public infrastructure. My longer-term interests include integrated planning and control, resilient and sustainable systems, and AI-assisted decision making."
   ],
   "academicContext": [
     "My doctoral work examined how hyperheuristics can select and combine search strategies for berth allocation and scheduling, and how those strategies can be hybridized with exact optimization. Subsequent work includes compact mixed-integer formulations and decomposition, learning-guided operator selection, and coordinated truck scheduling at cross-docking facilities.",
@@ -241,28 +240,93 @@
     "At the FAMU–FSU College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
   ],
   "portrait": {
-    "file": "bokang-linkedin.jpg",
-    "alt": "Bokang Li, professional portrait from his LinkedIn profile",
-    "source": "https://www.linkedin.com/in/bokang-li-365596246/"
+    "file": "informs-poster-2025.jpg",
+    "alt": "Bokang Li with his research poster at INFORMS 2025",
+    "source": "https://www.linkedin.com/in/bokang-li-365596246/",
+    "caption": "With my poster at INFORMS, 2025",
+    "width": 1280,
+    "height": 960
   },
   "activities": [
     {
+      "title": "Presenting and exchanging ideas at INFORMS",
+      "date": "October 2025 · Atlanta",
+      "file": "informs-poster-2025.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "Bokang Li alongside his optimization research poster at the 2025 INFORMS Annual Meeting",
+      "caption": "I presented work on a hyperheuristic hybridized with exact optimization. The meeting was also an opportunity to discuss modeling and algorithm design with the operations research community.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
+      "label": "LinkedIn activity"
+    },
+    {
+      "title": "Research conversations at TRB",
+      "date": "January 2024 · Washington, DC",
+      "file": "trb-discussion-2024.jpg",
+      "width": 800,
+      "height": 1066,
+      "alt": "Bokang Li discussing a ship schedule recovery poster with an attendee at TRB 2024",
+      "caption": "Discussing multi-objective ship schedule recovery and environmental constraints during a poster session at the 103rd TRB Annual Meeting.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
+      "label": "LinkedIn activity"
+    },
+    {
+      "title": "Conference presentation",
+      "date": "January 2024 · Washington, DC",
+      "file": "trb-talk-2024.jpg",
+      "width": 800,
+      "height": 1066,
+      "alt": "Bokang Li presenting at a TRB lectern session",
+      "caption": "Presenting research on exact multi-objective optimization for ship schedule recovery. Across conference contributions, I have discussed optimization models, adaptive algorithms, disruption recovery and infrastructure decisions.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
+      "label": "LinkedIn activity"
+    },
+    {
       "title": "Doctoral dissertation defense",
-      "date": "May 2025",
-      "file": "defense-2025.jpg",
-      "alt": "Bokang Li with colleagues following his doctoral dissertation defense at the FAMU–FSU College of Engineering",
-      "caption": "Following my dissertation defense at the FAMU–FSU College of Engineering. My dissertation examined effective hyperheuristic algorithms for berth scheduling at marine container terminals.",
+      "date": "May 2025 · Tallahassee",
+      "file": "defense-colleagues-2025.jpg",
+      "width": 1280,
+      "height": 720,
+      "alt": "Bokang Li with colleagues following his doctoral defense at the FAMU–FSU College of Engineering",
+      "caption": "With colleagues after my doctoral defense. My dissertation examined hyperheuristic algorithms for berth scheduling; the broader methodological questions concern how search strategies can adapt and how heuristics can work with exact optimization.",
       "url": "https://eng.famu.fsu.edu/event/dissertation-defense-bokang-li",
       "label": "University defense announcement"
     },
     {
-      "title": "INFORMS Annual Meeting",
-      "date": "2025",
-      "file": "informs-2025.jpg",
-      "alt": "Bokang Li at the INFORMS Annual Meeting",
-      "caption": "At the 2025 INFORMS Annual Meeting in Atlanta, where I presented a poster on a hyperheuristic hybridized with exact optimization for berth allocation and scheduling.",
-      "url": "https://www.linkedin.com/in/bokang-li-365596246/",
-      "label": "LinkedIn activities"
+      "title": "Connecting with the operations research community",
+      "date": "October 2025 · Atlanta",
+      "file": "informs-colleagues-2025.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "Bokang Li with a colleague at the 2025 INFORMS Annual Meeting",
+      "caption": "At the INFORMS Annual Meeting. Research exchange, conference participation and collaboration are part of developing questions that extend beyond an individual application.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
+      "label": "LinkedIn activity"
+    }
+  ],
+  "homeQuestions": [
+    "How can models and algorithms coordinate decisions across an entire operating system?",
+    "How should plans adapt to changing demand, limited capacity and disruption?",
+    "How can AI assist optimization while keeping decisions mathematically valid and interpretable?"
+  ],
+  "media": [
+    {
+      "title": "New berth-scheduling model aims to cut global port delays",
+      "outlet": "FAMU–FSU College of Engineering",
+      "text": "A university feature on our compact optimization formulation and decomposition methods, including the practical planning questions behind the study.",
+      "url": "https://eng.famu.fsu.edu/news/new-model-speeds-ship-scheduling-worlds-busiest-ports"
+    },
+    {
+      "title": "Postdoctoral researcher spotlight",
+      "outlet": "RIDER Center · LinkedIn",
+      "text": "A professional profile discussing my work on optimization and AI for logistics, supply chains, humanitarian response and infrastructure planning.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/"
+    },
+    {
+      "title": "Closed-loop pharmaceutical supply chains",
+      "outlet": "RIDER Center · LinkedIn",
+      "text": "Research communication about a coauthored review of medicine collection, recovery, reverse logistics and sustainable healthcare supply chains.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/"
     }
   ]
 }

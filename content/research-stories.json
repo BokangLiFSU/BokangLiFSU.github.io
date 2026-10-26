@@ -1,16 +1,14 @@
 {
   "overview": [
-    "My research interests lie at the intersection of operations research, mathematical optimization and artificial intelligence. I am interested in how organizations can design, coordinate and adapt complex operations when resources are limited, decisions are connected and operating conditions change.",
-    "The questions that motivate me extend across production and distribution systems, supply chains, logistics, transportation and public operations. They include how local decisions affect system-wide performance, how planning and operational decisions should be coordinated, and how efficiency can be considered alongside resilience and environmental consequences.",
-    "Methodologically, I am interested in the interaction between mathematical structure and computational intelligence: formulations and decomposition, exact and approximate algorithms, adaptive search and learning, and emerging ways to connect language-based reasoning with optimization solvers. My published work provides a foundation for this broader agenda."
+    "I am interested in decision intelligence for complex operations: the mathematical models, algorithms and data-driven methods that help organizations decide what to do, when to do it and how to respond as circumstances change.",
+    "The research agenda spans operations and supply chains, industrial and service systems, logistics and public infrastructure. Its organizing questions concern coordination, adaptation and accountability: how to optimize connected decisions, how to prepare for uncertainty and disruption, and how to make the consequences of a decision understandable."
   ],
   "themes": {
     "algorithms": {
       "question": "How can mathematical structure, algorithms and learning be combined to support complex decisions?",
       "paragraphs": [
-        "I am interested in mathematical programming and computational methods for planning, scheduling and resource allocation. This includes the design of formulations, decomposition approaches, exact algorithms, metaheuristics and hybrid methods, and the question of which features of a decision problem can be used to make it more tractable.",
-        "A broader methodological interest is how AI can augment optimization. Adaptive algorithms can learn how to search; language models may help interpret operating rules, propose model structures or suggest algorithmic strategies. I aim to study how these capabilities can interact with solver feedback and mathematical validation, so that useful reasoning is connected to a verifiable decision process.",
-        "My studies of compact formulations and hyperheuristics are examples within this agenda. They provide experience with the interaction between modeling, search and evaluation, rather than defining the full range of problems I wish to investigate."
+        "This area concerns the computational foundations of decision making: mathematical programming, decomposition, exact and approximate algorithms, and hybrid solution methods. I am interested in how the structure of a problem can be used to reduce computational effort without losing the decisions that matter.",
+        "AI introduces questions about both algorithms and modeling. Adaptive search can learn which moves are useful; language models can assist with operating rules and model construction. Future interests include solver-guided validation, interpretable decision support and the evaluation of emerging computational approaches."
       ],
       "cases": [
         "berth-model",
@@ -21,9 +19,8 @@
     "maritime": {
       "question": "How should decisions be coordinated across facilities, organizations and stages of an operating system?",
       "paragraphs": [
-        "My interests encompass operations and supply chain management, including integrated planning, scheduling, network coordination and resource allocation. A central question is how the timing and capacity of one stage change the choices available elsewhere, and when optimizing connected decisions jointly produces value.",
-        "I plan to investigate these relationships in production and distribution systems, logistics facilities and related industrial and service settings. Potential questions concern upstream–downstream coordination, storage and processing bottlenecks, allocation of labor and equipment, and the interaction between strategic capacity choices and operational plans.",
-        "Transportation terminals provide concrete examples of these interactions in my existing work. The same modeling questions motivate a wider interest in connected operations and the design of algorithms that use their structure."
+        "This area concerns decisions across connected operations and supply chains, including production, distribution, inventories, logistics, industrial processes and service systems. I am interested in the effects of shared resources, capacity bottlenecks, timing and information across organizational boundaries.",
+        "Future questions include coordination between strategic capacity choices and daily operations, planning under changing demand, and the integration of energy and charging requirements. Ports and cross-docking facilities are examples in my published work; the research questions extend to other industrial, service and public operating systems."
       ],
       "cases": [
         "crossdock-exact",
@@ -34,9 +31,8 @@
     "resilience": {
       "question": "How can systems remain useful, adaptable and sustainable when conditions and priorities change?",
       "paragraphs": [
-        "I am interested in optimization for resilient and sustainable operations, including recovery after disruption and the positioning of flexibility before disruptions occur. Relevant questions arise in supply chains, production, transportation, humanitarian logistics, emergency operations and public-sector resource allocation.",
-        "Future work will examine which parts of an operating plan should be preserved or revised as feasibility and bottlenecks change. A related interest is how to evaluate reserve capacity, alternative resources and schedule flexibility under different scenarios, while accounting for the cost of reorganization.",
-        "Sustainability adds further choices involving energy, emissions, electrification and resource use. I am interested in how these considerations alter planning and operational decisions, and how trade-offs can be represented clearly rather than reduced to a single unexplained performance score."
+        "This area concerns how systems prepare for change, maintain useful service under disruption and use resources responsibly. I am interested in flexibility, reserve capacity, alternative resources and selective reoptimization, as well as the effects of energy, emissions and environmental constraints on decisions.",
+        "Potential applications include supply chains, humanitarian logistics, healthcare logistics, emergency operations and public infrastructure. The aim is to represent competing priorities explicitly and understand when a decision remains useful as conditions change."
       ],
       "cases": [
         "schedule-recovery",
@@ -54,7 +50,8 @@
       "approach": "This study develops a mixed-integer formulation for dynamic, discrete berth scheduling. Two-dimensional decision variables and a simplified vessel-sequencing structure reduce model complexity. Benders decomposition and column generation build on the formulation to address larger instances.",
       "evidence": "The computational study compares the formulation with five mathematical models and three metaheuristics. It reports solutions for instances with more than 260 vessels within two hours under the tested settings, alongside sensitivity analysis of operational parameters.",
       "meaning": "The study connects formulation design with algorithm design: reducing mathematical overhead can make more demanding berth-planning instances accessible to exact optimization methods.",
-      "source": "https://trid.trb.org/View/2780704"
+      "source": "https://trid.trb.org/View/2780704",
+      "connection": "Model design and decomposition are relevant wherever connected assignments and sequencing decisions make a planning problem difficult."
     },
     {
       "id": "crossdock-exact",
@@ -65,7 +62,8 @@
       "approach": "The study formulates coordinated truck service as a mixed-integer linear program. Its objective accounts for waiting, handling, temporary storage and delay costs. A sequential fix-and-optimize framework constructs service plans in batches that respect precedence relationships; a second framework uses pricing-guided search.",
       "evidence": "The paper evaluates the model and the two solution frameworks through computational experiments and sensitivity analysis. These experiments examine solution approaches for different computational settings and the operational consequences of scheduling parameters.",
       "meaning": "The work treats a cross-dock as a connected set of services. Optimizing one truck or door in isolation can miss the timing relationships that determine whether the full plan is feasible.",
-      "source": "https://doi.org/10.1016/j.tre.2026.105264"
+      "source": "https://doi.org/10.1016/j.tre.2026.105264",
+      "connection": "The broader question is how local scheduling decisions should be coordinated across processing, transfer and service stages."
     },
     {
       "id": "crossdock-learning",
@@ -76,7 +74,8 @@
       "approach": "The Hybridized Thompson Sampling Hyperheuristic combines evolutionary search with an adaptive operator-selection controller. A repair-and-penalty mechanism handles inbound–outbound precedence constraints. Fast approximate fitness evaluation supports exploration, while exact optimization refines schedule evaluation.",
       "evidence": "On the reported benchmark instances, the algorithm produces solutions comparable with exact optimization for small problems and improves on the comparison metaheuristics. The paper reports improvements of up to approximately 24% and an average runtime of 186.71 seconds across its experimental setting.",
       "meaning": "The study connects adaptive operator learning with the feasibility and evaluation requirements of a terminal schedule. The approach uses different evaluation strategies during exploration and refinement to manage computation time and solution accuracy.",
-      "source": "https://doi.org/10.1016/j.swevo.2026.102502"
+      "source": "https://doi.org/10.1016/j.swevo.2026.102502",
+      "connection": "Learning to choose search strategies raises questions about algorithm adaptation and transfer across operating conditions and decision problems."
     },
     {
       "id": "berth-hyperheuristic",
@@ -87,7 +86,8 @@
       "approach": "The Hyperheuristic Hybridized with Exact Optimization addresses dynamic, discrete berth allocation and scheduling. It chooses genetic operators according to their observed performance and periodically applies berth-specific exact optimization procedures to improve candidate schedules.",
       "evidence": "Computational comparisons examine the algorithm against exact-optimization-inspired methods and established metaheuristics. Component experiments investigate the contribution of hyperheuristic control and hybridization. Scenario analysis considers berth availability, vessel arrival intensity and departure-delay penalties.",
       "meaning": "This study is part of my work on algorithms that adapt their search behavior while using the structure of the application. It connects flexible search with the explicit timing and assignment decisions in terminal planning.",
-      "source": "https://doi.org/10.1016/j.tre.2025.104104"
+      "source": "https://doi.org/10.1016/j.tre.2025.104104",
+      "connection": "The broader interest is how flexible search can use exact optimization and application structure within the same algorithm."
     },
     {
       "id": "level-crossings",
@@ -98,7 +98,8 @@
       "approach": "The study develops an optimization model that includes safety, economic and environmental benefits as well as traffic-delay and maintenance implications. A sorting-inspired heuristic addresses the resulting decision problem. Computational experiments use crossings in Florida.",
       "evidence": "The paper compares the heuristic with an exact solution method and examines the sensitivity of closure decisions to model inputs. The associated FDOT project also produced a final technical report, linking this research to a broader decision-support investigation.",
       "meaning": "The work frames closure selection as a system-level allocation decision. Its value is in evaluating multiple consequences consistently, rather than recommending closure solely from one indicator.",
-      "source": "https://doi.org/10.1016/j.ress.2024.110197"
+      "source": "https://doi.org/10.1016/j.ress.2024.110197",
+      "connection": "This study connects to a wider interest in public resource allocation when safety, economic and environmental consequences must be considered together."
     },
     {
       "id": "schedule-recovery",
@@ -109,7 +110,8 @@
       "approach": "This collaborative study models monetary losses and port-arrival delays as competing objectives. It incorporates voluntary speed-reduction incentive programs, emission-control requirements and multiple recovery options. The solution method combines dynamic secant approximation with an epsilon-constraint approach.",
       "evidence": "Computational experiments use the South East Asia Pendulum shipping route, with sensitivity analysis exploring how different settings affect recovery choices.",
       "meaning": "The study makes the conflict explicit: a strategy that reduces arrival delay may sacrifice a speed-compliance incentive or increase cost. Examining alternative solutions supports a more informed recovery decision than optimizing one objective alone.",
-      "source": "https://doi.org/10.1016/j.trd.2023.103957"
+      "source": "https://doi.org/10.1016/j.trd.2023.103957",
+      "connection": "The wider research question is how to revise operating plans while balancing service, cost and environmental objectives."
     }
   ],
   "teaching": {
@@ -118,20 +120,28 @@
       "In optimization and computational work, that progression can start with a small example that students can inspect by hand, move to implementation, and then ask them to compare approaches on a less structured problem. Validation and interpretation are part of the task, alongside obtaining a numerical answer.",
       "I aim to maintain common learning expectations while providing different entry points for students with different preparation. Guided examples, targeted review and intermediate project submissions can help students move toward more independent work."
     ],
-    "mentoring": "My mentorship experience includes undergraduate research, master's research and external master's thesis committee service. These are distinct roles: research mentorship supports the development of a project, while committee service involves evaluating and discussing thesis work. The records below identify the role and period rather than combining them under a single advising label."
+    "mentoring": "I have mentored undergraduate and master’s researchers and served as an external master’s thesis committee member. My approach emphasizes a clear research question, careful computational work and the ability to explain a result and its limitations."
   },
   "agenda": [
     {
-      "title": "Integrated operations and supply chain decisions",
-      "text": "I plan to study how decisions inside a facility should be coordinated with activities upstream and downstream. Questions include which decisions should be optimized jointly, where decomposition is useful, and how bottlenecks move across processing, storage and transport stages. This direction can extend to production, distribution and service systems, including settings where perishability, charging requirements or energy availability affect the operational plan."
+      "title": "Models and algorithms for interconnected decisions",
+      "text": "Many decisions are linked across time, organizations and stages of an operating system. I am interested in formulations, decomposition and hybrid algorithms that use these relationships rather than treating each decision in isolation. Questions include how to balance model detail with tractability, how to combine global coordination with local decisions, and how to evaluate algorithms beyond a single benchmark problem."
     },
     {
-      "title": "Adaptive and resilient systems under disruption",
-      "text": "I am interested in how an existing plan should change after a delay, equipment failure, temporary loss of capacity or interruption elsewhere in a network. The agenda includes selective reoptimization, the cost of changing decisions, the propagation of disruptions and the placement of flexibility before disruptions occur. Reserve capacity, schedule slack, alternative resources and inventory create different forms of resilience that can be evaluated through optimization."
+      "title": "Integrated operations, supply chains and services",
+      "text": "My interests extend to the coordination of production, distribution, inventories, transportation and service resources. I plan to investigate how capacity choices and operating policies interact, how information should move between planning levels, and when jointly optimizing connected activities creates value. Industrial systems, healthcare logistics, humanitarian operations and public services offer different settings for these questions."
     },
     {
-      "title": "AI and language models working with optimization solvers",
-      "text": "I aim to investigate how AI can support the path from operating rules and domain knowledge to valid models and effective solution strategies. Potential directions include formulation assistance, structure discovery, decomposition proposals, learning-guided search and interpretation of solver output. I am particularly interested in feedback between an AI system and a mathematical solver, evaluated through model validity, solution quality and computational performance."
+      "title": "Adaptation, resilience and sustainability",
+      "text": "I am interested in how organizations prepare for change and revise decisions when conditions change. This includes uncertainty in demand and capacity, recovery from disruption, the cost of changing a plan, and investments in flexibility. Sustainability introduces related decisions about energy, emissions, electrification, circular supply chains and resource use. I aim to study these as design and operational choices, with explicit trade-offs."
+    },
+    {
+      "title": "AI-assisted modeling and optimization",
+      "text": "I aim to study how AI can assist the process from domain knowledge to mathematical formulation, algorithm selection and decision interpretation. Learning can guide search and resource allocation; language models may help express operating rules and propose model or algorithm structures. The central questions are how these systems should use solver feedback, how to validate their outputs, and how people can understand and revise the decisions they support."
+    },
+    {
+      "title": "Emerging computational approaches",
+      "text": "A developing interest is quantum computing for optimization and its relationship with classical mathematical programming and learning-based methods. I am interested in which problem structures may be suitable, how hybrid approaches should be designed, and what constitutes a fair comparison with classical methods. This is an exploratory direction in my research agenda."
     }
   ]
 }
