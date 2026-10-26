@@ -118,3 +118,5 @@ main,footer,.header-inner{width:min(940px,100%)}.profile-intro{grid-template-col
 
 /* User approved candidate A: original 1152x1536, crop x405 y630 w280 h350. */
 .profile-portrait .approved-avatar{position:relative;width:190px;aspect-ratio:4/5;overflow:hidden;border-radius:2px}.profile-portrait .approved-avatar img{position:absolute;max-width:none;width:411.428571%;height:auto;aspect-ratio:auto;left:-144.642857%;top:-180%;object-fit:initial}.profile-portrait figcaption{max-width:190px}@media(max-width:700px){.profile-portrait .approved-avatar{width:150px}}@media(max-width:540px){.profile-portrait .approved-avatar{width:130px}.profile-portrait{align-items:flex-end}}
+
+.activity-gallery .event-photographs{min-width:0}.activity-gallery .event-photographs img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;object-position:left top}.event-photo{margin-top:18px}.event-photo p{font-size:13px;margin-top:5px}
