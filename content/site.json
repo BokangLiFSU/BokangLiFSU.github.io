@@ -109,38 +109,6 @@
       "issuer": "FAMU–FSU College of Engineering"
     }
   ],
-  "mentoring": [
-    {
-      "name": "Benjamin Antwi",
-      "institution": "University of North Florida",
-      "role": "M.S. research mentorship",
-      "period": "Fall 2026 – present"
-    },
-    {
-      "name": "Soud Mbegele",
-      "institution": "University of North Florida",
-      "role": "External M.S. Thesis Committee Member",
-      "period": "Spring 2026 – present"
-    },
-    {
-      "name": "Kennedy Jackson",
-      "institution": "FAMU–FSU College of Engineering",
-      "role": "Undergraduate research mentorship",
-      "period": "Fall 2024 – Summer 2025"
-    },
-    {
-      "name": "Shanmukh Devarapali",
-      "institution": "FAMU–FSU College of Engineering",
-      "role": "M.S. research mentorship",
-      "period": "Fall 2023 – Spring 2024"
-    },
-    {
-      "name": "Peyton Brocksmith",
-      "institution": "FAMU–FSU College of Engineering",
-      "role": "Undergraduate research mentorship",
-      "period": "Fall 2023 – Spring 2024"
-    }
-  ],
   "service": [
     "Transportation Research Part B: Methodological",
     "Transportation Research Part C: Emerging Technologies",
@@ -262,7 +230,16 @@
       "alt": "Bokang Li alongside his optimization research poster at the 2025 INFORMS Annual Meeting",
       "caption": "I presented work on a hyperheuristic hybridized with exact optimization. The meeting was also an opportunity to discuss modeling and algorithm design with the operations research community.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
-      "label": "LinkedIn activity"
+      "label": "LinkedIn activity",
+      "photos": [
+        {
+          "file": "portrait-approved-a.png",
+          "width": 1152,
+          "height": 1536,
+          "alt": "Bokang Li at the INFORMS exhibition",
+          "caption": "At the INFORMS exhibition, 2025."
+        }
+      ]
     },
     {
       "title": "At the TRB poster session",
