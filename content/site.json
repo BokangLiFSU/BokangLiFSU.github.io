@@ -317,5 +317,35 @@
       "text": "Research communication about a coauthored review of medicine collection, recovery, reverse logistics and sustainable healthcare supply chains.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/"
     }
+  ],
+  "collaborationProfiles": [
+    {
+      "title": "Mathematical optimization and logistics",
+      "people": "Maxim A. Dulebenets and collaborators",
+      "text": "My doctoral and postdoctoral work at Florida State University developed through research with Maxim A. Dulebenets. Our joint studies connect compact mathematical formulations, decomposition, adaptive search and exact improvement with berth scheduling and cross-docking operations.",
+      "url": "work-berth-model.html",
+      "label": "Compact models and decomposition"
+    },
+    {
+      "title": "Transportation infrastructure and public decisions",
+      "people": "Angela Kitali and University of Washington collaborators",
+      "text": "At the University of Washington, Tacoma Campus, I work with Angela Kitali on AI-assisted infrastructure information and transportation research. My current contributions include speed-management inventory development and computer-vision methods for pedestrian and bicycle facilities, connecting data quality with the questions an agency needs to answer.",
+      "url": "https://ctil-research.libokangfsu.chatgpt.site/people.html",
+      "label": "CTIL research team"
+    },
+    {
+      "title": "Safety and resource allocation",
+      "people": "Ren Moses, Eren E. Ozguven, John Sobanjo and research coauthors",
+      "text": "The Florida highway-rail crossing project brought optimization into a public infrastructure decision involving safety, traffic delay and other consequences. The technical report and related journal paper connect the allocation model with the assumptions and evidence used to evaluate alternatives.",
+      "url": "work-level-crossings.html",
+      "label": "Rail-crossing decision study"
+    },
+    {
+      "title": "Adaptive algorithms and sustainable systems",
+      "people": "Marta Borowska-Stefańska, Szymon Wiśniewski, Yui-Yip Lau and research coauthors",
+      "text": "Collaborative publications connect adaptive algorithm design with logistics, schedule recovery and sustainable supply chains. The shared methodological interest is how computational approaches can handle coupled decisions and competing operating objectives across different applications.",
+      "url": "publications.html",
+      "label": "Joint publications and full author lists"
+    }
   ]
 }

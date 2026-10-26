@@ -54,7 +54,8 @@
       "evidence": "The computational study compares the formulation with five mathematical models and three metaheuristics. It reports solutions for instances with more than 260 vessels within two hours under the tested settings, alongside sensitivity analysis of operational parameters.",
       "meaning": "The study connects formulation design with algorithm design: reducing mathematical overhead can make more demanding berth-planning instances accessible to exact optimization methods.",
       "source": "https://trid.trb.org/View/2780704",
-      "connection": "Model design and decomposition are relevant wherever connected assignments and sequencing decisions make a planning problem difficult."
+      "connection": "Model design and decomposition are relevant wherever connected assignments and sequencing decisions make a planning problem difficult.",
+      "futureQuestion": "How can compact formulations be extended to coordinated resource decisions when berthing, handling and downstream service interact?"
     },
     {
       "id": "crossdock-exact",
@@ -66,7 +67,8 @@
       "evidence": "The paper evaluates the model and the two solution frameworks through computational experiments and sensitivity analysis. These experiments examine solution approaches for different computational settings and the operational consequences of scheduling parameters.",
       "meaning": "The work treats a cross-dock as a connected set of services. Optimizing one truck or door in isolation can miss the timing relationships that determine whether the full plan is feasible.",
       "source": "https://doi.org/10.1016/j.tre.2026.105264",
-      "connection": "The broader question is how local scheduling decisions should be coordinated across processing, transfer and service stages."
+      "connection": "The broader question is how local scheduling decisions should be coordinated across processing, transfer and service stages.",
+      "futureQuestion": "When should additional processing or storage capacity be preferred to improved coordination of inbound and outbound operations?"
     },
     {
       "id": "crossdock-learning",
@@ -78,7 +80,8 @@
       "evidence": "On the reported benchmark instances, the algorithm produces solutions comparable with exact optimization for small problems and improves on the comparison metaheuristics. The paper reports improvements of up to approximately 24% and an average runtime of 186.71 seconds across its experimental setting.",
       "meaning": "The study connects adaptive operator learning with the feasibility and evaluation requirements of a terminal schedule. The approach uses different evaluation strategies during exploration and refinement to manage computation time and solution accuracy.",
       "source": "https://doi.org/10.1016/j.swevo.2026.102502",
-      "connection": "Learning to choose search strategies raises questions about algorithm adaptation and transfer across operating conditions and decision problems."
+      "connection": "Learning to choose search strategies raises questions about algorithm adaptation and transfer across operating conditions and decision problems.",
+      "futureQuestion": "Can adaptive search strategies transfer between demand patterns and facilities while preserving feasible schedules?"
     },
     {
       "id": "berth-hyperheuristic",
@@ -90,7 +93,8 @@
       "evidence": "Computational comparisons examine the algorithm against exact-optimization-inspired methods and established metaheuristics. Component experiments investigate the contribution of hyperheuristic control and hybridization. Scenario analysis considers berth availability, vessel arrival intensity and departure-delay penalties.",
       "meaning": "This study is part of my work on algorithms that adapt their search behavior while using the structure of the application. It connects flexible search with the explicit timing and assignment decisions in terminal planning.",
       "source": "https://doi.org/10.1016/j.tre.2025.104104",
-      "connection": "The broader interest is how flexible search can use exact optimization and application structure within the same algorithm."
+      "connection": "The broader interest is how flexible search can use exact optimization and application structure within the same algorithm.",
+      "futureQuestion": "How should limited computation be divided between broad search and structured exact improvement as a planning problem changes?"
     },
     {
       "id": "level-crossings",
@@ -102,7 +106,8 @@
       "evidence": "The paper compares the heuristic with an exact solution method and examines the sensitivity of closure decisions to model inputs. The associated FDOT project also produced a final technical report, linking this research to a broader decision-support investigation.",
       "meaning": "The work frames closure selection as a system-level allocation decision. Its value is in evaluating multiple consequences consistently, rather than recommending closure solely from one indicator.",
       "source": "https://doi.org/10.1016/j.ress.2024.110197",
-      "connection": "This study connects to a wider interest in public resource allocation when safety, economic and environmental consequences must be considered together."
+      "connection": "This study connects to a wider interest in public resource allocation when safety, economic and environmental consequences must be considered together.",
+      "futureQuestion": "How can infrastructure prioritization represent uncertainty and changes in access, exposure and operating conditions?"
     },
     {
       "id": "schedule-recovery",
@@ -114,7 +119,8 @@
       "evidence": "Computational experiments use the South East Asia Pendulum shipping route, with sensitivity analysis exploring how different settings affect recovery choices.",
       "meaning": "The study makes the conflict explicit: a strategy that reduces arrival delay may sacrifice a speed-compliance incentive or increase cost. Examining alternative solutions supports a more informed recovery decision than optimizing one objective alone.",
       "source": "https://doi.org/10.1016/j.trd.2023.103957",
-      "connection": "The wider research question is how to revise operating plans while balancing service, cost and environmental objectives."
+      "connection": "The wider research question is how to revise operating plans while balancing service, cost and environmental objectives.",
+      "futureQuestion": "Which commitments should be preserved during recovery, and where does flexibility provide the greatest value before a disruption?"
     }
   ],
   "teaching": {
@@ -167,6 +173,20 @@
       "title": "Source-grounded AI for operational knowledge",
       "status": "Research prototype",
       "text": "I have developed a local prototype for retrieving and synthesizing information from public transportation-agency manuals. The work explores how technical guidance can be made easier to find and interpret with source references. It complements my interest in connecting domain knowledge with optimization; it remains a research prototype rather than an agency decision system."
+    }
+  ],
+  "evaluation": [
+    {
+      "title": "Mathematical structure and feasibility",
+      "text": "A model must represent the resource, timing and precedence relationships that determine whether a plan can be carried out. I am interested in compact formulations and decompositions that reduce computational effort while retaining these relationships."
+    },
+    {
+      "title": "Computational comparisons",
+      "text": "Algorithms need to be compared under stated computational budgets and operating conditions. Solution quality, feasibility, time to a usable plan and sensitivity to problem size provide complementary evidence; a single best objective does not describe every planning requirement."
+    },
+    {
+      "title": "Operating consequences",
+      "text": "The purpose of a computational result is to clarify a decision. Relevant questions include how a plan changes service, resource utilization, energy use or exposure to disruption, and which assumptions determine those effects."
     }
   ]
 }
