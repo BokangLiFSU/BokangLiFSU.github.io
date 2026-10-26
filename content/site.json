@@ -208,16 +208,16 @@
     "At the FAMU–FSU College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
   ],
   "portrait": {
-    "file": "portrait-approved-a.png",
+    "file": "portrait-approved-a-clear.jpg",
     "alt": "Bokang Li at the INFORMS Annual Meeting, user-selected portrait",
     "caption": "INFORMS Annual Meeting, 2025",
-    "width": 1152,
-    "height": 1536,
+    "width": 1200,
+    "height": 1600,
     "crop": [
-      405,
-      630,
-      280,
-      350
+      421.875,
+      656.25,
+      291.6666667,
+      364.5833333
     ]
   },
   "activities": [
@@ -233,9 +233,9 @@
       "label": "LinkedIn activity",
       "photos": [
         {
-          "file": "portrait-approved-a.png",
-          "width": 1152,
-          "height": 1536,
+          "file": "portrait-approved-a-clear.jpg",
+          "width": 1200,
+          "height": 1600,
           "alt": "Bokang Li at the INFORMS exhibition",
           "caption": "At the INFORMS exhibition, 2025."
         }
