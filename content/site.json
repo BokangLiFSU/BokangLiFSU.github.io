@@ -42,18 +42,18 @@
   "topics": [
     {
       "id": "algorithms",
-      "title": "Mathematical optimization & AI",
-      "description": "Exact and approximate optimization, decomposition, adaptive algorithms, learning-guided search and AI-assisted model development."
+      "title": "Mathematical optimization, learning & AI",
+      "description": "Models, decomposition, adaptive algorithms and AI-assisted decision support, including emerging computational approaches."
     },
     {
       "id": "maritime",
-      "title": "Operations & supply chain systems",
-      "description": "Integrated planning, scheduling, network and facility coordination, resource allocation, production, distribution and service operations."
+      "title": "Operations, supply chains & technology",
+      "description": "Coordinated planning across production, inventories, distribution and services; investment and operating decisions for automation and electrification."
     },
     {
       "id": "resilience",
-      "title": "Resilience & sustainable operations",
-      "description": "Decisions under disruption and uncertainty, flexible capacity, recovery planning, energy and environmental trade-offs, and public-sector operations."
+      "title": "Resilience, sustainability & public services",
+      "description": "Preparedness and recovery, decisions under uncertainty, energy and environmental objectives, healthcare and humanitarian operations."
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -199,9 +199,9 @@
     "Previously, I was a postdoctoral research scholar at Florida State University, where I received my Ph.D. in Civil Engineering in August 2025 under the supervision of Maxim A. Dulebenets. I also hold a Graduate Certificate in Engineering Data Analytics from Florida State University and a B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University."
   ],
   "homeResearch": [
-    "My research asks how organizations should coordinate decisions when resources, timing and operating requirements are closely connected. A schedule inside a facility depends on what arrives upstream and determines what can leave downstream. I develop mathematical formulations, decomposition methods and adaptive algorithms to represent these relationships and solve the resulting planning problems.",
-    "A second concern is how plans should change when demand, capacity or priorities change. I am interested in the value of reserve capacity, inventory and alternative resources, the cost of revising existing commitments, and the way disruptions propagate through connected operations. These questions arise across production, distribution, logistics, healthcare, emergency response and public infrastructure.",
-    "My methodological interests include the interaction of mathematical optimization with machine learning and language models: learning which search strategies to use, translating operating rules into models, and using solver feedback to check and improve proposed decisions. Electrification, automation and sustainable resource use provide further settings in which investment and day-to-day operations need to be studied together."
+    "My research interests center on the design and management of complex operations: how organizations coordinate decisions, use limited resources and adapt when conditions change. I draw on operations research, mathematical optimization and AI to study problems across production, supply chains, logistics, service systems and public infrastructure.",
+    "The questions extend across planning levels and organizations. How should capacity investments and daily schedules be coordinated? When do information sharing, shared resources or joint planning improve performance? How should existing commitments be revised under disruption, and where does flexibility create the greatest value?",
+    "I am also interested in how learning and language models can work with mathematical optimization, and in the operating implications of electrification and automation. Healthcare, humanitarian operations and public services offer further settings for studying reliability, access, resource use and the consequences of decisions."
   ],
   "academicContext": [
     "My training began in harbor, waterway and coastal engineering at Wuhan University and developed toward operations research during my doctoral studies at Florida State University. The common thread is the planning of systems in which service requirements, shared resources and physical constraints interact.",
@@ -347,5 +347,40 @@
       "url": "publications.html",
       "label": "Joint publications and full author lists"
     }
-  ]
+  ],
+  "researchVisuals": {
+    "algorithms": {
+      "file": "research-optimization.svg",
+      "width": 800,
+      "height": 360,
+      "alt": "Conceptual relationship between mathematical modeling, solution methods and learning",
+      "caption": "Research interests connect model development, computational methods and learning through feedback.",
+      "author": "Bokang Li website",
+      "license": "Original conceptual illustration",
+      "source": "",
+      "licenseUrl": ""
+    },
+    "maritime": {
+      "file": "research-warehouse.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ocado_warehouse_bots.jpg",
+      "author": "Techwords",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 1280,
+      "height": 881,
+      "alt": "Mobile robots operating in an automated warehouse",
+      "caption": "Warehouse automation makes routing, capacity, inventories and service schedules interdependent."
+    },
+    "resilience": {
+      "file": "research-flood-observation.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:NASA_SMAP_image_sees_flooding.jpg",
+      "author": "NASA",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_SMAP_image_sees_flooding.jpg#Licensing",
+      "width": 5882,
+      "height": 1662,
+      "alt": "NASA SMAP maps of changing flood extent after Hurricane Harvey in August 2017",
+      "caption": "Changing flood conditions illustrate why preparedness and operating plans need to respond to evolving information. NASA SMAP, Hurricane Harvey, 2017."
+    }
+  }
 }

@@ -1,45 +1,60 @@
 {
   "overview": [
-    "I study planning and decision making in operations and supply chain systems. My work combines mathematical programming, decomposition, adaptive search and AI with questions about how limited resources should be assigned, how activities should be scheduled and how decisions should be coordinated across a system.",
-    "The research is organized around three connected concerns: coordination between operating stages, adaptation when conditions change, and computational methods that make these decisions tractable. Published studies in ports, cross-docking and shipping provide a foundation; my broader interests include industrial and service operations, healthcare and humanitarian logistics, energy use and public infrastructure."
+    "I study how operations and service systems should be designed, coordinated and adapted. My interests connect decisions within a facility with those made across organizations and over time: capacity, inventories, schedules, resource allocation and service commitments.",
+    "The agenda combines mathematical optimization, learning and domain knowledge. Its scope includes industrial operations and supply chains, healthcare and humanitarian logistics, energy-aware systems and public infrastructure. The research areas below describe longer-term interests; selected studies show how parts of this agenda have been investigated so far."
   ],
   "themes": {
     "algorithms": {
-      "question": "How can mathematical structure, algorithms and learning be combined to support complex decisions?",
+      "question": "How can models, computation and learning work together to improve complex decisions?",
       "paragraphs": [
-        "Operational decisions often combine assignment, sequencing, timing and shared-capacity constraints. I develop mathematical formulations and algorithms that use this structure: compact mixed-integer models, decomposition into linked subproblems, exact improvement within heuristic search, and adaptive selection of search operators. The central question is which parts of a problem need to be solved jointly and which can be separated without losing feasibility or useful coordination.",
-        "My published work includes compact berth-scheduling formulations, Benders decomposition and column generation, as well as hyperheuristics that combine adaptive search with exact optimization. Ongoing interests extend to learning-guided resource allocation and scheduling in industrial and service systems.",
-        "I am also interested in how language models can assist with operating rules, mathematical formulation and algorithm design. Solver feedback provides a way to test feasibility, identify inconsistent assumptions and evaluate proposed search strategies. These ideas require comparisons with established methods, with explicit attention to solution quality, computation time and the reliability of the resulting decisions."
+        "My methodological interests span mathematical programming, decomposition, heuristic and exact algorithms, and the use of learning within optimization. A recurring question is how to exploit the structure of coupled decisions without removing the relationships that determine whether a plan is feasible and useful.",
+        "Future work can connect learning with the allocation of computational effort, algorithm selection and the development of reusable solution strategies. I am interested in when a method transfers to a different operating environment, how it responds to unfamiliar conditions and what information it needs to improve.",
+        "Language models introduce questions about translating operational knowledge into formulations, proposing algorithms and interpreting solutions. I am interested in feedback between such systems and mathematical solvers, as well as the division of judgment between analytical tools and people. A complementary exploratory interest concerns quantum and classical hybrid optimization and meaningful comparisons with established methods."
       ],
       "cases": [
         "berth-model",
         "berth-hyperheuristic",
         "crossdock-learning"
+      ],
+      "questions": [
+        "Which mathematical structures enable useful decomposition or learning across decision problems?",
+        "How should a planning system allocate computation when time and data are limited?",
+        "How can AI proposals be checked, corrected and compared with reliable optimization baselines?"
       ]
     },
     "maritime": {
-      "question": "How should decisions be coordinated across facilities, organizations and stages of an operating system?",
+      "question": "How should connected operations and technology investments be coordinated across a system?",
       "paragraphs": [
-        "A facility schedule is part of a larger operating system. Inbound arrivals determine when equipment, labor, processing capacity and storage are needed; decisions inside the facility determine outbound availability and service. My research examines how these interdependencies should be represented and when joint planning produces value over separately optimized decisions.",
-        "Questions include when processing or storage becomes the dominant bottleneck, whether capacity at one stage can substitute for capacity elsewhere, and how investments in equipment should be coordinated with operating policies. Ports and distribution facilities are important applications, alongside manufacturing, inventories, healthcare logistics and other service operations.",
-        "Electrification and automation add further dependencies. Charging time, electricity availability, equipment compatibility and safe operating sequences can change usable capacity. I am interested in models that connect these requirements with adoption decisions, service reliability, energy use and cost."
+        "My interests include production, inventory, distribution, logistics and service operations. Decisions made at one stage determine the resources and timing available elsewhere, so the value of a local improvement depends on its effects across the system. This motivates integrated models as well as decompositions that retain the important interfaces between activities.",
+        "I am interested in the effects of information sharing, purchasing and service commitments, decision authority and cooperation across organizations. Questions include when capacity can substitute for coordination, how bottlenecks shift and how the costs and benefits of joint decisions are distributed.",
+        "Automation and electrification connect these operating questions with investment. Equipment, charging infrastructure, energy availability, workforce requirements and operating policies must develop together. My longer-term interests include phased adoption, shared infrastructure and the conditions under which technology improves reliability, productivity and environmental performance."
       ],
       "cases": [
         "crossdock-exact",
         "berth-model",
         "crossdock-learning"
+      ],
+      "questions": [
+        "When should sourcing, processing, storage, transport and service be planned jointly?",
+        "How do information and incentives affect coordination across organizations?",
+        "How should equipment adoption and supporting infrastructure be evaluated together with operating policies?"
       ]
     },
     "resilience": {
-      "question": "How can systems remain useful, adaptable and sustainable when conditions and priorities change?",
+      "question": "How can systems prepare for change while balancing service, resources and environmental goals?",
       "paragraphs": [
-        "Disruption changes more than the input to a schedule: it can remove feasible actions, shift bottlenecks and make established commitments difficult to keep. I study how operating plans can be revised when resources, demand or access change, and how the benefit of a new plan should be weighed against the cost of changing the old one.",
-        "This connects recovery with preparedness. Where should reserve capacity, inventory, schedule slack or alternative resources be placed before a disruption? Which decisions can be preserved afterward, and which must be reconsidered together? My interests include production and distribution networks, humanitarian logistics, emergency response and public services.",
-        "Sustainability introduces related trade-offs between service, cost, energy and environmental performance. Work on ship schedule recovery, rail-crossing decisions and circular supply chains informs this direction. Current interests also include whether electrification investments translate into actual equipment use and how resource-allocation decisions can account for multiple types of consequences."
+        "My interests connect preparedness with adaptation and recovery. Demand shifts, capacity losses and disruptions change which actions are possible and which commitments are costly to preserve. I am interested in how resources should be positioned beforehand and how plans should evolve as information becomes available.",
+        "The agenda includes the value of inventory, reserve capacity, alternative suppliers and flexible service arrangements, as well as the costs of revising established decisions. A related question is how disruption propagates across organizations and how recovery policies affect different participants.",
+        "Healthcare, humanitarian response and public services provide settings in which resource allocation has direct consequences for reliability and access. Sustainability adds questions about energy, emissions, circular flows and long-term resource use. I am interested in models that make these consequences explicit rather than reducing every planning question to one narrow operating metric."
       ],
       "cases": [
         "schedule-recovery",
         "level-crossings"
+      ],
+      "questions": [
+        "Where does flexibility create the greatest value before a disruption?",
+        "Which commitments should change as information evolves, and which should remain stable?",
+        "How can operating decisions account for service, equity, energy and environmental consequences together?"
       ]
     }
   },
@@ -133,24 +148,24 @@
   },
   "agenda": [
     {
-      "title": "Coordinating operations across facilities and organizations",
-      "text": "I plan to study how sourcing, processing, storage, distribution and service decisions should be coordinated when they share resources or depend on one another in time. Questions include where bottlenecks emerge, when extra capacity can substitute for better coordination, and how decision authority and information sharing affect the value of joint planning. Mathematical models and decomposition methods can connect local operating decisions with system-wide performance."
+      "title": "Integrated operations and supply chains",
+      "text": "I am interested in how sourcing, production, inventories, distribution and service decisions interact across facilities and organizations. The research can examine shared capacity, changing bottlenecks, information exchange and the incentives that sustain coordination. A central aim is to connect strategic design choices with the operating policies that determine their value."
     },
     {
-      "title": "Preparedness, recovery and the stability of operating plans",
-      "text": "My interests include choosing flexibility before disruption and using it effectively afterward. Reserve resources, alternative sourcing and inventory buffers need to be considered alongside rescheduling and reassignment policies. I aim to examine when existing commitments should be protected, how the cost of changing a plan affects recovery, and how decisions at one stage influence the rest of a network."
+      "title": "Resilience and decisions under uncertainty",
+      "text": "This direction connects investments in flexibility with the decisions made during disruption. Questions include how reserve resources and alternative options should be positioned, how plans should adapt to new information, and when protecting an existing commitment is preferable to revising it. The consequences for service stability and different participants are part of the decision problem."
     },
     {
-      "title": "Learning and language models for mathematical optimization",
-      "text": "I am interested in learning-guided search, adaptive allocation of computation and language-model assistance with formulation and algorithm development. A useful planning system must connect domain knowledge with mathematical feasibility and measurable operating objectives. I plan to investigate feedback between AI systems and optimization solvers, including how to detect modeling errors, compare proposed strategies and communicate the consequences of a solution."
+      "title": "Learning, language models and optimization",
+      "text": "I am interested in AI-assisted formulation, learning-guided search and analytical systems that use solver feedback to improve proposed decisions. Future work can examine transfer across applications, the allocation of computational effort and collaboration between people and analytical agents. Evaluation should connect mathematical validity and computational performance with the quality of the decisions supported."
     },
     {
-      "title": "Electrification, automation and sustainable operations",
-      "text": "Equipment investment creates operating value only when supporting infrastructure, schedules and organizational practices permit effective use. I am interested in joint investment and operating models for electric fleets, charging systems and automated handling. Relevant outcomes include capital and operating cost, service reliability, energy demand, emissions and the distribution of transition costs across organizations."
+      "title": "Electrification, automation and energy-aware operations",
+      "text": "New equipment creates opportunities and constraints for an operating system. My interests include coordinated investment in fleets, handling equipment and charging infrastructure, alongside policies for scheduling, maintenance and energy use. Questions about adoption, shared infrastructure, workforce requirements and environmental consequences extend beyond a single technology or facility."
     },
     {
-      "title": "Service systems and emerging computational methods",
-      "text": "Healthcare scheduling, emergency operations and public services provide settings in which limited resources, service commitments and changing conditions interact. I am interested in extending structured optimization and adaptive solution methods to these systems. A complementary exploratory interest concerns quantum and classical hybrid optimization, including which problem structures are suitable and how to compare methods under a common computational budget."
+      "title": "Healthcare, humanitarian and public-service systems",
+      "text": "Service commitments, uncertain needs and limited capacity interact in healthcare, emergency response and public operations. I am interested in how scheduling and resource-allocation methods can support timely, reliable and accessible service, and how computational models should represent the needs of the people affected. These applications also motivate questions about recovery, fairness and decision support."
     }
   ],
   "currentWork": [
