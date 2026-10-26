@@ -1,0 +1,64 @@
+[
+  {
+    "doi": "10.1007/978-3-032-00563-2_17",
+    "title": "A Customized Hyperheuristic Algorithm for the Green Berth Allocation and Scheduling Problem with Carbon Dioxide Emission Considerations",
+    "authors": [
+      "Bokang Li",
+      "Fatemeh Shekoohi",
+      "Payam Afkhami",
+      "Razieh Khayamim",
+      "Maxim A. Dulebenets"
+    ],
+    "journal": "Transport and Climate Change",
+    "year": 2025,
+    "volume": "",
+    "issue": "",
+    "pages": "427-465",
+    "type": "book-chapter",
+    "url": "https://doi.org/10.1007/978-3-032-00563-2_17",
+    "bibtex": "@incollection{101007978303200563217,\n  title = {A Customized Hyperheuristic Algorithm for the Green Berth Allocation and Scheduling Problem with Carbon Dioxide Emission Considerations},\n  author = {Bokang Li and Fatemeh Shekoohi and Payam Afkhami and Razieh Khayamim and Maxim A. Dulebenets},\n  booktitle = {Transport and Climate Change},\n  year = {2025},\n  volume = {},\n  pages = {427-465},\n  doi = {10.1007/978-3-032-00563-2_17}\n}"
+  },
+  {
+    "doi": "10.1007/978-3-031-51745-7_7",
+    "title": "Deployment of Autonomous Trains in Rail Transportation: Addressing the Needs for Higher Education and Leadership",
+    "authors": [
+      "Prashant Singh",
+      "Bokang Li",
+      "Zeinab Elmi",
+      "Yui-yip Lau",
+      "Qiong Chen",
+      "Marta Borowska-Stefańska",
+      "Szymon Wiśniewski",
+      "Maxim A. Dulebenets"
+    ],
+    "journal": "Sustainable Rail Transport 5",
+    "year": 2024,
+    "volume": "",
+    "issue": "",
+    "pages": "121-154",
+    "type": "book-chapter",
+    "url": "https://doi.org/10.1007/978-3-031-51745-7_7",
+    "bibtex": "@incollection{10100797830315174577,\n  title = {Deployment of Autonomous Trains in Rail Transportation: Addressing the Needs for Higher Education and Leadership},\n  author = {Prashant Singh and Bokang Li and Zeinab Elmi and Yui-yip Lau and Qiong Chen and Marta Borowska-Stefańska and Szymon Wiśniewski and Maxim A. Dulebenets},\n  booktitle = {Sustainable Rail Transport 5},\n  year = {2024},\n  volume = {},\n  pages = {121-154},\n  doi = {10.1007/978-3-031-51745-7_7}\n}"
+  },
+  {
+    "doi": "10.4018/979-8-3693-0230-9.ch001",
+    "title": "A Comprehensive Framework for Hyperheuristic Algorithms for Berth Allocation and Scheduling at Marine Container Terminals",
+    "authors": [
+      "Bokang Li",
+      "Zeinab Elmi",
+      "Marta Borowska-Stefańska",
+      "Szymon Wiśniewski",
+      "Yui-yip Lau",
+      "Qiong Chen",
+      "Maxim A. Dulebenets"
+    ],
+    "journal": "Principles and Applications of Adaptive Artificial Intelligence",
+    "year": 2023,
+    "volume": "",
+    "issue": "",
+    "pages": "1-19",
+    "type": "book-chapter",
+    "url": "https://doi.org/10.4018/979-8-3693-0230-9.ch001",
+    "bibtex": "@incollection{1040189798369302309ch001,\n  title = {A Comprehensive Framework for Hyperheuristic Algorithms for Berth Allocation and Scheduling at Marine Container Terminals},\n  author = {Bokang Li and Zeinab Elmi and Marta Borowska-Stefańska and Szymon Wiśniewski and Yui-yip Lau and Qiong Chen and Maxim A. Dulebenets},\n  booktitle = {Principles and Applications of Adaptive Artificial Intelligence},\n  year = {2023},\n  volume = {},\n  pages = {1-19},\n  doi = {10.4018/979-8-3693-0230-9.ch001}\n}"
+  }
+]

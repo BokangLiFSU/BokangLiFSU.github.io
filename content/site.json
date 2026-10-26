@@ -1,0 +1,229 @@
+{
+  "kind": "personal",
+  "name": "Bokang Li",
+  "title": "Bokang Li | Operations Research, Optimization & Supply Chain Systems",
+  "origin": "https://bokanglifsu.github.io",
+  "email": "libokangfsu@gmail.com",
+  "orcid": "https://orcid.org/0000-0002-5383-8195",
+  "description": "Bokang Li studies operations research, mathematical optimization and AI for operations, supply chains, resilience and sustainable systems.",
+  "bio": "My research interests lie in operations research, mathematical optimization and AI, with applications across operations and supply chains, logistics, transportation and public systems. I am interested in how connected decisions can be modeled, coordinated and adapted as conditions change.",
+  "background": [
+    {
+      "period": "June 2026 – present",
+      "role": "Postdoctoral Scholar",
+      "institution": "University of Washington, Tacoma Campus"
+    },
+    {
+      "period": "August 2025 – May 2026",
+      "role": "Postdoctoral Research Scholar",
+      "institution": "Florida State University"
+    },
+    {
+      "period": "August 2022 – August 2025",
+      "role": "Graduate Research Assistant / Graduate Teaching Assistant",
+      "institution": "Florida State University"
+    }
+  ],
+  "imageCredit": "No portrait is currently displayed.",
+  "sources": [
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-5383-8195"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=2nU8l8cAAAAJ"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/"
+    }
+  ],
+  "topics": [
+    {
+      "id": "algorithms",
+      "title": "Mathematical optimization, AI & decision intelligence",
+      "description": "Exact and approximate optimization, decomposition, adaptive algorithms, learning-guided search and AI-assisted model development."
+    },
+    {
+      "id": "maritime",
+      "title": "Operations, supply chains & connected systems",
+      "description": "Integrated planning, scheduling, network and facility coordination, resource allocation, production, distribution and service operations."
+    },
+    {
+      "id": "resilience",
+      "title": "Resilience, sustainability & public systems",
+      "description": "Decisions under disruption and uncertainty, flexible capacity, recovery planning, energy and environmental trade-offs, and public-sector operations."
+    }
+  ],
+  "workEmail": "bokangli@uw.edu",
+  "scholar": "https://scholar.google.com/citations?user=2nU8l8cAAAAJ",
+  "linkedin": "https://www.linkedin.com/in/bokang-li-365596246/",
+  "github": "https://github.com/BokangLiFSU",
+  "affiliation": "I am currently a postdoctoral scholar at the University of Washington, Tacoma Campus. Previously, I was a postdoctoral research scholar at Florida State University, where I received my Ph.D. in Civil Engineering in August 2025. I received my B.S. from Wuhan University in June 2022.",
+  "education": [
+    {
+      "period": "2025",
+      "degree": "Ph.D., Civil Engineering",
+      "institution": "Florida State University",
+      "detail": "Focus: operations research, optimization, supply chain, logistics and transportation. Dissertation: Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals."
+    },
+    {
+      "period": "2024",
+      "degree": "Graduate Certificate, Engineering Data Analytics",
+      "institution": "Florida State University",
+      "detail": "Data analytics, machine learning and deep learning."
+    },
+    {
+      "period": "2022",
+      "degree": "B.S., Harbor, Waterway and Coastal Engineering",
+      "institution": "Wuhan University",
+      "detail": ""
+    }
+  ],
+  "teaching": [
+    {
+      "course": "EGN 5480 · Metaheuristics and Hybrid Algorithms",
+      "level": "Graduate · in person",
+      "institution": "FAMU–FSU College of Engineering",
+      "role": "Teaching Assistant with Delegated Instructor Responsibilities",
+      "detail": "Delivered lectures and led discussions on evolutionary algorithms, classical metaheuristics, local search, hybridization and selected exact methods. Graded assignments and guided group projects in scheduling, resource allocation and logistics."
+    },
+    {
+      "course": "TTE 5074 · Freight Terminals and Distribution Facilities",
+      "level": "Graduate · online",
+      "institution": "FAMU–FSU College of Engineering",
+      "role": "Teaching Assistant",
+      "detail": "Supported instruction through Canvas, organized materials, moderated discussions, assisted students, graded assignments and developed assessments on freight terminals and distribution facilities."
+    }
+  ],
+  "awards": [
+    {
+      "year": "2025",
+      "title": "Civil and Environmental Engineering Future Faculty Award",
+      "issuer": "FAMU–FSU College of Engineering"
+    },
+    {
+      "year": "2023",
+      "title": "Civil and Environmental Engineering Graduate Research Excellence Award",
+      "issuer": "FAMU–FSU College of Engineering"
+    }
+  ],
+  "mentoring": [
+    {
+      "name": "Benjamin Antwi",
+      "institution": "University of North Florida",
+      "role": "M.S. research mentorship",
+      "period": "Fall 2026 – present"
+    },
+    {
+      "name": "Soud Mbegele",
+      "institution": "University of North Florida",
+      "role": "External M.S. Thesis Committee Member",
+      "period": "Spring 2026 – present"
+    },
+    {
+      "name": "Kennedy Jackson",
+      "institution": "FAMU–FSU College of Engineering",
+      "role": "Undergraduate research mentorship",
+      "period": "Fall 2024 – Summer 2025"
+    },
+    {
+      "name": "Shanmukh Devarapali",
+      "institution": "FAMU–FSU College of Engineering",
+      "role": "M.S. research mentorship",
+      "period": "Fall 2023 – Spring 2024"
+    },
+    {
+      "name": "Peyton Brocksmith",
+      "institution": "FAMU–FSU College of Engineering",
+      "role": "Undergraduate research mentorship",
+      "period": "Fall 2023 – Spring 2024"
+    }
+  ],
+  "service": [
+    "Transportation Research Part B: Methodological",
+    "Transportation Research Part C: Emerging Technologies",
+    "Transportation Research Part D: Transport and Environment",
+    "Transportation Research Part E: Logistics and Transportation Review",
+    "Computers & Industrial Engineering",
+    "Advanced Engineering Informatics",
+    "Applied Energy",
+    "Engineering Applications of Artificial Intelligence",
+    "Journal of Industrial Information Integration",
+    "Ocean Engineering",
+    "Journal of Rail Transport Planning & Management",
+    "Maritime Business Review",
+    "Maritime Transport Research",
+    "Transportation Research Interdisciplinary Perspectives",
+    "Journal of Traffic and Transportation Engineering (English Edition)",
+    "Cognition, Technology & Work",
+    "Scientific Reports",
+    "Discover Applied Sciences",
+    "Green Technologies and Sustainability",
+    "Mathematics",
+    "Axioms",
+    "Systems",
+    "Computers",
+    "Marine Systems & Ocean Technology",
+    "Systems and Soft Computing"
+  ],
+  "projects": [
+    {
+      "title": "AI-Assisted Inventory of Speed Management Infrastructure on Washington’s Rural Roads",
+      "role": "Co-Principal Investigator",
+      "period": "June 2026 – present",
+      "sponsor": "USDOT / WSDOT",
+      "detail": "AI-assisted geospatial inventory of speed-management infrastructure in rural-to-town transition areas and rural community corridors.",
+      "context": "The immediate task is to establish a usable record of infrastructure before interpreting patterns or selecting locations for later evaluation. My co-PI role connects this inventory work with questions about how the resulting geospatial information can support transportation decisions."
+    },
+    {
+      "title": "Automated Active Transportation Facility Inventory for Rural Towns Using Computer Vision Techniques",
+      "role": "Research Assistant",
+      "period": "June 2026 – present",
+      "sponsor": "USDOT",
+      "detail": "Computer vision and GIS methods for identifying sidewalk and bicycle facilities from aerial imagery and maintaining geospatial inventories.",
+      "context": "The work connects image-based identification with a geospatial representation of walking and cycling facilities. This inventory perspective provides a basis for examining network coverage and gaps in rural settings."
+    },
+    {
+      "title": "Solution to Meet the Air Force Artificial Intelligence (AI)-based Scheduling — Phase II",
+      "role": "Research Assistant",
+      "period": "December 2022 – May 2025",
+      "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
+      "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
+      "context": "The project connects scheduling methods with strategic planning in humanitarian logistics. My role was as a research assistant, contributing to the research effort rather than directing the sponsored project."
+    },
+    {
+      "title": "Selection of Level Crossings for Closure in the State of Florida: An Optimization-based Approach",
+      "role": "Research Assistant",
+      "period": "June 2022 – June 2024",
+      "sponsor": "Florida Department of Transportation",
+      "detail": "Decision support for level-crossing closure selection, combining highway safety with freight-flow considerations.",
+      "url": "https://doi.org/10.13140/RG.2.2.26835.80167",
+      "context": "The project produced a final report for FDOT and a related journal study on closure selection. It connects an optimization decision with several types of consequences, including safety, traffic delay, economic and environmental effects."
+    }
+  ],
+  "talks": [
+    {
+      "year": "2026",
+      "title": "A Compact and Efficient Optimization Model for the Berth Scheduling Problem at Marine Container Terminals",
+      "event": "TRB 105th Annual Meeting · Washington, DC · Lectern"
+    },
+    {
+      "year": "2025",
+      "title": "A Hyperheuristic Hybridized with Exact Optimization for the Berth Allocation and Scheduling Decision Problem",
+      "event": "INFORMS Annual Meeting · Atlanta, GA · Poster"
+    },
+    {
+      "year": "2025",
+      "title": "An Optimization Model and Solution Algorithm for Sustainable Selection of Level Crossings for Closure with Safety, Economic, and Environmental Considerations",
+      "event": "TRB 104th Annual Meeting · Washington, DC · Lectern"
+    },
+    {
+      "year": "2023",
+      "title": "An Exact Optimization Approach for Ship Schedule Recovery in Liner Shipping Networks under Conflicting Objectives",
+      "event": "INFORMS Annual Meeting · Phoenix, AZ · Lectern"
+    }
+  ],
+  "researchStatement": "I study how optimization and AI can improve the design, coordination and resilience of operations and supply chain systems."
+}
