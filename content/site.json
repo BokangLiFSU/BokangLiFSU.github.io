@@ -66,7 +66,7 @@
       "period": "2025",
       "degree": "Ph.D., Civil Engineering",
       "institution": "Florida State University",
-      "detail": "Focus: operations research, optimization, supply chain, logistics and transportation. Dissertation: Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals."
+      "detail": "Focus: operations research, optimization, supply chain, logistics and transportation. Dissertation: Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals. Advisor: Dr. Maxim A. Dulebenets."
     },
     {
       "period": "2024",
@@ -225,5 +225,44 @@
       "event": "INFORMS Annual Meeting · Phoenix, AZ · Lectern"
     }
   ],
-  "researchStatement": "I study how optimization and AI can improve the design, coordination and resilience of operations and supply chain systems."
+  "researchStatement": "I study how optimization and AI can improve the design, coordination and resilience of operations and supply chain systems.",
+  "biography": [
+    "I work at the intersection of operations research, mathematical optimization and AI, developing methods for operations and supply chain systems. My interests center on planning, scheduling and resource allocation: how to coordinate connected decisions, use limited capacity effectively, and adapt operating plans when conditions change. I develop mathematical models and exact, heuristic and learning-based solution methods, with applications spanning logistics, transportation, industrial operations and public systems.",
+    "I am a postdoctoral scholar in the School of Engineering and Technology at the University of Washington, Tacoma Campus, working with Dr. Angela Kitali. My current work connects optimization, AI and geospatial data with transportation decisions, including a co-principal investigator role on an AI-assisted inventory of speed-management infrastructure on Washington’s rural roads.",
+    "Before joining UW in June 2026, I was a postdoctoral research scholar at Florida State University. I completed my Ph.D. in Civil Engineering there in August 2025, advised by Dr. Maxim A. Dulebenets, with a dissertation on hyperheuristic algorithms for berth scheduling. My training also includes an FSU graduate certificate in Engineering Data Analytics (2024) and a B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University (2022)."
+  ],
+  "homeResearch": [
+    "I study the interaction between mathematical structure and computational intelligence. My interests include mixed-integer programming, decomposition, exact and approximate algorithms, adaptive search, and ways for AI and language models to work with optimization solvers. A developing interest is quantum computing for optimization.",
+    "The longer-term questions extend beyond any one application: how should decisions be coordinated across an operating system; what flexibility should be built in before disruptions occur; and how can efficiency, resilience and environmental consequences inform the same decision? My work in ports, distribution facilities, shipping networks and infrastructure planning provides concrete settings for these questions."
+  ],
+  "academicContext": [
+    "My doctoral work examined how hyperheuristics can select and combine search strategies for berth allocation and scheduling, and how those strategies can be hybridized with exact optimization. Subsequent work includes compact mixed-integer formulations and decomposition, learning-guided operator selection, and coordinated truck scheduling at cross-docking facilities.",
+    "Alongside this methodological work, I have contributed to sponsored research on humanitarian logistics planning, rail-crossing closure decisions, active-transportation infrastructure and rural speed management. These experiences motivate my broader interest in decision support for connected operations, supply chains and public systems.",
+    "At the FAMU–FSU College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
+  ],
+  "portrait": {
+    "file": "bokang-linkedin.jpg",
+    "alt": "Bokang Li, professional portrait from his LinkedIn profile",
+    "source": "https://www.linkedin.com/in/bokang-li-365596246/"
+  },
+  "activities": [
+    {
+      "title": "Doctoral dissertation defense",
+      "date": "May 2025",
+      "file": "defense-2025.jpg",
+      "alt": "Bokang Li with colleagues following his doctoral dissertation defense at the FAMU–FSU College of Engineering",
+      "caption": "Following my dissertation defense at the FAMU–FSU College of Engineering. My dissertation examined effective hyperheuristic algorithms for berth scheduling at marine container terminals.",
+      "url": "https://eng.famu.fsu.edu/event/dissertation-defense-bokang-li",
+      "label": "University defense announcement"
+    },
+    {
+      "title": "INFORMS Annual Meeting",
+      "date": "2025",
+      "file": "informs-2025.jpg",
+      "alt": "Bokang Li at the INFORMS Annual Meeting",
+      "caption": "At the 2025 INFORMS Annual Meeting in Atlanta, where I presented a poster on a hyperheuristic hybridized with exact optimization for berth allocation and scheduling.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/",
+      "label": "LinkedIn activities"
+    }
+  ]
 }
