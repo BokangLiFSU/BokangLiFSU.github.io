@@ -1,15 +1,14 @@
 {
   "overview": [
-    "Operations depend on decisions that are coupled across activities, organizations and time. Capacity commitments determine which schedules are feasible, local schedules affect downstream service, and disruptions change the value of previously selected plans. My research examines these relationships to improve the coordination, adaptability and resource efficiency of operating systems.",
-    "This agenda has both methodological and operational dimensions. I develop formulations and algorithms that exploit problem structure, and investigate how coordination, flexibility and technology investment affect system performance. Published studies in scheduling and resource allocation establish the foundation; current and prospective work extends the questions across supply chains, healthcare, humanitarian response and public infrastructure."
+    "Operational decisions are increasingly supported by data and computation, yet constructing, solving and revising a decision model still requires substantial problem-specific judgment. My research investigates how mathematical optimization and AI can support this process while retaining the physical and organizational constraints that determine whether a plan can be implemented.",
+    "Published studies in berth scheduling and cross-docking examine compact formulations, adaptive operator selection and exact subproblem improvement. Current work extends the coordination question to circulating resources, healthcare and emergency operations. These settings involve related modeling choices but different service priorities, providing a basis for investigating which mathematical structures and computational strategies can transfer between them."
   ],
   "themes": {
     "algorithms": {
       "question": "How can the structure of interdependent decisions inform more effective optimization and learning methods?",
       "paragraphs": [
-        "Integrated planning models must capture the relationships that determine whether a system can operate, yet those same relationships often make optimization difficult. My methodological research examines how formulation design and decomposition can preserve relevant timing, assignment and capacity constraints while reducing computational burden.",
-        "A related interest is the interaction between adaptive search and exact optimization. Search strategies can learn from computational experience, while mathematical subproblems provide structured improvement and feasibility checks. I investigate how these components should be combined and how computational effort should be allocated as a problem or its operating conditions change.",
-        "My prospective work extends this interaction to learning-based and generative AI systems. Language models may help translate operational knowledge into formulations, identify decompositions or propose search strategies; solver feedback can expose and correct weaknesses in those proposals. The research question concerns when such interaction improves model validity, solution quality or computational performance. Quantum–classical hybrid optimization remains an exploratory interest, evaluated against established classical approaches."
+        "Scheduling and allocation models combine assignment, precedence and shared-capacity constraints, with different consequences for computation. My research examines how those relationships should be represented and which parts of a model can be treated separately. Compact formulations reduce the burden of representation, decomposition exposes subproblems, and hybrid algorithms use exact optimization within a broader adaptive search. This work connects model design with the computational choices made during solution.",
+        "Learning offers a way to make this process responsive to computational experience. My interests include algorithm and neighborhood selection, the transfer of search strategies between operating conditions, and language models that translate operational knowledge into mathematical formulations. A further direction concerns analytical agents that coordinate modeling and computational tasks, with solver feedback used to test and revise their proposals. The research asks when this interaction improves decision quality and computational efficiency, and how responsibility should be divided between analytical systems and their users."
       ],
       "cases": [
         "berth-model",
@@ -25,9 +24,8 @@
     "maritime": {
       "question": "When does coordination create greater value than additional capacity, and how should that value be shared?",
       "paragraphs": [
-        "My research interests extend from facility-level scheduling to the coordination of production, inventories, distribution and service. Arrivals determine when processing and storage resources are needed, while internal schedules constrain departures and downstream operations. I study which decisions require joint optimization and where useful decomposition can respect the interfaces between activities.",
-        "Across organizations, coordination also depends on purchasing arrangements, information sharing and decision authority. My prospective work compares integrated planning with decentralized decisions to examine how operating benefits and disruption risks are distributed. An important question is which incentives sustain cooperation when the firms bearing coordination costs differ from those receiving the benefits.",
-        "Electrification and automation introduce a further dependency between capital investment and operating policy. Equipment capabilities, charging availability, maintenance and workforce requirements determine the capacity an investment can actually deliver. I am interested in phased and coordinated adoption, shared infrastructure and the conditions under which technological changes improve cost, reliability and environmental performance."
+        "Coordination is valuable when decisions at one stage determine the resources or timing available elsewhere. My interests extend from facility scheduling to joint decisions about sourcing, processing, inventory, distribution and service. I study which interactions require integrated planning and where a larger problem can be decomposed without losing the relationships that determine operating performance.",
+        "Across firms, physical dependencies are accompanied by differences in information, incentives and decision authority. My planned research compares joint planning with decentralized decisions to examine when cooperation improves performance and how its gains are distributed. A related question is when additional capacity is preferable to better coordination. This perspective treats organizational arrangements as part of the decision problem, alongside the scheduling and allocation constraints within each operation."
       ],
       "cases": [
         "crossdock-exact",
@@ -43,9 +41,8 @@
     "resilience": {
       "question": "How should systems invest in flexibility and adapt operating commitments when disruption changes what is feasible?",
       "paragraphs": [
-        "Resilience involves decisions made before a disruption as well as those made during recovery. Reserve capacity, inventory, alternative suppliers and schedule slack create different options for responding to change. My research interests concern where such flexibility has the greatest value and how preparedness should be evaluated together with subsequent recovery policies.",
-        "Recovery is a problem of selective revision. Delays, resource losses and shifting bottlenecks may invalidate some decisions while leaving others useful. I study how models can account for both the cost of changing established commitments and the consequences of preserving plans that no longer match operating conditions. These questions extend across firms as disruptions propagate through shared supply chains.",
-        "Healthcare, humanitarian response and public services give these allocation problems a further dimension: service delays and shortages affect who receives care or assistance. My interests include timeliness, reliability and access alongside operating cost. Sustainability adds related questions about energy, emissions and material recovery, particularly when investment choices constrain future operating flexibility."
+        "The value of flexibility depends on the decisions available after conditions change. My research interests therefore connect preparedness with recovery: inventory, reserve capacity and alternative resources must be evaluated alongside policies for rescheduling and reassignment. I am interested in how disruptions alter bottlenecks, when established commitments should be preserved, and how the costs of changing a plan affect recovery choices.",
+        "Electrification and automation introduce questions about adaptation over a longer horizon. Equipment and infrastructure investments change operating capabilities, while charging, energy availability and workforce requirements influence their productive use. My planned research examines these investment–operation relationships and their implications for cost, service reliability and environmental performance. Healthcare and emergency operations provide further settings in which the value of capacity and flexibility must be assessed through the continuity of essential services."
       ],
       "cases": [
         "schedule-recovery",
@@ -62,7 +59,7 @@
     {
       "id": "berth-model",
       "doi": "10.1109/tits.2026.3686684",
-      "title": "A smaller model for berth scheduling",
+      "title": "Compact formulations and decomposition for berth scheduling",
       "summary": "A compact berth-scheduling formulation supports Benders decomposition and column generation for larger planning problems.",
       "question": "How does formulation design affect the scalability of exact berth-scheduling optimization?",
       "approach": "This study develops a mixed-integer formulation for dynamic, discrete berth scheduling. Two-dimensional decision variables and a simplified vessel-sequencing structure reduce model complexity. Benders decomposition and column generation build on the formulation to address larger instances.",
@@ -75,7 +72,7 @@
     {
       "id": "crossdock-exact",
       "doi": "10.1016/j.tre.2026.105264",
-      "title": "Coordinating inbound and outbound trucks",
+      "title": "Integrated truck scheduling and freight-transfer coordination",
       "summary": "Sequential optimization and pricing-guided search address coupled truck services, freight transfers and departure timing.",
       "question": "How should freight transfers, handling capacity and service precedence be represented in integrated truck schedules?",
       "approach": "The study formulates coordinated truck service as a mixed-integer linear program. Its objective accounts for waiting, handling, temporary storage and delay costs. A sequential fix-and-optimize framework constructs service plans in batches that respect precedence relationships; a second framework uses pricing-guided search.",
@@ -88,7 +85,7 @@
     {
       "id": "crossdock-learning",
       "doi": "10.1016/j.swevo.2026.102502",
-      "title": "Learning which scheduling operators to use",
+      "title": "Thompson Sampling for adaptive scheduling heuristics",
       "summary": "Thompson Sampling adapts operator selection while repair and exact evaluation address schedule feasibility and accuracy.",
       "question": "How can adaptive operator selection improve search while preserving reliable schedule evaluation?",
       "approach": "The Hybridized Thompson Sampling Hyperheuristic combines evolutionary search with an adaptive operator-selection controller. A repair-and-penalty mechanism handles inbound–outbound precedence constraints. Fast approximate fitness evaluation supports exploration, while exact optimization refines schedule evaluation.",
@@ -101,7 +98,7 @@
     {
       "id": "berth-hyperheuristic",
       "doi": "10.1016/j.tre.2025.104104",
-      "title": "Combining adaptive search with exact optimization",
+      "title": "Hybrid hyperheuristics and exact optimization for berth scheduling",
       "summary": "A berth-scheduling hyperheuristic adapts genetic operators and periodically applies problem-specific exact improvement.",
       "question": "How can adaptive search and exact subproblem optimization complement one another in berth scheduling?",
       "approach": "The Hyperheuristic Hybridized with Exact Optimization addresses dynamic, discrete berth allocation and scheduling. It chooses genetic operators according to their observed performance and periodically applies berth-specific exact optimization procedures to improve candidate schedules.",
@@ -114,7 +111,7 @@
     {
       "id": "level-crossings",
       "doi": "10.1016/j.ress.2024.110197",
-      "title": "Evaluating rail-crossing closure decisions",
+      "title": "Optimization for highway–rail crossing closure decisions",
       "summary": "An optimization framework considers safety, economic and environmental effects alongside delay and maintenance costs.",
       "question": "How should safety, economic and environmental effects enter the prioritization of rail-crossing closures?",
       "approach": "The study develops an optimization model that includes safety, economic and environmental benefits as well as traffic-delay and maintenance implications. A sorting-inspired heuristic addresses the resulting decision problem. Computational experiments use crossings in Florida.",
@@ -127,7 +124,7 @@
     {
       "id": "schedule-recovery",
       "doi": "10.1016/j.trd.2023.103957",
-      "title": "Recovering ship schedules under environmental constraints",
+      "title": "Ship schedule recovery under environmental policies",
       "summary": "Multi-objective optimization examines the tension between schedule recovery, monetary losses and speed-reduction incentives.",
       "question": "How should disruption recovery be planned when service targets conflict with environmental requirements and incentives?",
       "approach": "This collaborative study models monetary losses and port-arrival delays as competing objectives. It incorporates voluntary speed-reduction incentive programs, emission-control requirements and multiple recovery options. The solution method combines dynamic secant approximation with an epsilon-constraint approach.",
@@ -140,54 +137,54 @@
   ],
   "teaching": {
     "approach": [
-      "I approach teaching as the development of analytical judgment: students should understand how a problem is formulated, why a method is appropriate and what a solution can establish. In optimization, these questions require attention to assumptions and interpretation as well as mathematical and computational technique.",
-      "My instruction moves between mathematical reasoning, implementation and application. Small examples make the logic of an algorithm visible; larger projects require students to select methods, validate code and compare alternatives. Explaining why an approach succeeds or fails is part of the analysis, rather than an exercise added after obtaining a numerical result.",
-      "Students bring different mathematical and programming preparation to this work. Guided examples, targeted review and intermediate project submissions provide support while preserving common learning expectations. As students gain experience, I place greater responsibility on their choices of formulation, validation and interpretation."
+      "My teaching develops the judgment needed to move between an operational problem, a mathematical representation and a defensible interpretation of the results. Students need to understand what a model includes, what it leaves out and why a particular computational method is appropriate. This places assumptions and validation within the analytical task itself.",
+      "I organize instruction around the relationship between mathematical reasoning and computational investigation. Small examples expose the logic of an algorithm; projects require students to formulate decisions, implement methods and evaluate alternatives. Comparing approaches helps students recognize the difference between a numerical result and an explanation supported by analysis.",
+      "Students enter optimization and computing courses with different preparation. Guided examples, targeted review and staged project submissions support that variation while maintaining common expectations. As students gain experience, I expect them to take greater responsibility for choosing formulations, checking implementations and communicating the scope and limitations of their conclusions."
     ],
-    "mentoring": "I have mentored undergraduate and master’s researchers and served as an external master’s thesis committee member. I help students define a manageable question, check their computational work and explain their findings and limitations."
+    "mentoring": "I have mentored undergraduate and master’s researchers and served as an external master’s thesis committee member. I work with students to turn an initial interest into a tractable research question, design computational investigations and explain what the evidence supports. The aim is increasing independence in both technical work and scholarly judgment."
   },
   "agenda": [
     {
-      "title": "Coordination across operations and organizations",
-      "text": "I aim to extend integrated scheduling models to decisions spanning sourcing, production, inventory and distribution. The central issue is how physical interdependencies interact with information, purchasing arrangements and decision authority. Comparing centralized and decentralized plans can clarify when cooperation is worthwhile, where capacity can substitute for coordination, and how its benefits are distributed."
+      "title": "Learning across the optimization process",
+      "text": "When does iterative interaction between a language model and a solver improve on a formulation or algorithm generated once? I am interested in what feedback should be exchanged, how errors should be diagnosed and which tasks benefit from greater analytical autonomy. This provides a concrete basis for studying model validity, computational efficiency and the allocation of responsibility between users and analytical agents."
     },
     {
-      "title": "Preparedness, flexibility and disruption recovery",
-      "text": "This direction examines preparedness and recovery as related allocation decisions. Investments in reserve capacity or alternative resources create options whose value depends on how a disruption unfolds and how operating plans are revised. I am interested in models that represent those relationships, including the trade-off between maintaining service commitments and adapting to changed conditions."
+      "title": "Coordination, incentives and decision authority",
+      "text": "When should firms invest in additional capacity, and when should they instead change how existing resources are coordinated? I plan to examine how information sharing, purchasing arrangements and decision authority alter that comparison. The distribution of gains matters: coordination may be beneficial overall while leaving some participants with little incentive to cooperate."
     },
     {
-      "title": "Learning and generative AI for optimization",
-      "text": "Operational knowledge often resides in rules, documents and data definitions before it becomes a mathematical model. I am interested in AI systems that help formalize that knowledge and use computational feedback to refine formulations or solution strategies. The objective is to understand when interaction between learning, language-based reasoning and mathematical solvers improves the decisions an analytical system can support."
+      "title": "Preparedness and adaptive recovery",
+      "text": "How much of an operating plan should be revised after a disruption? My interests include the trade-off between responsiveness and the cost of changing commitments, and how that trade-off depends on prior investments in inventory, reserve capacity or alternative resources. Comparing selective revision with wider reoptimization can clarify when flexibility should be prepared and when it should be exercised."
     },
     {
-      "title": "Technology investment and sustainable operations",
-      "text": "Electrification and automation change both the resources a system needs and the ways it can operate. My interests include joint investment in equipment and supporting infrastructure, phased adoption and shared capacity. Research in this direction would examine how operating policies, energy availability and workforce requirements influence lifecycle cost, productivity, service reliability and emissions."
+      "title": "Technology adoption and sustainable operations",
+      "text": "Under what operating conditions is coordinated investment in electric or automated equipment more valuable than phased adoption? I am interested in how demand, equipment utilization, shared charging capacity and workforce requirements affect this choice. The research would evaluate adoption policies together with the schedules and service patterns that determine equipment utilization, lifecycle cost and environmental performance."
     },
     {
-      "title": "Healthcare, humanitarian and public-service operations",
-      "text": "My interests extend to systems where scarce resources must meet time-sensitive and uncertain needs. Healthcare scheduling and emergency logistics motivate questions about how capacity constraints, service priorities and movement decisions should be coordinated. I seek to develop models that make the consequences for timeliness, reliability and access explicit, including during disruption and recovery."
+      "title": "Essential-service operations",
+      "text": "How should scarce service capacity be allocated when timeliness, continuity and access imply different priorities? Healthcare scheduling and emergency logistics provide settings for comparing allocation objectives and examining who is affected by the resulting plans. My interests include how these choices should be revisited as needs and available resources change. Limited planning time also raises a computational question: which decisions should be reoptimized first, and which can remain fixed while a revised plan is constructed?"
     }
   ],
   "currentWork": [
     {
-      "title": "Integrated scheduling and shared-resource allocation",
+      "title": "Integrated scheduling and resource circulation",
       "status": "Ongoing research",
-      "text": "My current scheduling research examines the joint use of processing capacity, vehicle fleets and reusable resources. Decisions about movement and resource circulation affect when an operation is physically complete and which capacity is available next. I am developing formulations and computational approaches that retain these dependencies while investigating their implications for completion time, resource requirements and energy use."
+      "text": "In systems with reusable resources, completing a processing task does not necessarily make its resources available for the next task. My current work examines how processing, vehicle movements and resource circulation should be scheduled together. The models investigate the resulting relationships among completion time, resource availability and energy use, while developing solution approaches that retain those operational dependencies."
     },
     {
-      "title": "Emergency response and healthcare scheduling",
+      "title": "Planning under time and capacity constraints",
       "status": "Ongoing research",
-      "text": "Ongoing studies in flood response and healthcare scheduling examine how limited resources can be assigned within a restricted planning horizon. These settings motivate compact formulations, selective reoptimization and the allocation of computation among competing scheduling decisions. A continuing question is how to revise a plan effectively when operating conditions or the time available for optimization change."
+      "text": "Ongoing work in flood response and healthcare scheduling examines how decision quality depends on the allocation of both physical resources and computational effort. I study compact representations, selective reoptimization and rolling planning, including which parts of a schedule should be revisited when conditions change or the planning deadline approaches."
     },
     {
-      "title": "Infrastructure electrification and implementation",
+      "title": "Infrastructure investment and realized use",
       "status": "Ongoing research",
-      "text": "My shore-power research examines the relationship between infrastructure commitments, implementation readiness and operating use. The work considers what evidence is needed to distinguish installed capability from realized activity, and how that distinction affects investment assessment and environmental reporting."
+      "text": "My shore-power research examines how infrastructure commitments translate into implementation readiness and operating activity. The distinction between installed capability and realized use matters for assessing investments and reporting environmental outcomes. This work studies the records needed to make that distinction and the implications for subsequent investment decisions."
     },
     {
-      "title": "AI tools for searching technical guidance",
+      "title": "Language models and operational knowledge",
       "status": "Research prototype",
-      "text": "A local research prototype retrieves and synthesizes information from public transportation-agency manuals with references to the source material. This work examines how language-based tools can assist the interpretation of operational guidance. It also provides a setting for studying how documented requirements might inform optimization models; the prototype is not an agency-deployed decision system."
+      "text": "A local prototype retrieves and synthesizes information from public transportation-agency manuals with references to the original material. It provides a setting for examining how technical requirements can be located and interpreted, and how such knowledge might inform mathematical models. This is research on analytical assistance, rather than an agency-deployed decision system."
     }
   ],
   "evaluation": [
