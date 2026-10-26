@@ -17,12 +17,12 @@ This repository contains the complete website source. It builds plain HTML, CSS 
 | Biography, appointments, education, teaching records, projects, topics | `content/site.json` |
 | Journal papers and homepage selections | `content/publications.json` |
 | Book chapters | `content/chapters.json` |
-| Broad research interests, future agenda, study stories and teaching approach | `content/research-stories.json` |
+| Broad research interests, five future directions, study stories and teaching approach | `content/research-stories.json` |
 | Academic biography, background and activity photographs | `content/site.json` (`biography`, `academicContext`, `activities`) |
 | Layout and page structure | `reference-build.mjs` |
 | Typography, spacing and responsive layout | `assets/reference.css` |
 
-The biography and CV use **University of Washington, Tacoma Campus**. A reviewed portrait and two academic activity photographs are included with the author’s authorization. Research interests and future directions should lead; published studies illustrate that agenda.
+The biography and CV use **University of Washington, Tacoma Campus**. Reviewed conference and dissertation photographs from the author’s LinkedIn activities are included with his authorization. The homepage uses a contextual conference photograph; additional photographs, research communication and conference contributions appear on Activities. Research interests and future directions should lead; published studies illustrate that agenda.
 
 ## Local build
 
@@ -47,3 +47,5 @@ Use the file's History to inspect earlier versions, then restore the relevant co
 ## Design references
 
 Organization and typography draw on Cathy Wu's academic homepage; compact publication entries draw on Jon Barron's website; research and biographical information are kept distinct. Professional content belongs to Bokang Li and the credited coauthors. Reference-site portraits, research images and analytics are not included.
+
+The Research page leads with a broad agenda and links to separate topic and project pages. Published case studies are examples within that agenda. Avoid filling topic pages with the entire publication list or moving long CV paragraphs back onto the homepage.
