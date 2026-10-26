@@ -1,0 +1,96 @@
+/* Measured reference: Cathy Wu (900px container, 15/22.5 body, 30px name,
+   19.5px section headings); compact publication anatomy: Jon Barron. */
+:root{color-scheme:light;--text:#222;--secondary:#626262;--link:#176bb3;--rule:#dedede;--nav:#f8f8f8;--paper:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px;-webkit-tap-highlight-color:#176bb326}
+body{margin:0;background:var(--paper);color:var(--text);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--link);text-decoration:none;text-underline-offset:3px}
+a:hover{text-decoration:underline;color:#104d82}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:4px}
+a,button,summary,input,select{touch-action:manipulation}
+button,input,select{font:inherit;color:var(--text);background:#fff;border:1px solid #aaa;border-radius:3px}
+button{cursor:pointer;padding:6px 10px}
+button:hover{border-color:var(--link);background:#f4f8fc}
+main,footer,.header-inner,.section-nav{width:min(900px,100%);margin-inline:auto;padding-inline:22.5px}
+.site-header{position:sticky;top:0;z-index:10;background:#fff}
+.header-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:42px;border-bottom:1px solid var(--rule)}
+.site-name{font-size:16px;font-weight:700;color:var(--text);white-space:nowrap;padding-block:9px}
+#main-nav{display:flex;align-items:center;flex-wrap:wrap;gap:21px;font-size:13px}
+#main-nav a{color:#444;padding-block:10px;white-space:nowrap;line-height:20px;border-bottom:2px solid transparent}
+#main-nav a[aria-current]{color:#23577f;border-color:#5d7d97}
+.section-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 20px;background:var(--nav);border-bottom:1px solid #e6e6e6;font-size:11px;padding-block:9px}
+.section-nav a{color:#666}
+.section-nav a:hover{color:var(--link)}
+main{padding-top:30px;min-height:70vh}
+h1{font-size:30px;line-height:1.2;font-weight:700;margin:0 0 20px;text-wrap:balance}
+h2{font-size:19.5px;line-height:1.2;font-weight:700;margin:0;text-wrap:balance}
+h3{font-size:15px;line-height:1.5;font-weight:650;margin:0 0 3px;text-wrap:pretty}
+p{margin:0 0 14px}
+section{margin:0 0 32px;scroll-margin-top:100px}
+.about{padding:1px 0 22px;margin-bottom:32px;border-bottom:1px solid #e7e7e7}
+.about h1{margin-bottom:15px}
+.research-statement{font-style:italic;margin-bottom:16px}
+.profile-links{font-size:13px;line-height:1.8;margin:19px 0 0;display:flex;flex-wrap:wrap;gap:3px 17px}
+.profile-links span{color:#aaa}
+.section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:7px;margin:0 0 17px;border-bottom:2px solid #555}
+.section-heading>a{font-size:12px;flex-shrink:0}
+.page-section-title{border-bottom:1px solid #bcbcbc;padding-bottom:7px;margin:27px 0 17px}
+.research-topics{margin:17px 0 0;padding-left:21px}
+ul{padding-left:21px;margin-top:0}
+li{margin-bottom:6px}
+.dated-list{padding:0;list-style:none}
+.dated-list li{display:grid;grid-template-columns:79px 1fr;gap:18px;margin:0 0 12px}
+.dated-list .date{color:#626262;font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums;padding-top:2px}
+.news-list{font-size:14px}
+.paper{padding:0 0 21px;margin:0}
+.paper h3{font-size:15px;line-height:1.4;margin:0 0 3px}
+.paper p{font-size:14px;line-height:1.45;margin:0 0 3px}
+.paper .authors strong{font-weight:650}
+.paper-resources{display:flex;align-items:baseline;gap:7px;font-size:13px;line-height:1.5}
+.paper-resources details{min-width:0;max-width:calc(100% - 60px)}
+.paper-resources details summary{display:list-item;list-style:none;color:var(--link);cursor:pointer;width:fit-content}
+.paper-resources summary::-webkit-details-marker{display:none}
+.paper-resources summary:hover{text-decoration:underline}
+.paper-resources details[open]{flex:1}
+pre{font:12px/1.5 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f7f7;border:1px solid var(--rule);padding:12px;margin:10px 0}
+.copy-citation,.copy-status{font-size:12px}
+.copy-status{display:block;margin-top:5px}
+.publication-controls{display:flex;gap:12px;align-items:end;flex-wrap:wrap;padding-bottom:19px;margin-bottom:22px;border-bottom:1px solid #e5e5e5}
+.publication-controls label{display:block;font-size:12px}
+.publication-controls label:first-child{flex:1;min-width:190px}
+.publication-controls input,.publication-controls select{width:100%;display:block;padding:7px 9px;margin-top:6px;font-size:13px;min-height:34px}
+.publication-controls button{font-size:12px;min-height:34px}
+#publication-count{font-size:12px;color:var(--secondary);padding-bottom:7px;white-space:nowrap}
+.publication-year{margin-bottom:12px}
+.year-heading{font-size:17px;font-weight:650;color:#555;margin:0 0 16px}
+.publication-category{margin-top:25px}
+.course-list,.mentoring-list,.talk-list{list-style:none;padding:0}
+.course-list li,.mentoring-list li,.talk-list li{margin-bottom:17px;font-size:14px}
+.course-list strong,.mentoring-list strong,.talk-list strong{font-weight:650}
+.secondary{color:var(--secondary)}
+.teaching-record,.project-record{margin-bottom:25px}
+.teaching-record p,.project-record p{font-size:14px}
+.records{margin:0}
+.records>div{display:grid;grid-template-columns:170px 1fr;gap:20px;margin:0 0 20px}
+.records dt{font-size:13px;color:var(--secondary);padding-top:2px;font-variant-numeric:tabular-nums}
+.records dd{margin:0;min-width:0}
+.records dd p{margin:5px 0 0;font-size:14px}
+.service-list{columns:2;column-gap:30px;font-size:14px}
+.service-list li{break-inside:avoid}
+.contact-list>div{display:grid;grid-template-columns:135px 1fr;margin-bottom:12px;gap:16px}
+.contact-list dt{font-size:14px;color:var(--secondary)}
+.contact-list dd{margin:0;overflow-wrap:anywhere}
+footer{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--rule);padding-top:17px;padding-bottom:25px;margin-top:42px;color:#666;font-size:11px}
+footer a{color:#626262}
+.skip-link{position:fixed;z-index:30;top:-100px;left:16px;padding:10px;background:#fff}
+.skip-link:focus{top:8px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+[hidden]{display:none!important}
+@media(max-width:700px){html{scroll-padding-top:150px}.header-inner{align-items:flex-start;gap:7px;flex-direction:column;padding-top:5px;padding-bottom:3px}.site-name{padding-block:5px}#main-nav{gap:5px 18px;font-size:12px;width:100%}#main-nav a{padding-block:4px}.section-nav{justify-content:flex-start;gap:5px 16px;padding-block:8px}main,footer,.header-inner,.section-nav{padding-inline:20px}main{padding-top:25px}section{scroll-margin-top:150px}.section-heading{flex-wrap:wrap;gap:4px 15px}.section-heading h2{font-size:19.5px}.section-heading>a{font-size:12px}.records>div{grid-template-columns:1fr;gap:4px}.service-list{columns:1}.contact-list>div{grid-template-columns:1fr;gap:3px}footer{flex-direction:column;gap:5px}.dated-list li{grid-template-columns:69px 1fr;gap:12px}.paper-resources details{max-width:calc(100% - 58px)}}
+@media(max-width:370px){#main-nav{gap:4px 15px}.profile-links{gap:3px 14px}.publication-controls label:first-child{flex-basis:100%}#publication-count{margin-left:auto}.dated-list li{grid-template-columns:1fr;gap:3px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.site-header,footer,.publication-controls,.paper-resources,button{display:none}main{width:100%;padding:0}body{font-size:11pt}h1{font-size:22pt}h2{font-size:14pt}a{color:#222}.paper,.records>div{break-inside:avoid}.service-list{columns:2}}
+
+.paper .paper-explanation{margin-top:10px;font-size:14px;line-height:1.55;max-width:78ch}.story-links{list-style:none;padding:0}.story-links li{margin-bottom:18px}.research-question{font-size:16px;font-style:italic;line-height:1.6;margin:12px 0 20px}main>section>p{max-width:82ch}
+
+.agenda-label{margin:22px 0 10px;font-size:15px}.agenda-summary{padding-left:21px;font-size:14px}.agenda-summary li{margin-bottom:8px}.agenda-direction{margin:20px 0 25px}.agenda-direction h3{margin-bottom:9px}
