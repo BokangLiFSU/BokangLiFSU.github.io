@@ -24,7 +24,7 @@
       "institution": "Florida State University"
     }
   ],
-  "imageCredit": "Conference and dissertation photographs appear only with their academic activity context. No profile portrait is displayed.",
+  "imageCredit": "The author selected photograph A from the reviewed candidates as his portrait. Photograph B is used for academic activities. Original images remain unchanged; the portrait uses the approved 4:5 crop.",
   "sources": [
     {
       "label": "ORCID",
@@ -239,7 +239,19 @@
     "Alongside this methodological work, I have contributed to sponsored research on humanitarian logistics planning, rail-crossing closure decisions, active-transportation infrastructure and rural speed management. These experiences motivate my broader interest in decision support for connected operations, supply chains and public systems.",
     "At the FAMU–FSU College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
   ],
-  "portrait": null,
+  "portrait": {
+    "file": "portrait-approved-a.png",
+    "alt": "Bokang Li at the INFORMS Annual Meeting, user-selected portrait",
+    "caption": "INFORMS Annual Meeting, 2025",
+    "width": 1152,
+    "height": 1536,
+    "crop": [
+      405,
+      630,
+      280,
+      350
+    ]
+  },
   "activities": [
     {
       "title": "Presenting and exchanging ideas at INFORMS",
@@ -251,6 +263,17 @@
       "caption": "I presented work on a hyperheuristic hybridized with exact optimization. The meeting was also an opportunity to discuss modeling and algorithm design with the operations research community.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
       "label": "LinkedIn activity"
+    },
+    {
+      "title": "At the TRB poster session",
+      "date": "January 2024 · Washington, DC",
+      "file": "trb-front-2024.jpg",
+      "width": 1170,
+      "height": 878,
+      "alt": "Bokang Li standing beside a research poster at the 103rd TRB Annual Meeting",
+      "caption": "With a poster on multi-objective ship schedule recovery at the 103rd TRB Annual Meeting.",
+      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/images/",
+      "label": "LinkedIn photo album"
     },
     {
       "title": "Research conversations at TRB",
