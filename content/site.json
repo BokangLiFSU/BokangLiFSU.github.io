@@ -24,7 +24,7 @@
       "institution": "Florida State University"
     }
   ],
-  "imageCredit": "No portrait is currently displayed.",
+  "imageCredit": "Conference and dissertation photographs appear only with their academic activity context. No profile portrait is displayed.",
   "sources": [
     {
       "label": "ORCID",
@@ -239,14 +239,7 @@
     "Alongside this methodological work, I have contributed to sponsored research on humanitarian logistics planning, rail-crossing closure decisions, active-transportation infrastructure and rural speed management. These experiences motivate my broader interest in decision support for connected operations, supply chains and public systems.",
     "At the FAMU–FSU College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
   ],
-  "portrait": {
-    "file": "informs-poster-2025.jpg",
-    "alt": "Bokang Li with his research poster at INFORMS 2025",
-    "source": "https://www.linkedin.com/in/bokang-li-365596246/",
-    "caption": "With my poster at INFORMS, 2025",
-    "width": 1280,
-    "height": 960
-  },
+  "portrait": null,
   "activities": [
     {
       "title": "Presenting and exchanging ideas at INFORMS",
