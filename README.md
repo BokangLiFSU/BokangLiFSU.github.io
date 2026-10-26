@@ -18,10 +18,11 @@ This repository contains the complete website source. It builds plain HTML, CSS 
 | Journal papers and homepage selections | `content/publications.json` |
 | Book chapters | `content/chapters.json` |
 | Broad research interests, future agenda, study stories and teaching approach | `content/research-stories.json` |
+| Academic biography, background and activity photographs | `content/site.json` (`biography`, `academicContext`, `activities`) |
 | Layout and page structure | `reference-build.mjs` |
 | Typography, spacing and responsive layout | `assets/reference.css` |
 
-The biography and CV use **University of Washington, Tacoma Campus**. Portraits are intentionally omitted. Research interests and future directions should lead; published studies illustrate that agenda.
+The biography and CV use **University of Washington, Tacoma Campus**. A reviewed portrait and two academic activity photographs are included with the author’s authorization. Research interests and future directions should lead; published studies illustrate that agenda.
 
 ## Local build
 
