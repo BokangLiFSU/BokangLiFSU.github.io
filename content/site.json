@@ -85,14 +85,14 @@
     {
       "course": "EGN 5480 · Metaheuristics and Hybrid Algorithms",
       "level": "Graduate · in person",
-      "institution": "FAMU–FSU College of Engineering",
+      "institution": "Florida State University, College of Engineering",
       "role": "Teaching Assistant with Delegated Instructor Responsibilities",
       "detail": "Delivered lectures and led discussions on evolutionary algorithms, classical metaheuristics, local search, hybridization and selected exact methods. Graded assignments and guided group projects in scheduling, resource allocation and logistics."
     },
     {
       "course": "TTE 5074 · Freight Terminals and Distribution Facilities",
       "level": "Graduate · online",
-      "institution": "FAMU–FSU College of Engineering",
+      "institution": "Florida State University, College of Engineering",
       "role": "Teaching Assistant",
       "detail": "Supported instruction through Canvas, organized materials, moderated discussions, assisted students, graded assignments and developed assessments on freight terminals and distribution facilities."
     }
@@ -101,12 +101,12 @@
     {
       "year": "2025",
       "title": "Civil and Environmental Engineering Future Faculty Award",
-      "issuer": "FAMU–FSU College of Engineering"
+      "issuer": "Florida State University, College of Engineering"
     },
     {
       "year": "2023",
       "title": "Civil and Environmental Engineering Graduate Research Excellence Award",
-      "issuer": "FAMU–FSU College of Engineering"
+      "issuer": "Florida State University, College of Engineering"
     }
   ],
   "service": [
@@ -205,7 +205,7 @@
   "academicContext": [
     "My doctoral work examined how hyperheuristics can select and combine search strategies for berth allocation and scheduling, and how those strategies can be hybridized with exact optimization. Subsequent work includes compact mixed-integer formulations and decomposition, learning-guided operator selection, and coordinated truck scheduling at cross-docking facilities.",
     "Alongside this methodological work, I have contributed to sponsored research on humanitarian logistics planning, rail-crossing closure decisions, active-transportation infrastructure and rural speed management. These experiences motivate my broader interest in decision support for connected operations, supply chains and public systems.",
-    "At the FAMU–FSU College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
+    "At the Florida State University, College of Engineering, I taught graduate optimization material as a teaching assistant with delegated instructor responsibilities for Metaheuristics and Hybrid Algorithms, and supported Freight Terminals and Distribution Facilities. My teaching connects mathematical formulation, algorithm design and computational evaluation. I received the college’s Civil and Environmental Engineering Future Faculty Award in 2025."
   ],
   "portrait": {
     "file": "portrait-approved-a-clear.jpg",
@@ -222,24 +222,26 @@
   },
   "activities": [
     {
+      "title": "TRB 2026: Current Research in Port Optimization",
+      "date": "January 2026 · Washington, DC",
+      "file": "trb-presenters-2026.jpg",
+      "width": 2048,
+      "height": 1462,
+      "alt": "Presenters at the TRB 2026 Current Research in Port Optimization session",
+      "caption": "I presented a compact and efficient optimization model for berth scheduling at marine container terminals at the 105th TRB Annual Meeting. The AW011 session, moderated by EunSu Lee, brought together work on port capacity, vessel turnaround, shore power and berth scheduling. With fellow presenters after the session.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7416525315067326464/",
+      "label": "Session report and photographs by EunSu Lee"
+    },
+    {
       "title": "Presenting and exchanging ideas at INFORMS",
       "date": "October 2025 · Atlanta",
-      "file": "informs-poster-2025.jpg",
-      "width": 1280,
-      "height": 960,
-      "alt": "Bokang Li alongside his optimization research poster at the 2025 INFORMS Annual Meeting",
+      "file": "portrait-approved-a-clear.jpg",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Bokang Li at the 2025 INFORMS Annual Meeting",
       "caption": "I presented work on a hyperheuristic hybridized with exact optimization. The meeting was also an opportunity to discuss modeling and algorithm design with the operations research community.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
-      "label": "LinkedIn activity",
-      "photos": [
-        {
-          "file": "portrait-approved-a-clear.jpg",
-          "width": 1200,
-          "height": 1600,
-          "alt": "Bokang Li at the INFORMS exhibition",
-          "caption": "At the INFORMS exhibition, 2025."
-        }
-      ]
+      "label": "LinkedIn activity"
     },
     {
       "title": "At the TRB poster session",
@@ -280,7 +282,7 @@
       "file": "defense-colleagues-2025.jpg",
       "width": 1280,
       "height": 720,
-      "alt": "Bokang Li with colleagues following his doctoral defense at the FAMU–FSU College of Engineering",
+      "alt": "Bokang Li with colleagues following his doctoral defense at the Florida State University, College of Engineering",
       "caption": "With colleagues after my doctoral defense. My dissertation examined hyperheuristic algorithms for berth scheduling; the broader methodological questions concern how search strategies can adapt and how heuristics can work with exact optimization.",
       "url": "https://eng.famu.fsu.edu/event/dissertation-defense-bokang-li",
       "label": "University defense announcement"
@@ -305,7 +307,7 @@
   "media": [
     {
       "title": "New berth-scheduling model aims to cut global port delays",
-      "outlet": "FAMU–FSU College of Engineering",
+      "outlet": "Florida State University, College of Engineering",
       "text": "A university feature on our compact optimization formulation and decomposition methods, including the practical planning questions behind the study.",
       "url": "https://eng.famu.fsu.edu/news/new-model-speeds-ship-scheduling-worlds-busiest-ports"
     },
