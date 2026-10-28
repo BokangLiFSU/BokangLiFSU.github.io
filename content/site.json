@@ -6,7 +6,7 @@
   "email": "libokangfsu@gmail.com",
   "orcid": "https://orcid.org/0000-0002-5383-8195",
   "description": "Bokang Li researches mathematical optimization and AI for coordinated, adaptive and sustainable operations and supply chains.",
-  "bio": "I study how mathematical optimization and AI can support coordinated, adaptive decisions in operations and supply chain systems.",
+  "bio": "My research lies at the intersection of operations research, artificial intelligence and the management of operations and supply chains.",
   "background": [
     {
       "period": "June 2026 – present",
@@ -199,7 +199,8 @@
       "period": "December 2022 – May 2025",
       "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
       "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
-      "context": "I contributed optimization and AI-based scheduling research for strategic humanitarian logistics planning. The work concerned coordination among service requirements, resource availability and scheduling decisions in time-sensitive operations. This project broadened my interest in allocation problems where the timing and continuity of essential services are central. My participation ran from December 2022 to May 2025."
+      "context": "I contributed to optimization-based planning for humanitarian logistics within a research collaboration involving Disaster Tech and C5BDI. The project links participating organizations, available supplies, delivery destinations and distribution speed. It provides a setting for studying coordination and resource allocation in time-sensitive relief operations. Maxim A. Dulebenets led the university research; my participation ran from December 2022 to May 2025.",
+      "url": "https://rider.eng.famu.fsu.edu/article/civil-engineering-researcher-uses-ai-improve-disaster-response-new-dod-study"
     },
     {
       "title": "Selection of Level Crossings for Closure in the State of Florida: An Optimization-based Approach",
@@ -235,13 +236,13 @@
   ],
   "researchStatement": "Optimization and AI for coordinated, adaptive operations.",
   "biography": [
-    "I develop optimization models and algorithms for operations and supply chains, with particular interests in coordination, resilience and the use of learning in decision-making. My work examines how decisions about schedules, resources and capacity interact across facilities and organizations. I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali.",
+    "I develop mathematical models and algorithms for operations and supply chain management. My interests center on coordination across organizations, adaptation under uncertainty, and the investment and operating decisions associated with new technologies. Mathematical optimization and learning provide complementary approaches to these questions. I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali.",
     "I received my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Maxim A. Dulebenets. My dissertation developed adaptive hyperheuristics for berth scheduling, combining algorithm selection with mathematical optimization. After continuing at Florida State University as a postdoctoral research scholar, I joined Washington in June 2026. I received my B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022."
   ],
   "homeResearch": [
-    "My research examines how operations and supply chains can coordinate interdependent decisions and respond when operating conditions change. A schedule determines more than the use of one resource: it affects material availability, storage requirements and service commitments elsewhere. I study these dependencies through integrated scheduling, resource allocation and recovery models, with applications in distribution facilities, maritime logistics and infrastructure planning.",
-    "Methodologically, I develop mixed-integer formulations, decomposition algorithms and adaptive search methods that exploit the structure of an operating system. Published studies combine compact models with Benders decomposition and column generation, or use learning to select search operators alongside exact optimization. My developing interests in generative AI concern model construction, algorithm design and the use of solver feedback to revise analytical decisions.",
-    "My broader agenda connects supply chain coordination and resilience with electrification, automation and essential-service operations. I am interested in when better coordination can substitute for additional capacity, how flexibility should be prepared before disruptions, and how technology investments change operating choices. Healthcare, humanitarian logistics and public services extend these questions to settings where timeliness, continuity and access must be considered alongside efficiency."
+    "My research concerns the design and management of interdependent operating systems. Decisions about sourcing, production, inventory and transportation shape one another, often across organizational boundaries and over different planning horizons. I am interested in how these dependencies affect the value of coordination, the allocation of scarce resources and the ability to recover from disruption.",
+    "I develop mathematical optimization models and algorithms, drawing on mixed-integer programming, decomposition and adaptive search. My published work examines integrated scheduling, disruption recovery and infrastructure allocation. A broader methodological interest is how learning can improve the optimization process, from constructing a model to allocating computation and revising decisions as information changes.",
+    "My long-term agenda includes supply chain resilience, electrification and automation, and healthcare and humanitarian operations. These settings raise connected questions about preparedness, technology investment and service provision. I seek to understand when additional capacity is valuable, when coordination offers a better response, and how operating policies distribute costs, risks and access to services."
   ],
   "academicContext": [
     "My research training began in transportation engineering and developed toward operations research and mathematical optimization. At Florida State University, I worked with Maxim A. Dulebenets on the formulation and solution of scheduling problems. My dissertation examined how adaptive selection of search operators can be combined with exact optimization for berth scheduling.",
