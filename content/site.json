@@ -37,6 +37,30 @@
     {
       "label": "LinkedIn",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/"
+    },
+    {
+      "label": "RIDER Center — professional research profile",
+      "url": "https://rider.eng.famu.fsu.edu/person/bokang-li-0"
+    },
+    {
+      "label": "FDOT crossing-closure project record",
+      "url": "https://rip.trb.org/View/1984660"
+    },
+    {
+      "label": "Cross-docking: model and solution frameworks",
+      "url": "https://doi.org/10.1016/j.tre.2026.105264"
+    },
+    {
+      "label": "Crossing intervention portfolios",
+      "url": "https://doi.org/10.1016/j.scs.2026.107485"
+    },
+    {
+      "label": "Closed-loop pharmaceutical supply chains: review",
+      "url": "https://doi.org/10.1016/j.seps.2026.102546"
+    },
+    {
+      "label": "Electric-vehicle scheduling: review",
+      "url": "https://doi.org/10.1016/j.jii.2024.100561"
     }
   ],
   "topics": [
@@ -143,7 +167,7 @@
       "period": "June 2026 – present",
       "sponsor": "U.S. Department of Transportation / Washington State Department of Transportation",
       "detail": "AI-assisted geospatial inventory of speed-management infrastructure in rural-to-town transition areas and rural community corridors.",
-      "context": "As co-principal investigator, I contribute to the design of an AI-assisted inventory of speed-management infrastructure on Washington’s rural roads and approaches to towns. The work combines feature identification with geospatial records and validation, creating information for corridor screening and the selection of sites for subsequent safety evaluation."
+      "context": "As co-principal investigator, I contribute to AI-assisted inventory methods for speed-management infrastructure on Washington’s rural corridors and approaches to towns. The work examines how imagery, available LiDAR and roadway records can identify treatments and locate them consistently. Detection, classification, spatial alignment and evidence review are separate tasks. The intended inventory supports corridor screening and the selection of sites for later evaluation with speed, crash and exposure data."
     },
     {
       "title": "Automated Active Transportation Facility Inventory for Rural Towns Using Computer Vision Techniques",
@@ -151,7 +175,7 @@
       "period": "June 2026 – present",
       "sponsor": "U.S. Department of Transportation",
       "detail": "Computer vision and GIS methods for identifying sidewalk and bicycle facilities from aerial imagery and maintaining geospatial inventories.",
-      "context": "I contribute computer-vision and GIS methods for identifying pedestrian and bicycle facilities in aerial imagery. The research concerns how detections become consistent spatial records that can support the analysis of network coverage, connectivity and infrastructure gaps in rural towns."
+      "context": "I contribute computer-vision and GIS methods for identifying pedestrian and bicycle facilities from aerial imagery. The work connects feature recognition with network representation, including gaps, crossings and links to other facilities. Validation must consider location and connectivity as well as classification accuracy. The resulting research is intended to support repeatable inventory updates and the analysis of rural infrastructure coverage."
     },
     {
       "title": "Solution to Meet the Air Force Artificial Intelligence (AI)-based Scheduling — Phase II",
@@ -159,7 +183,7 @@
       "period": "December 2022 – May 2025",
       "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
       "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
-      "context": "I contributed to optimization and AI-based scheduling research for strategic humanitarian logistics planning. The project provided experience in modeling the relationships among service requirements, resource allocation and operational coordination in time-sensitive settings."
+      "context": "I contributed optimization and AI-based scheduling research for strategic humanitarian logistics planning. The work concerned coordination among service requirements, resource availability and scheduling decisions in time-sensitive operations. This project broadened my interest in allocation problems where the timing and continuity of essential services are central. My participation ran from December 2022 to May 2025."
     },
     {
       "title": "Selection of Level Crossings for Closure in the State of Florida: An Optimization-based Approach",
@@ -167,8 +191,8 @@
       "period": "June 2022 – June 2024",
       "sponsor": "Florida Department of Transportation",
       "detail": "Decision support for level-crossing closure selection, combining highway safety with freight-flow considerations.",
-      "url": "https://doi.org/10.13140/RG.2.2.26835.80167",
-      "context": "I contributed optimization models for selecting highway-rail crossings for closure, accounting for safety, traffic delay, economic and environmental consequences. The work produced an FDOT technical report and related journal articles, providing a public-sector setting for studying the allocation of infrastructure resources under competing objectives."
+      "url": "https://rip.trb.org/View/1984660",
+      "context": "I contributed to optimization-based selection of highway–rail crossings for closure, considering safety, delay, maintenance, economic and environmental effects. My participation ran from June 2022 to June 2024. The completed FDOT project, contract BED30 977-04, produced a technical report and a decision-support application alongside related journal research. Subsequent collaborative work compares closure with grade separation and other countermeasures under multiple objectives."
     }
   ],
   "talks": [
@@ -195,13 +219,13 @@
   ],
   "researchStatement": "Optimization and AI for coordinated, adaptive operations.",
   "biography": [
-    "I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali. My research integrates mathematical optimization and AI to study how operations and supply chain systems can coordinate decisions, adapt to disruption and use emerging technologies effectively.",
-    "I received my Ph.D. in Civil Engineering from Florida State University in August 2025, advised by Maxim A. Dulebenets, and continued there as a postdoctoral research scholar before joining Washington. I received my B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022."
+    "I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali. My research lies at the intersection of operations research, artificial intelligence and operations and supply chain management. I develop mathematical models and algorithms for decisions whose consequences extend across operating stages, organizational boundaries and planning horizons.",
+    "I received my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Maxim A. Dulebenets. My dissertation developed adaptive hyperheuristics for berth scheduling, combining algorithm selection with mathematical optimization. After continuing at Florida State University as a postdoctoral research scholar, I joined Washington in June 2026. I received my B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022."
   ],
   "homeResearch": [
-    "My long-term research goal is to make optimization an adaptive part of how operations and supply chains are managed. This means studying the entire decision process: how operational knowledge becomes a mathematical model, how interdependent decisions are coordinated, and how plans are revised as conditions change. A central question is which decisions require joint optimization, and when coordination creates more value than additional capacity or flexibility.",
-    "My methodological work develops compact formulations, decomposition methods and algorithms that combine adaptive search with exact optimization. I use formulation structure to identify tractable subproblems and design how exact optimization and adaptive search interact. An emerging direction examines how learning and generative AI can extend this process, using domain knowledge to propose models or algorithms and computational feedback to evaluate and refine them.",
-    "The operational agenda spans coordination across organizations, resilience under disruption, and the joint planning of technology investment and operations. Information, incentives and decision authority shape which plans can be implemented; prior investment shapes the options available when conditions change. These questions motivate work across production and supply chains, as well as healthcare, humanitarian logistics and public services, where operational choices affect the continuity and accessibility of essential services."
+    "My research examines how operations and supply chains can coordinate interdependent decisions and respond when operating conditions change. A schedule determines more than the use of one resource: it affects material availability, storage requirements and service commitments elsewhere. I study these dependencies through integrated scheduling, resource allocation and recovery models, with applications in distribution facilities, maritime logistics and infrastructure planning.",
+    "Methodologically, I develop mixed-integer formulations, decomposition algorithms and adaptive search methods that exploit the structure of an operating system. Published studies combine compact models with Benders decomposition and column generation, or use learning to select search operators alongside exact optimization. My developing interests in generative AI concern model construction, algorithm design and the use of solver feedback to revise analytical decisions.",
+    "My broader agenda connects supply chain coordination and resilience with electrification, automation and essential-service operations. I am interested in when better coordination can substitute for additional capacity, how flexibility should be prepared before disruptions, and how technology investments change operating choices. Healthcare, humanitarian logistics and public services extend these questions to settings where timeliness, continuity and access must be considered alongside efficiency."
   ],
   "academicContext": [
     "My training combines transportation engineering with operations research and computational optimization. After undergraduate study at Wuhan University, I pursued a Ph.D. at Florida State University, where my research focused on the mathematical and algorithmic structure of scheduling problems.",
@@ -230,7 +254,7 @@
       "width": 2048,
       "height": 1462,
       "alt": "Presenters at the TRB 2026 Current Research in Port Optimization session",
-      "caption": "I presented our compact optimization model for berth scheduling at the 105th TRB Annual Meeting. The “Current Research in Port Optimization” session, moderated by EunSu Lee, examined port capacity, vessel turnaround, shore power and scheduling. The photograph shows the presenters after the session.",
+      "caption": "At the 105th TRB Annual Meeting, I presented our compact berth-scheduling model in the “Current Research in Port Optimization” session, moderated by EunSu Lee. Presentations addressed terminal capacity, vessel turnaround, shore power and scheduling. The session connected optimization methods with wider questions of port performance and infrastructure planning. The photograph shows the presenters after the session.",
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7416525315067326464/",
       "label": "Session report and photographs by EunSu Lee"
     },
@@ -242,8 +266,8 @@
       "height": 1600,
       "alt": "Bokang Li at the 2025 INFORMS Annual Meeting",
       "caption": "At the INFORMS Annual Meeting in Atlanta, I presented a poster on a hyperheuristic hybridized with exact optimization for berth allocation and scheduling. The work examines how adaptive operator selection and structured exact improvement can be combined within a scheduling algorithm.",
-      "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/all/",
-      "label": "LinkedIn activity",
+      "url": "https://www.linkedin.com/posts/bokang-li-365596246_wonderful-time-presenting-and-networking-activity-7389769813818200064-P-Ph",
+      "label": "Public INFORMS meeting post",
       "photos": [
         {
           "file": "informs-colleagues-2025.jpg",
