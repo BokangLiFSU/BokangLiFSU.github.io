@@ -5,7 +5,7 @@
   "origin": "https://bokanglifsu.github.io",
   "email": "libokangfsu@gmail.com",
   "orcid": "https://orcid.org/0000-0002-5383-8195",
-  "description": "Bokang Li researches mathematical optimization and AI for coordinated, adaptive and sustainable operations and supply chains.",
+  "description": "Bokang Li develops operations research and AI methods for logistics and supply chains, with interests in coordination, disruption recovery and technology investment.",
   "bio": "My research lies at the intersection of operations research, artificial intelligence and the management of operations and supply chains.",
   "background": [
     {
@@ -100,13 +100,13 @@
   "scholar": "https://scholar.google.com/citations?user=2nU8l8cAAAAJ",
   "linkedin": "https://www.linkedin.com/in/bokang-li-365596246/",
   "github": "https://github.com/BokangLiFSU",
-  "affiliation": "I am currently a postdoctoral scholar at the University of Washington, Tacoma Campus. Previously, I was a postdoctoral research scholar at Florida State University, where I received my Ph.D. in Civil Engineering in August 2025. I received my B.S. from Wuhan University in June 2022.",
+  "affiliation": "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022. I held a postdoctoral research appointment at Florida State University before joining the University of Washington, Tacoma Campus in June 2026.",
   "education": [
     {
       "period": "2025",
       "degree": "Ph.D., Civil Engineering",
       "institution": "Florida State University",
-      "detail": "Focus: operations research, optimization, supply chain, logistics and transportation. Dissertation: Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals. Advisor: Dr. Maxim A. Dulebenets."
+      "detail": "My dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” developed adaptive search methods for berth scheduling under the supervision of Dr. Maxim A. Dulebenets."
     },
     {
       "period": "2024",
@@ -116,7 +116,7 @@
     },
     {
       "period": "2022",
-      "degree": "B.S., Harbor, Waterway and Coastal Engineering",
+      "degree": "Bachelor of Science in Harbor, Waterway and Coastal Engineering",
       "institution": "Wuhan University",
       "detail": ""
     }
@@ -199,7 +199,7 @@
       "period": "December 2022 – May 2025",
       "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
       "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
-      "context": "I contributed to optimization-based planning for humanitarian logistics within a research collaboration involving Disaster Tech and C5BDI. The project links participating organizations, available supplies, delivery destinations and distribution speed. It provides a setting for studying coordination and resource allocation in time-sensitive relief operations. Maxim A. Dulebenets led the university research; my participation ran from December 2022 to May 2025.",
+      "context": "I contributed to optimization-based planning for humanitarian logistics within a research collaboration involving Disaster Tech and C5BDI. The project links participating organizations, available supplies, delivery destinations and distribution speed. It provides a setting for studying coordination and resource allocation in time-sensitive relief operations. Dr. Maxim A. Dulebenets led the university research; my participation ran from December 2022 to May 2025.",
       "url": "https://rider.eng.famu.fsu.edu/article/civil-engineering-researcher-uses-ai-improve-disaster-response-new-dod-study"
     },
     {
@@ -236,19 +236,18 @@
   ],
   "researchStatement": "Optimization and AI for coordinated, adaptive operations.",
   "biography": [
-    "I develop mathematical models and algorithms for operations and supply chain management. My interests center on coordination across organizations, adaptation under uncertainty, and the investment and operating decisions associated with new technologies. Mathematical optimization and learning provide complementary approaches to these questions. I am a postdoctoral scholar at the University of Washington, Tacoma Campus, working with Angela Kitali.",
-    "I received my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Maxim A. Dulebenets. My dissertation developed adaptive hyperheuristics for berth scheduling, combining algorithm selection with mathematical optimization. After continuing at Florida State University as a postdoctoral research scholar, I joined Washington in June 2026. I received my B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022."
+    "My research combines operations research and artificial intelligence to study how logistics and supply chains coordinate decisions across facilities and organizations. I develop mathematical models and algorithms for planning and scheduling when resources are shared, decisions are interdependent, and operating conditions change.",
+    "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022. I held a postdoctoral research appointment at Florida State University before joining the University of Washington, Tacoma Campus in June 2026."
   ],
   "homeResearch": [
-    "My research concerns the design and management of interdependent operating systems. Decisions about sourcing, production, inventory and transportation shape one another, often across organizational boundaries and over different planning horizons. I am interested in how these dependencies affect the value of coordination, the allocation of scarce resources and the ability to recover from disruption.",
-    "I develop mathematical optimization models and algorithms, drawing on mixed-integer programming, decomposition and adaptive search. My published work examines integrated scheduling, disruption recovery and infrastructure allocation. A broader methodological interest is how learning can improve the optimization process, from constructing a model to allocating computation and revising decisions as information changes.",
-    "My long-term agenda includes supply chain resilience, electrification and automation, and healthcare and humanitarian operations. These settings raise connected questions about preparedness, technology investment and service provision. I seek to understand when additional capacity is valuable, when coordination offers a better response, and how operating policies distribute costs, risks and access to services."
+    "A recurring question in my work is when decisions should be coordinated. A production schedule can shift costs to inventory or distribution, while a local improvement at a freight terminal can leave a downstream bottleneck intact. I study how to represent these dependencies and determine where joint planning creates operational value.",
+    "My methodological work combines mathematical optimization with learning. I use problem structure to formulate and decompose scheduling models, and study when adaptive search can select better solution strategies under a fixed computing budget. My longer-term interests include using AI to help formulate and revise optimization models, with feasibility checks and solver feedback to assess the resulting decisions.",
+    "I am interested in how supply chains prepare for disruption, how automation and electrification change operating decisions, and how healthcare and humanitarian systems allocate scarce resources. These settings call for different measures of performance, including recovery time, service reliability and access."
   ],
   "academicContext": [
-    "My research training began in transportation engineering and developed toward operations research and mathematical optimization. At Florida State University, I worked with Maxim A. Dulebenets on the formulation and solution of scheduling problems. My dissertation examined how adaptive selection of search operators can be combined with exact optimization for berth scheduling.",
-    "That work developed alongside research on freight-transfer coordination, ship-schedule recovery and infrastructure allocation. These settings share coupled resource and timing decisions, but differ in their operating constraints and objectives. Studying their structure led to my continuing interests in compact formulations, decomposition and adaptive computation.",
-    "I completed my Ph.D. in Civil Engineering in August 2025 and continued at Florida State University as a postdoctoral research scholar. Since June 2026, I have worked at the University of Washington, Tacoma Campus. My current transportation projects use computer vision and geospatial analysis to develop infrastructure inventories. My broader research concerns supply chain coordination, disruption recovery and the investment and operating implications of emerging technologies.",
-    "My sponsored-project experience includes humanitarian logistics, highway–rail crossing decisions and transportation infrastructure information. I contribute as co-principal investigator to the Washington speed-management inventory study. I have also supported graduate instruction in metaheuristics and freight facilities, mentored undergraduate and master’s research, and served on an external master’s thesis committee."
+    "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
+    "My doctoral research developed adaptive hyperheuristics for berth scheduling. Subsequent work on cross-docking and ship-schedule recovery has examined how exact optimization, decomposition and adaptive search can be combined to coordinate shared resources. My broader interests include supply chain resilience, freight electrification and the use of AI in model development and operational decision-making.",
+    "I was a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026. I joined the University of Washington, Tacoma Campus in June 2026 as a Postdoctoral Scholar, where I work with Dr. Angela Kitali on transportation infrastructure inventories using computer vision and geospatial analysis."
   ],
   "portrait": {
     "file": "portrait-approved-a-clear.jpg",
@@ -302,7 +301,7 @@
       "width": 1280,
       "height": 720,
       "alt": "Bokang Li with colleagues after his doctoral defense at Florida State University",
-      "caption": "I defended my dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” on May 16, 2025. Maxim A. Dulebenets chaired the defense at Florida State University. The research developed adaptive and hybrid algorithms for coordinating berth assignments and vessel service sequences. The photograph was taken with colleagues after the defense; my degree was completed in August 2025.",
+      "caption": "I defended my dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” on May 16, 2025. Dr. Maxim A. Dulebenets chaired the defense at Florida State University. The research developed adaptive and hybrid algorithms for coordinating berth assignments and vessel service sequences. The photograph was taken with colleagues after the defense; my degree was completed in August 2025.",
       "url": "https://eng.famu.fsu.edu/event/dissertation-defense-bokang-li",
       "label": "University defense announcement"
     },
@@ -349,7 +348,7 @@
     {
       "title": "Postdoctoral researcher spotlight",
       "outlet": "RIDER Center · LinkedIn",
-      "text": "The RIDER Center’s postdoctoral profile discusses my work with Maxim A. Dulebenets on optimization and AI for logistics, infrastructure planning and humanitarian response.",
+      "text": "The RIDER Center’s postdoctoral profile discusses my work with Dr. Maxim A. Dulebenets on optimization and AI for logistics, infrastructure planning and humanitarian response.",
       "url": "https://www.linkedin.com/posts/ridercenter_ridercenter-postdocspotlight-logisticsresearch-activity-7404512789202886656-MWur"
     },
     {
@@ -362,8 +361,8 @@
   "collaborationProfiles": [
     {
       "title": "Mathematical optimization and logistics",
-      "people": "Maxim A. Dulebenets and collaborators",
-      "text": "My doctoral and postdoctoral research with Maxim A. Dulebenets developed formulations and algorithms for berth scheduling and cross-docking. This collaboration examines how compact models, decomposition and adaptive search can exploit operational structure, with published studies addressing both the design of solution methods and their computational performance.",
+      "people": "Dr. Maxim A. Dulebenets and collaborators",
+      "text": "My doctoral and postdoctoral research with Dr. Maxim A. Dulebenets developed formulations and algorithms for berth scheduling and cross-docking. This collaboration examines how compact models, decomposition and adaptive search can exploit operational structure, with published studies addressing both the design of solution methods and their computational performance.",
       "url": "work-berth-model.html",
       "label": "Compact models and decomposition"
     },

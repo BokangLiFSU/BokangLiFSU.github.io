@@ -1,5 +1,24 @@
 [
   {
+    "doi": "10.1016/j.cstp.2026.102006",
+    "title": "From shore power commitments to implementation accountability: Evidence from the Northwest Seaport Alliance",
+    "authors": [
+      "Bokang Li",
+      "Soud Mbegele",
+      "Angela E. Kitali"
+    ],
+    "journal": "Case Studies on Transport Policy",
+    "year": 2026,
+    "volume": "",
+    "issue": "",
+    "pages": "102006",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1016/j.cstp.2026.102006",
+    "topic": "resilience",
+    "bibtex": "@article{101016jcstp2026102006,\n  title = {From shore power commitments to implementation accountability: Evidence from the Northwest Seaport Alliance},\n  author = {Bokang Li and Soud Mbegele and Angela E. Kitali},\n  journal = {Case Studies on Transport Policy},\n  year = {2026},\n  pages = {102006},\n  doi = {10.1016/j.cstp.2026.102006}\n}",
+    "featured": false
+  },
+  {
     "doi": "10.1016/j.tre.2026.105264",
     "title": "A sequential fix-and-optimize framework and pricing-guided search for efficient truck scheduling at a cross-docking terminal",
     "authors": [

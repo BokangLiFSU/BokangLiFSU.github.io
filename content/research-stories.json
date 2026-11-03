@@ -1,7 +1,7 @@
 {
   "overview": [
-    "I study how organizations design and operate systems whose decisions are coupled across resources, locations and time. The central challenge is to connect local choices with their consequences elsewhere. Purchasing decisions affect production and inventory; infrastructure investment determines future operating options; disruptions alter both the available resources and the commitments they must support.",
-    "My research combines mathematical modeling with algorithm design to examine these dependencies. Published studies in logistics and infrastructure planning provide a foundation for broader questions about coordination, adaptation and technological change. My long-term interests span operations and supply chain management, public-service systems, and the interaction between artificial intelligence and mathematical optimization."
+    "I study how firms and public agencies coordinate decisions when supply, processing, storage and transport capacity are linked. My research asks where integrated planning improves outcomes, how organizations should prepare for disruption, and how new technologies change the decisions available to operators.",
+    "I develop mathematical models and algorithms that draw on mixed-integer optimization, decomposition and adaptive search. I am interested in how AI can support model formulation, algorithm selection and decision revision, and in how to evaluate those contributions against feasibility, solution quality and time to a usable decision."
   ],
   "themes": {
     "algorithms": {
