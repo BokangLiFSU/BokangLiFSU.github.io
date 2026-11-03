@@ -5,7 +5,7 @@
   "origin": "https://bokanglifsu.github.io",
   "email": "libokangfsu@gmail.com",
   "orcid": "https://orcid.org/0000-0002-5383-8195",
-  "description": "Bokang Li develops operations research and AI methods for logistics and supply chains, with interests in coordination, disruption recovery and technology investment.",
+  "description": "Bokang Li develops operations research and AI methods for maritime transportation, logistics and supply chain management.",
   "bio": "My research lies at the intersection of operations research, artificial intelligence and the management of operations and supply chains.",
   "background": [
     {
@@ -87,8 +87,8 @@
     },
     {
       "id": "maritime",
-      "title": "Coordination in operations and supply chains",
-      "description": "Integrated and decentralized planning across operating stages, facilities and organizations."
+      "title": "Maritime Logistics and Supply Chain Coordination",
+      "description": "Port and terminal operations, liner shipping and coordination across freight facilities and supply chain partners."
     },
     {
       "id": "resilience",
@@ -234,9 +234,9 @@
       "event": "INFORMS Annual Meeting · Phoenix, AZ · Lectern"
     }
   ],
-  "researchStatement": "Optimization and AI for coordinated, adaptive operations.",
+  "researchStatement": "Operations research and AI for maritime transportation, logistics and supply chains.",
   "biography": [
-    "My research combines operations research and artificial intelligence to study how logistics and supply chains coordinate decisions across facilities and organizations. I develop mathematical models and algorithms for planning and scheduling when resources are shared, decisions are interdependent, and operating conditions change.",
+    "My research combines operations research and artificial intelligence with applications in maritime transportation, logistics and supply chain management. I develop models and algorithms for coordinating decisions across facilities and organizations. In maritime systems, I study how vessel schedules, berth assignments and terminal operations interact, and how operators can recover service after disruptions.",
     "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022. I held a postdoctoral research appointment at Florida State University before joining the University of Washington, Tacoma Campus in June 2026."
   ],
   "homeResearch": [

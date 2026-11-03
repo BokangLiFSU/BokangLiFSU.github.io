@@ -1,6 +1,6 @@
 {
   "overview": [
-    "I study how firms and public agencies coordinate decisions when supply, processing, storage and transport capacity are linked. My research asks where integrated planning improves outcomes, how organizations should prepare for disruption, and how new technologies change the decisions available to operators.",
+    "I study how organizations coordinate decisions across maritime transportation, logistics and supply chains. Ports and liner shipping networks illustrate these dependencies: vessel arrivals affect berth and terminal capacity, while disruptions to maritime schedules propagate to downstream freight services. More broadly, I ask where integrated planning improves outcomes and how organizations can prepare for disruption and invest in new technologies.",
     "I develop mathematical models and algorithms that draw on mixed-integer optimization, decomposition and adaptive search. I am interested in how AI can support model formulation, algorithm selection and decision revision, and in how to evaluate those contributions against feasibility, solution quality and time to a usable decision."
   ],
   "themes": {
