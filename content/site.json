@@ -103,22 +103,28 @@
   "affiliation": "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022. I held a postdoctoral research appointment at Florida State University before joining the University of Washington, Tacoma Campus in June 2026.",
   "education": [
     {
-      "period": "2025",
+      "period": "Aug 2025",
       "degree": "Ph.D., Civil Engineering",
       "institution": "Florida State University",
       "detail": "My dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” developed adaptive search methods for berth scheduling under the supervision of Dr. Maxim A. Dulebenets."
     },
     {
-      "period": "2024",
+      "period": "Dec 2024",
+      "degree": "Master of Engineering in Civil Engineering",
+      "institution": "Florida State University",
+      "detail": "Awarded during my doctoral studies."
+    },
+    {
+      "period": "Dec 2024",
       "degree": "Graduate Certificate, Engineering Data Analytics",
       "institution": "Florida State University",
       "detail": "Data analytics, machine learning and deep learning."
     },
     {
-      "period": "2022",
+      "period": "Jun 2022",
       "degree": "Bachelor of Science in Harbor, Waterway and Coastal Engineering",
       "institution": "Wuhan University",
-      "detail": ""
+      "detail": "Bachelor’s thesis: Effects of Fine Aggregate on the Tensile and Shrinkage Properties of Ultra-Ductile Engineered Geopolymer Composites."
     }
   ],
   "teaching": [
@@ -178,29 +184,13 @@
   ],
   "projects": [
     {
-      "title": "AI-Assisted Inventory of Speed Management Infrastructure on Washington’s Rural Roads",
-      "role": "Co-Principal Investigator",
-      "period": "June 2026 – present",
-      "sponsor": "U.S. Department of Transportation / Washington State Department of Transportation",
-      "detail": "AI-assisted geospatial inventory of speed-management infrastructure in rural-to-town transition areas and rural community corridors.",
-      "context": "As co-principal investigator, I contribute to AI-assisted inventory methods for speed-management infrastructure on Washington’s rural corridors and approaches to towns. The work examines how imagery, available LiDAR and roadway records can identify treatments and locate them consistently. Detection, classification, spatial alignment and evidence review are separate tasks. The intended inventory supports corridor screening and the selection of sites for later evaluation with speed, crash and exposure data."
-    },
-    {
-      "title": "Automated Active Transportation Facility Inventory for Rural Towns Using Computer Vision Techniques",
-      "role": "Research Assistant",
-      "period": "June 2026 – present",
-      "sponsor": "U.S. Department of Transportation",
-      "detail": "Computer vision and GIS methods for identifying sidewalk and bicycle facilities from aerial imagery and maintaining geospatial inventories.",
-      "context": "I contribute computer-vision and GIS methods for identifying pedestrian and bicycle facilities from aerial imagery. The work connects feature recognition with network representation, including gaps, crossings and links to other facilities. Validation must consider location and connectivity as well as classification accuracy. The resulting research is intended to support repeatable inventory updates and the analysis of rural infrastructure coverage."
-    },
-    {
       "title": "Solution to Meet the Air Force Artificial Intelligence (AI)-based Scheduling — Phase II",
       "role": "Research Assistant",
       "period": "December 2022 – May 2025",
       "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
       "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
-      "context": "I contributed to optimization-based planning for humanitarian logistics within a research collaboration involving Disaster Tech and C5BDI. The project links participating organizations, available supplies, delivery destinations and distribution speed. It provides a setting for studying coordination and resource allocation in time-sensitive relief operations. Dr. Maxim A. Dulebenets led the university research; my participation ran from December 2022 to May 2025.",
-      "url": "https://rider.eng.famu.fsu.edu/article/civil-engineering-researcher-uses-ai-improve-disaster-response-new-dod-study"
+      "context": "I contributed to a decision support system for planning humanitarian relief operations. The project combined mathematical optimization with a priority-based heuristic to select participating organizations, allocate supplies, and choose transport modes and delivery speeds. The model accounts for delivery priorities, available resources, and the costs of supplies, delays, fuel and crews.",
+      "url": "https://www.sbir.gov/awards/204832"
     },
     {
       "title": "Selection of Level Crossings for Closure in the State of Florida: An Optimization-based Approach",
@@ -208,8 +198,8 @@
       "period": "June 2022 – June 2024",
       "sponsor": "Florida Department of Transportation",
       "detail": "Decision support for level-crossing closure selection, combining highway safety with freight-flow considerations.",
-      "url": "https://rip.trb.org/View/1984660",
-      "context": "I contributed to optimization-based selection of highway–rail crossings for closure, considering safety, delay, maintenance, economic and environmental effects. My participation ran from June 2022 to June 2024. The completed FDOT project, contract BED30 977-04, produced a technical report and a decision-support application alongside related journal research. Subsequent collaborative work compares closure with grade separation and other countermeasures under multiple objectives."
+      "url": "https://doi.org/10.13140/RG.2.2.26835.80167",
+      "context": "I contributed to a decision support system for selecting highway–rail crossings for closure in Florida. The model weighs safety, economic and environmental benefits subject to budget and closure eligibility constraints. A selection heuristic and an interactive interface support comparisons of alternative closure strategies."
     }
   ],
   "talks": [
@@ -219,9 +209,19 @@
       "event": "TRB 105th Annual Meeting · Washington, DC · Lectern"
     },
     {
+      "year": "2026",
+      "title": "Closed-Loop Pharmaceutical Supply Chains: A State-of-the-Art Survey",
+      "event": "TRB 105th Annual Meeting · Washington, DC · Coauthored lectern contribution"
+    },
+    {
       "year": "2025",
       "title": "A Hyperheuristic Hybridized with Exact Optimization for the Berth Allocation and Scheduling Decision Problem",
       "event": "INFORMS Annual Meeting · Atlanta, GA · Poster"
+    },
+    {
+      "year": "2025",
+      "title": "A Customized Hyperheuristic Algorithm for the Berth Allocation and Scheduling Problem at Marine Container Terminals",
+      "event": "TRB 104th Annual Meeting · Washington, DC · Lectern"
     },
     {
       "year": "2025",
@@ -245,7 +245,7 @@
     "I am interested in how supply chains prepare for disruption, how automation and electrification change operating decisions, and how healthcare and humanitarian systems allocate scarce resources. These settings call for different measures of performance, including recovery time, service reliability and access."
   ],
   "academicContext": [
-    "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
+    "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. Florida State University also awarded me a Master of Engineering in Civil Engineering in December 2024 during my doctoral studies. I received my Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
     "My doctoral research developed adaptive hyperheuristics for berth scheduling. Subsequent work on cross-docking and ship-schedule recovery has examined how exact optimization, decomposition and adaptive search can be combined to coordinate shared resources. My broader interests include supply chain resilience, freight electrification and the use of AI in model development and operational decision-making.",
     "I was a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026. I joined the University of Washington, Tacoma Campus in June 2026 as a Postdoctoral Scholar, where I work with Dr. Angela Kitali on transportation infrastructure inventories using computer vision and geospatial analysis."
   ],
@@ -363,21 +363,21 @@
       "title": "Mathematical optimization and logistics",
       "people": "Dr. Maxim A. Dulebenets and collaborators",
       "text": "My doctoral and postdoctoral research with Dr. Maxim A. Dulebenets developed formulations and algorithms for berth scheduling and cross-docking. This collaboration examines how compact models, decomposition and adaptive search can exploit operational structure, with published studies addressing both the design of solution methods and their computational performance.",
-      "url": "work-berth-model.html",
+      "url": "https://doi.org/10.1109/TITS.2026.3686684",
       "label": "Compact models and decomposition"
     },
     {
-      "title": "Transportation infrastructure and public decisions",
-      "people": "Angela Kitali and University of Washington collaborators",
-      "text": "My work with Angela Kitali concerns infrastructure information for transportation analysis. I contribute to the speed-management inventory as co-PI and to computer-vision methods for pedestrian and bicycle facilities. These studies examine the relationship between automated feature detection, spatial data quality and the planning questions an inventory can support.",
-      "url": "https://directory.tacoma.uw.edu/employee/akitali",
-      "label": "Angela Kitali’s university profile"
+      "title": "Port electrification and transportation infrastructure",
+      "people": "Dr. Angela Kitali, Soud Mbegele and project collaborators",
+      "text": "My published work with Soud Mbegele and Dr. Angela Kitali examines how the Northwest Seaport Alliance translated shore power commitments into implementation responsibilities. I also contribute to research planning on computer vision and geospatial analysis for transportation facility inventories.",
+      "url": "https://doi.org/10.1016/j.cstp.2026.102006",
+      "label": "Shore power commitments and implementation accountability"
     },
     {
       "title": "Safety and resource allocation",
       "people": "Ren Moses, Eren E. Ozguven, John Sobanjo and research coauthors",
       "text": "Our highway–rail crossing publications connect mathematical optimization with safety and infrastructure planning. The work ranges from closure selection to multi-objective allocation among closures, countermeasures and grade separation. A collaborative review examines how these approaches represent costs, collision risk, sustainability and community considerations. The publications identify the specific author teams and study designs.",
-      "url": "work-level-crossings.html",
+      "url": "https://doi.org/10.1016/j.ress.2024.110197",
       "label": "Rail-crossing decision study"
     },
     {

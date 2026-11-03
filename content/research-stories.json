@@ -25,9 +25,10 @@
     "maritime": {
       "question": "When does coordination create greater value than additional capacity, and how should that value be shared?",
       "paragraphs": [
-        "I am interested in how operations should be coordinated across stages, facilities and organizations. Local efficiency can coexist with poor system performance when arrivals, processing, inventory and departures are planned independently. Mathematical models can reveal which decisions require joint treatment and where decomposition preserves the essential interactions. My work in berth scheduling and cross-docking examines these dependencies through shared capacity, service precedence and timing.",
+        "At container terminals, vessel arrival times, berth availability and service order determine when ships can be handled. My research develops compact mixed-integer formulations and adaptive search methods for assigning berths and sequencing service. In liner shipping, I study how schedule recovery decisions balance service commitments, operating costs and emissions. At cross-docks, the corresponding coordination problem is to align inbound and outbound truck schedules with the freight transfers between them.",
         "The broader research question concerns coordination across facilities and organizations. I plan to study sourcing, production, inventory and distribution decisions under different arrangements for information sharing and decision authority. Comparisons between joint and decentralized planning can identify where coordination creates value, which constraints limit that value, and how gains are distributed. Incentives matter when participants bear different costs or disruption risks.",
-        "Product characteristics can change the coordination problem as much as facility capacity. My collaborative pharmaceutical-supply-chain review separates medicine distribution from reverse collection, sorting, recovery, recycling and disposal. Its content analysis and conceptual framework connect planning decisions with cold-chain requirements, resilience and sustainability. This work motivates broader interests in coordinating material flows across an entire product lifecycle, including systems with perishability and limited recovery options."
+        "Product characteristics can change the coordination problem as much as facility capacity. My collaborative pharmaceutical-supply-chain review separates medicine distribution from reverse collection, sorting, recovery, recycling and disposal. Its content analysis and conceptual framework connect planning decisions with cold-chain requirements, resilience and sustainability. This work motivates broader interests in coordinating material flows across an entire product lifecycle, including systems with perishability and limited recovery options.",
+        "Port electrification introduces another coordination problem. The shore power study examines how public commitments are translated into implementation responsibilities at the Northwest Seaport Alliance. This work informs my interest in evaluating infrastructure investment alongside the operating policies that determine whether terminals and vessels can use that capacity."
       ],
       "cases": [
         "crossdock-exact",
@@ -169,6 +170,11 @@
     }
   ],
   "currentWork": [
+    {
+      "title": "AI for transportation infrastructure inventories",
+      "status": "Research proposals submitted in 2026",
+      "text": "The proposed studies would use imagery, LiDAR and geospatial validation to map speed management infrastructure and identify sidewalk and bicycle facilities. The intended outputs would support rural corridor screening and identify gaps in facility networks. I am a proposed co-principal investigator on the speed management inventory and a research assistant on the active transportation inventory proposal."
+    },
     {
       "title": "Integrated scheduling and resource circulation",
       "status": "Ongoing research",
