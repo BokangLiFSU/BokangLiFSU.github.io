@@ -6,7 +6,7 @@
   "email": "libokangfsu@gmail.com",
   "orcid": "https://orcid.org/0000-0002-5383-8195",
   "description": "Bokang Li develops operations research and AI methods for maritime transportation, logistics and supply chain management.",
-  "bio": "My research lies at the intersection of operations research, artificial intelligence and the management of operations and supply chains.",
+  "bio": "I develop optimization and AI methods for planning and decision-making in maritime transportation, logistics and supply chain systems.",
   "background": [
     {
       "period": "June 2026 – present",
@@ -82,8 +82,8 @@
   "topics": [
     {
       "id": "algorithms",
-      "title": "Learning and mathematical optimization",
-      "description": "Modeling and algorithm design that combine mathematical structure, adaptive computation and AI."
+      "title": "Artificial Intelligence and Mathematical Optimization",
+      "description": "Mathematical formulations, decomposition and learning-guided algorithms for interdependent scheduling and resource-allocation decisions."
     },
     {
       "id": "maritime",
@@ -92,15 +92,15 @@
     },
     {
       "id": "resilience",
-      "title": "Resilience and technological transitions",
-      "description": "Flexibility, disruption recovery and investment in sustainable operating capabilities."
+      "title": "Resilience and Sustainable Operations",
+      "description": "Preparedness, disruption recovery and the operational consequences of automation, electrification and infrastructure investment."
     }
   ],
   "workEmail": "bokangli@uw.edu",
   "scholar": "https://scholar.google.com/citations?user=2nU8l8cAAAAJ",
   "linkedin": "https://www.linkedin.com/in/bokang-li-365596246/",
   "github": "https://github.com/BokangLiFSU",
-  "affiliation": "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022. I held a postdoctoral research appointment at Florida State University before joining the University of Washington, Tacoma Campus in June 2026.",
+  "affiliation": "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. I earned my Ph.D. in Civil Engineering at Florida State University in August 2025, advised by Dr. Maxim A. Dulebenets, and remained there as a Postdoctoral Research Scholar until May 2026. I also hold a Master of Engineering in Civil Engineering from Florida State University and a Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University.",
   "education": [
     {
       "period": "Aug 2025",
@@ -236,18 +236,18 @@
   ],
   "researchStatement": "Operations research and AI for maritime transportation, logistics and supply chains.",
   "biography": [
-    "My research combines operations research and artificial intelligence with applications in maritime transportation, logistics and supply chain management. I develop models and algorithms for coordinating decisions across facilities and organizations. In maritime systems, I study how vessel schedules, berth assignments and terminal operations interact, and how operators can recover service after disruptions.",
-    "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I received my Bachelor of Science degree in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022. I held a postdoctoral research appointment at Florida State University before joining the University of Washington, Tacoma Campus in June 2026."
+    "My research combines operations research, mathematical optimization and artificial intelligence to study planning and decision-making in maritime transportation, logistics and supply chains. I investigate how interdependent decisions about capacity, schedules and resource allocation affect operating performance, and how these decisions should adapt to uncertainty and disruption.",
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. I earned my Ph.D. in Civil Engineering at Florida State University in August 2025, advised by Dr. Maxim A. Dulebenets, and remained there as a Postdoctoral Research Scholar until May 2026. I also hold a Master of Engineering in Civil Engineering from Florida State University and a Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University."
   ],
   "homeResearch": [
-    "A recurring question in my work is when decisions should be coordinated. A production schedule can shift costs to inventory or distribution, while a local improvement at a freight terminal can leave a downstream bottleneck intact. I study how to represent these dependencies and determine where joint planning creates operational value.",
-    "My methodological work combines mathematical optimization with learning. I use problem structure to formulate and decompose scheduling models, and study when adaptive search can select better solution strategies under a fixed computing budget. My longer-term interests include using AI to help formulate and revise optimization models, with feasibility checks and solver feedback to assess the resulting decisions.",
-    "I am interested in how supply chains prepare for disruption, how automation and electrification change operating decisions, and how healthcare and humanitarian systems allocate scarce resources. These settings call for different measures of performance, including recovery time, service reliability and access."
+    "My research addresses the coordination of decisions within facilities and across supply chains. Published studies examine berth allocation and vessel scheduling, freight transfers at cross-docking terminals, and liner-shipping schedule recovery. These settings motivate broader questions about how production, inventory and transportation should be coordinated, how operating flexibility changes the value of capacity, and how organizations reconcile conflicting objectives.",
+    "I develop mathematical formulations, decomposition approaches and learning-guided search algorithms. My berth-scheduling and cross-docking research combines compact mixed-integer models with adaptive computation and exact optimization. My longer-term interests include reinforcement learning for sequential decisions and generative AI for representing operating requirements, developing formulations and coordinating decisions across multiple agents.",
+    "I am also interested in supply chain resilience, automation and electrification, and healthcare and humanitarian operations. Across these areas, I study the relationship between decisions made in advance and the operating options available afterward. Questions include how to position reserve resources, when to revise existing commitments, and how supporting infrastructure affects the performance of new technologies."
   ],
   "academicContext": [
     "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. Florida State University also awarded me a Master of Engineering in Civil Engineering in December 2024 during my doctoral studies. I received my Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
-    "My doctoral research developed adaptive hyperheuristics for berth scheduling. Subsequent work on cross-docking and ship-schedule recovery has examined how exact optimization, decomposition and adaptive search can be combined to coordinate shared resources. My broader interests include supply chain resilience, freight electrification and the use of AI in model development and operational decision-making.",
-    "I was a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026. I joined the University of Washington, Tacoma Campus in June 2026 as a Postdoctoral Scholar, where I work with Dr. Angela Kitali on transportation infrastructure inventories using computer vision and geospatial analysis."
+    "My doctoral dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” examined adaptive algorithm selection for terminal scheduling. Subsequent research has developed compact formulations, decomposition approaches and hybrid search methods for berth scheduling and cross-docking. Collaborative work addresses liner-shipping recovery, pharmaceutical supply chains, electric-vehicle scheduling and transportation infrastructure investment.",
+    "After serving as a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026, I joined the University of Washington, Tacoma Campus in June 2026. I work with Dr. Angela Kitali on transportation research and proposal development involving computer vision, infrastructure inventories and geospatial analysis. My broader research program concerns optimization and AI for logistics, industrial and service systems."
   ],
   "portrait": {
     "file": "portrait-approved-a-clear.jpg",
@@ -334,9 +334,9 @@
     }
   ],
   "homeQuestions": [
-    "How can models and algorithms coordinate decisions across an entire operating system?",
-    "How should plans adapt to changing demand, limited capacity and disruption?",
-    "How can AI assist optimization while keeping decisions mathematically valid and interpretable?"
+    "When should production, inventory and transportation decisions be coordinated, and how should the benefits and risks of coordination be shared?",
+    "How should capacity, inventory and operating flexibility be positioned before disruptions and redeployed during recovery?",
+    "How can learning and generative AI improve mathematical modeling and sequential decisions while preserving feasibility and operational priorities?"
   ],
   "media": [
     {
