@@ -1,12 +1,12 @@
 {
   "kind": "personal",
   "name": "Bokang Li",
-  "title": "Bokang Li | Operations Research, Optimization & Supply Chain Systems",
+  "title": "Bokang Li | Operations Research, Optimization & Artificial Intelligence",
   "origin": "https://bokanglifsu.github.io",
   "email": "libokangfsu@gmail.com",
   "orcid": "https://orcid.org/0000-0002-5383-8195",
-  "description": "Bokang Li develops operations research and AI methods for maritime transportation, logistics and supply chain management.",
-  "bio": "I develop optimization and AI methods for planning and decision-making in maritime transportation, logistics and supply chain systems.",
+  "description": "Bokang Li studies optimization and AI for logistics, industrial and service systems, including maritime transportation, supply chains, healthcare and emergency operations.",
+  "bio": "My research integrates operations research, mathematical optimization, artificial intelligence and analytics for the design and management of logistics, industrial and service systems.",
   "background": [
     {
       "period": "June 2026 – present",
@@ -83,17 +83,17 @@
     {
       "id": "algorithms",
       "title": "Artificial Intelligence and Mathematical Optimization",
-      "description": "Mathematical formulations, decomposition and learning-guided algorithms for interdependent scheduling and resource-allocation decisions."
+      "description": "Mathematical programming, decomposition, adaptive algorithms and learning-assisted decision-making, with developing interests in generative AI and quantum-assisted methods."
     },
     {
       "id": "maritime",
-      "title": "Maritime Logistics and Supply Chain Coordination",
-      "description": "Port and terminal operations, liner shipping and coordination across freight facilities and supply chain partners."
+      "title": "Operations, Supply Chains and Maritime Logistics",
+      "description": "Coordination across production, inventory, distribution and transportation, with maritime and terminal operations as established applications."
     },
     {
       "id": "resilience",
-      "title": "Resilience and Sustainable Operations",
-      "description": "Preparedness, disruption recovery and the operational consequences of automation, electrification and infrastructure investment."
+      "title": "Resilient and Sustainable Operations",
+      "description": "System design, preparedness, technology adoption and service delivery across industrial, healthcare and humanitarian settings."
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -234,20 +234,21 @@
       "event": "INFORMS Annual Meeting · Phoenix, AZ · Lectern"
     }
   ],
-  "researchStatement": "Operations research and AI for maritime transportation, logistics and supply chains.",
+  "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "My research combines operations research, mathematical optimization and artificial intelligence to study planning and decision-making in maritime transportation, logistics and supply chains. I investigate how interdependent decisions about capacity, schedules and resource allocation affect operating performance, and how these decisions should adapt to uncertainty and disruption.",
+    "My research integrates operations research, mathematical optimization and artificial intelligence to study the design, planning and management of logistics, industrial and service systems. I develop models and algorithms for decisions that connect resources, organizations and time scales, with interests in coordination, uncertainty, resilience and technological change. My application interests span maritime transportation, logistics and supply chains, manufacturing and automated systems, healthcare, and humanitarian and emergency operations.",
     "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. I earned my Ph.D. in Civil Engineering at Florida State University in August 2025, advised by Dr. Maxim A. Dulebenets, and remained there as a Postdoctoral Research Scholar until May 2026. I also hold a Master of Engineering in Civil Engineering from Florida State University and a Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University."
   ],
   "homeResearch": [
-    "My research addresses the coordination of decisions within facilities and across supply chains. Published studies examine berth allocation and vessel scheduling, freight transfers at cross-docking terminals, and liner-shipping schedule recovery. These settings motivate broader questions about how production, inventory and transportation should be coordinated, how operating flexibility changes the value of capacity, and how organizations reconcile conflicting objectives.",
-    "I develop mathematical formulations, decomposition approaches and learning-guided search algorithms. My berth-scheduling and cross-docking research combines compact mixed-integer models with adaptive computation and exact optimization. My longer-term interests include reinforcement learning for sequential decisions and generative AI for representing operating requirements, developing formulations and coordinating decisions across multiple agents.",
-    "I am also interested in supply chain resilience, automation and electrification, and healthcare and humanitarian operations. Across these areas, I study the relationship between decisions made in advance and the operating options available afterward. Questions include how to position reserve resources, when to revise existing commitments, and how supporting infrastructure affects the performance of new technologies."
+    "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
+    "My methodological research concerns mathematical representations and computational methods for constrained decisions. Published studies develop compact mixed-integer formulations, decomposition approaches and adaptive hyperheuristics. Developing interests include reinforcement learning, generative and agentic AI, and quantum-assisted optimization. I am interested in how these approaches can support model formulation, algorithm design and sequential decisions, and when their contribution improves the complete decision process.",
+    "Maritime transportation, logistics and supply chains provide important applications, including berth and terminal operations, liner-shipping recovery and coordination of production, inventory and distribution. My interests also extend to manufacturing and automated operations, healthcare and laboratory scheduling, humanitarian logistics and emergency response. These settings share questions about resource dependencies and service, while introducing different operational requirements and priorities.",
+    "My longer-term agenda links resilient and sustainable system design with technology adoption and adaptive operations. I am interested in how preparedness affects recovery, how electrification and automation change bottlenecks, and how information sharing and decision authority influence coordination. Broader goals include understanding when investment, organizational arrangements or better operating policies offer the most effective improvement."
   ],
   "academicContext": [
     "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. Florida State University also awarded me a Master of Engineering in Civil Engineering in December 2024 during my doctoral studies. I received my Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
-    "My doctoral dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” examined adaptive algorithm selection for terminal scheduling. Subsequent research has developed compact formulations, decomposition approaches and hybrid search methods for berth scheduling and cross-docking. Collaborative work addresses liner-shipping recovery, pharmaceutical supply chains, electric-vehicle scheduling and transportation infrastructure investment.",
-    "After serving as a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026, I joined the University of Washington, Tacoma Campus in June 2026. I work with Dr. Angela Kitali on transportation research and proposal development involving computer vision, infrastructure inventories and geospatial analysis. My broader research program concerns optimization and AI for logistics, industrial and service systems."
+    "My doctoral research developed adaptive hyperheuristics for berth scheduling. Subsequent work has combined compact mathematical formulations, decomposition and learning-guided search in freight and terminal operations. My broader program addresses optimization and AI in logistics, industrial and service systems, including supply chain coordination, disruption management, automation, electrification, healthcare and emergency operations.",
+    "I was a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026 and joined the University of Washington, Tacoma Campus in June 2026. My work with Dr. Angela Kitali includes transportation research and proposal development involving computer vision, geospatial analysis and infrastructure information. Alongside these collaborations, I pursue methodological and application research across operations research, AI and operations management."
   ],
   "portrait": {
     "file": "portrait-approved-a-clear.jpg",
@@ -334,9 +335,9 @@
     }
   ],
   "homeQuestions": [
-    "When should production, inventory and transportation decisions be coordinated, and how should the benefits and risks of coordination be shared?",
-    "How should capacity, inventory and operating flexibility be positioned before disruptions and redeployed during recovery?",
-    "How can learning and generative AI improve mathematical modeling and sequential decisions while preserving feasibility and operational priorities?"
+    "How should system design, investment and operational decisions be coordinated across resources, organizations and time scales?",
+    "How can optimization, learning and emerging computational methods support decisions under uncertainty and changing information?",
+    "How do preparedness, technological change and the organization of decisions affect resilience, sustainability and service performance?"
   ],
   "media": [
     {
@@ -375,14 +376,14 @@
     },
     {
       "title": "Safety and resource allocation",
-      "people": "Ren Moses, Eren E. Ozguven, John Sobanjo and research coauthors",
+      "people": "Dr. Ren Moses, Dr. Eren E. Ozguven, Dr. John Sobanjo and research coauthors",
       "text": "Our highway–rail crossing publications connect mathematical optimization with safety and infrastructure planning. The work ranges from closure selection to multi-objective allocation among closures, countermeasures and grade separation. A collaborative review examines how these approaches represent costs, collision risk, sustainability and community considerations. The publications identify the specific author teams and study designs.",
       "url": "https://doi.org/10.1016/j.ress.2024.110197",
       "label": "Rail-crossing decision study"
     },
     {
       "title": "Adaptive algorithms and sustainable systems",
-      "people": "Marta Borowska-Stefańska, Szymon Wiśniewski, Yui-Yip Lau and research coauthors",
+      "people": "Dr. Marta Borowska-Stefańska, Dr. Szymon Wiśniewski, Dr. Yui-Yip Lau and research coauthors",
       "text": "These collaborations include berth-scheduling reviews, adaptive cross-docking algorithms, ship-schedule recovery and studies of electric-vehicle and tugboat operations. They combine mathematical modeling with different forms of evidence, including computational comparison, literature synthesis and industry interviews. The common methodological interest is how operating constraints and competing objectives should shape the model and its solution procedure.",
       "url": "publications.html",
       "label": "Joint publications and full author lists"
