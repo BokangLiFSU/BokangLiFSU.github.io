@@ -391,17 +391,39 @@
   ],
   "researchVisuals": {
     "algorithms": {
-      "file": "paper-adaptive-search.png",
-      "width": 1505,
-      "height": 1064,
-      "alt": "Published workflow of a Thompson Sampling hyperheuristic with feasibility repair and exact evaluation",
-      "caption": "Learning, search and exact evaluation in one published scheduling method.",
-      "source": "https://doi.org/10.1016/j.swevo.2026.102502",
-      "author": "Li et al., Swarm and Evolutionary Computation (2026)",
-      "license": "Figure from the author’s coauthored publication",
-      "licenseUrl": ""
+      "file": "research-manufacturing.jpg",
+      "width": 1492,
+      "height": 992,
+      "alt": "Industrial robots working along a vehicle body production line",
+      "caption": "Robotic manufacturing: task sequences and shared equipment shape production schedules.",
+      "source": "https://commons.wikimedia.org/wiki/File:KUKA_Industrial_Robots_IR.jpg",
+      "author": "Mixabest",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
     },
     "maritime": {
+      "file": "research-port-aerial.jpg",
+      "width": 1920,
+      "height": 1173,
+      "alt": "Aerial view of Bremerhaven with container quays, storage yards, rail tracks and ships",
+      "caption": "Bremerhaven, Germany: vessel services, terminal capacity and inland connections meet at one port.",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Bremerhaven_container_terminal_(view_from_the_southeast).jpg",
+      "author": "Carsten Steger",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "resilience": {
+      "file": "research-relief-logistics.jpg",
+      "width": 1920,
+      "height": 1280,
+      "alt": "People unload emergency supplies from a Royal Australian Air Force aircraft",
+      "caption": "Emergency supplies arrive by air: transport capacity and local distribution must be coordinated.",
+      "source": "https://commons.wikimedia.org/wiki/File:Aircraft_providing_supplies_(10665771494).jpg",
+      "author": "Roger Wheatley/DFAT",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "warehouse": {
       "file": "research-warehouse.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Ocado_warehouse_bots.jpg",
       "author": "Techwords",
@@ -412,16 +434,38 @@
       "alt": "Mobile robots operating in an automated warehouse",
       "caption": "An automated warehouse: robot routes, storage capacity and order schedules must be planned together."
     },
-    "resilience": {
-      "file": "research-flood-observation.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:NASA_SMAP_image_sees_flooding.jpg",
-      "author": "NASA",
+    "containerYard": {
+      "file": "research-container-yard.jpg",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Overhead view of containers, yard cranes and vehicle lanes at a Singapore terminal",
+      "caption": "A container yard in Singapore: storage, handling and vehicle movements share limited space.",
+      "source": "https://commons.wikimedia.org/wiki/File:Container_terminal_from_above_(Unsplash).jpg",
+      "author": "CHUTTERSNAP",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "distribution": {
+      "file": "research-distribution.jpg",
+      "width": 1920,
+      "height": 1280,
+      "alt": "Trucks unload relief commodities for residents at a Louisiana distribution point",
+      "caption": "Relief distribution in Louisiana, 2008: supplies, handling capacity and access meet at the delivery point.",
+      "source": "https://commons.wikimedia.org/wiki/File:FEMA_-_37983_-_Aerial_of_distribution_center_in_Louisiana.jpg",
+      "author": "Jacinta Quesada",
       "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_SMAP_image_sees_flooding.jpg#Licensing",
-      "width": 5882,
-      "height": 1662,
-      "alt": "NASA SMAP maps of changing flood extent after Hurricane Harvey in August 2017",
-      "caption": "NASA SMAP observations of flooding after Hurricane Harvey, August 2017. Flood-response plans must account for changing conditions."
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:FEMA_-_37983_-_Aerial_of_distribution_center_in_Louisiana.jpg#Licensing"
+    },
+    "freightDocks": {
+      "file": "research-crossdock-handling.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:FEMA_-_45298_-_Dock_Loaders_move_supplies_at_the_Cross_Dock_Facility.jpg",
+      "author": "David Fine / FEMA",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:FEMA_-_45298_-_Dock_Loaders_move_supplies_at_the_Cross_Dock_Facility.jpg#Licensing",
+      "width": 1920,
+      "height": 1396,
+      "alt": "A forklift moves relief supplies at a FEMA cross-docking facility in Fayetteville, North Carolina",
+      "caption": "Cross-docking operations in Fayetteville, North Carolina, 2010: supplies are staged for onward movement."
     }
   },
   "homeResearchBrief": "I study how system design and operating decisions should be coordinated when resources are shared and conditions change. My work connects mathematical formulation, algorithm design and learning with questions about service, resilience and the adoption of new technologies.",

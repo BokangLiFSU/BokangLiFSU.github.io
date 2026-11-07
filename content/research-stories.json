@@ -181,7 +181,8 @@
         "height": 1199,
         "caption": "Marine container terminal operations, reproduced from Figure 1 of the berth-scheduling study.",
         "source": "https://doi.org/10.1109/tits.2026.3686684"
-      }
+      },
+      "contextVisual": "containerYard"
     },
     {
       "id": "crossdock-exact",
@@ -201,7 +202,8 @@
         "height": 1280,
         "caption": "Inbound unloading, internal handling and outbound loading at a cross-docking terminal; Figure 1 of the study.",
         "source": "https://doi.org/10.1016/j.tre.2026.105264"
-      }
+      },
+      "contextVisual": "freightDocks"
     },
     {
       "id": "crossdock-learning",
@@ -221,7 +223,8 @@
         "height": 1064,
         "caption": "The study’s hyperheuristic workflow, including operator selection, constraint repair and approximate or exact evaluation.",
         "source": "https://doi.org/10.1016/j.swevo.2026.102502"
-      }
+      },
+      "contextVisual": "warehouse"
     },
     {
       "id": "berth-hyperheuristic",
@@ -241,7 +244,8 @@
         "height": 1199,
         "caption": "A marine container terminal, illustrating the berth and handling resources linked by a schedule.",
         "source": "https://doi.org/10.1109/TITS.2026.3686684"
-      }
+      },
+      "contextVisual": "maritime"
     },
     {
       "id": "level-crossings",
@@ -254,7 +258,8 @@
       "meaning": "Related collaborative research extends closure selection to the allocation of crossing interventions. The 2026 study compares countermeasure installation, grade separation and closure under budget and feasibility constraints. Experiments with 5,939 publicly managed Florida crossings examine safety and socio-environmental trade-offs, including delay, emissions, noise and community disruption. Together, these studies distinguish selecting an intervention from evaluating the consequences of an intervention portfolio.",
       "source": "https://doi.org/10.1016/j.ress.2024.110197",
       "connection": "My interest is in infrastructure investment models that make competing consequences explicit. The related multi-objective study is listed in the publication record under DOI 10.1016/j.scs.2026.107485.",
-      "futureQuestion": "How can infrastructure prioritization represent uncertainty and changes in access, exposure and operating conditions?"
+      "futureQuestion": "How can infrastructure prioritization represent uncertainty and changes in access, exposure and operating conditions?",
+      "contextVisual": null
     },
     {
       "id": "schedule-recovery",
@@ -267,7 +272,8 @@
       "meaning": "The study makes the conflict between recovering service and complying with environmental restrictions explicit. A separate 2023 Computers & Industrial Engineering paper develops exact Pareto optimization for late arrivals and profit loss, including speed adjustment and port skipping. The two studies examine related recovery decisions through different models and solution methods.",
       "source": "https://doi.org/10.1016/j.trd.2023.103957",
       "connection": "My broader interest is in recovery policies that recognize both the value and the cost of changing commitments. The two ship-recovery papers provide examples of how operational and policy constraints alter the alternatives available after disruption.",
-      "futureQuestion": "Which commitments should be preserved during recovery, and where does flexibility provide the greatest value before a disruption?"
+      "futureQuestion": "Which commitments should be preserved during recovery, and where does flexibility provide the greatest value before a disruption?",
+      "contextVisual": "maritime"
     }
   ],
   "teaching": {
