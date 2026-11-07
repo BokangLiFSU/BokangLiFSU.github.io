@@ -83,17 +83,17 @@
     {
       "id": "algorithms",
       "title": "Artificial Intelligence and Mathematical Optimization",
-      "description": "Mathematical programming, decomposition, adaptive algorithms and learning-assisted decision-making, with developing interests in generative AI and quantum-assisted methods."
+      "description": "How should a decision problem be represented, decomposed and solved, and where can learning improve the process?"
     },
     {
       "id": "maritime",
       "title": "Operations, Supply Chains and Maritime Logistics",
-      "description": "Coordination across production, inventory, distribution and transportation, with maritime and terminal operations as established applications."
+      "description": "How do production, inventory, transport and service decisions interact within facilities and across organizations?"
     },
     {
       "id": "resilience",
       "title": "Resilient and Sustainable Operations",
-      "description": "System design, preparedness, technology adoption and service delivery across industrial, healthcare and humanitarian settings."
+      "description": "How do preparedness, technology investment and operating policies shape recovery, sustainability and access to services?"
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -271,7 +271,7 @@
       "width": 2048,
       "height": 1462,
       "alt": "Presenters at the TRB 2026 Current Research in Port Optimization session",
-      "caption": "At the 105th TRB Annual Meeting, I presented our compact berth-scheduling model in the “Current Research in Port Optimization” session, moderated by EunSu Lee. Presentations addressed terminal capacity, vessel turnaround, shore power and scheduling. The session connected optimization methods with wider questions of port performance and infrastructure planning. The photograph shows the presenters after the session.",
+      "caption": "I presented our compact berth-scheduling model in the “Current Research in Port Optimization” session at the 105th Transportation Research Board Annual Meeting. Discussions connected mathematical methods with terminal capacity, vessel turnaround and infrastructure planning.",
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7416525315067326464/",
       "label": "Session report and photographs by EunSu Lee"
     },
@@ -282,7 +282,7 @@
       "width": 1200,
       "height": 1600,
       "alt": "Bokang Li at the 2025 INFORMS Annual Meeting",
-      "caption": "At the INFORMS Annual Meeting in Atlanta, I presented a poster on a hyperheuristic hybridized with exact optimization for berth allocation and scheduling. The work examines how adaptive operator selection and structured exact improvement can be combined within a scheduling algorithm.",
+      "caption": "I presented a poster on combining adaptive hyperheuristics with exact optimization for berth scheduling, and discussed the work with colleagues in operations research.",
       "url": "https://www.linkedin.com/posts/bokang-li-365596246_wonderful-time-presenting-and-networking-activity-7389769813818200064-P-Ph",
       "label": "Public INFORMS meeting post",
       "photos": [
@@ -302,7 +302,7 @@
       "width": 1280,
       "height": 720,
       "alt": "Bokang Li with colleagues after his doctoral defense at Florida State University",
-      "caption": "I defended my dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” on May 16, 2025. Dr. Maxim A. Dulebenets chaired the defense at Florida State University. The research developed adaptive and hybrid algorithms for coordinating berth assignments and vessel service sequences. The photograph was taken with colleagues after the defense; my degree was completed in August 2025.",
+      "caption": "I defended “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” advised by Dr. Maxim A. Dulebenets. The photograph was taken with colleagues after the defense; the degree was completed in August 2025.",
       "url": "https://eng.famu.fsu.edu/event/dissertation-defense-bokang-li",
       "label": "University defense announcement"
     },
@@ -313,7 +313,7 @@
       "width": 1170,
       "height": 878,
       "alt": "Bokang Li standing beside a research poster at the 103rd TRB Annual Meeting",
-      "caption": "At the 103rd TRB Annual Meeting, I presented and discussed research on berth scheduling and ship schedule recovery. The contributions examined scheduling algorithms and recovery choices under competing service, economic and environmental objectives.",
+      "caption": "Research presentations and conversations on berth scheduling and ship-schedule recovery at the 103rd Transportation Research Board Annual Meeting.",
       "url": "https://www.linkedin.com/in/bokang-li-365596246/recent-activity/images/",
       "label": "LinkedIn photo album",
       "photos": [
@@ -391,14 +391,14 @@
   ],
   "researchVisuals": {
     "algorithms": {
-      "file": "research-optimization.svg",
-      "width": 800,
-      "height": 360,
-      "alt": "Conceptual relationship between mathematical modeling, solution methods and learning",
-      "caption": "Models define the decision problem; algorithms solve it; learning can inform both.",
-      "author": "Bokang Li website",
-      "license": "Original conceptual illustration",
-      "source": "",
+      "file": "paper-adaptive-search.png",
+      "width": 1505,
+      "height": 1064,
+      "alt": "Published workflow of a Thompson Sampling hyperheuristic with feasibility repair and exact evaluation",
+      "caption": "Learning, search and exact evaluation in one published scheduling method.",
+      "source": "https://doi.org/10.1016/j.swevo.2026.102502",
+      "author": "Li et al., Swarm and Evolutionary Computation (2026)",
+      "license": "Figure from the author’s coauthored publication",
       "licenseUrl": ""
     },
     "maritime": {
@@ -423,5 +423,24 @@
       "alt": "NASA SMAP maps of changing flood extent after Hurricane Harvey in August 2017",
       "caption": "NASA SMAP observations of flooding after Hurricane Harvey, August 2017. Flood-response plans must account for changing conditions."
     }
-  }
+  },
+  "homeResearchBrief": "I study how system design and operating decisions should be coordinated when resources are shared and conditions change. My work connects mathematical formulation, algorithm design and learning with questions about service, resilience and the adoption of new technologies.",
+  "academicLife": [
+    {
+      "title": "Teaching",
+      "text": "Graduate instruction in optimization algorithms and freight operations, including in-person and online teaching."
+    },
+    {
+      "title": "Research mentorship",
+      "text": "Undergraduate and master’s research guidance; external master’s thesis committee service at the University of North Florida."
+    },
+    {
+      "title": "Computational practice",
+      "text": "Mathematical models, algorithm implementation and computational studies using Python, MATLAB, R and SQL."
+    },
+    {
+      "title": "Languages",
+      "text": "Mandarin Chinese and English."
+    }
+  ]
 }
