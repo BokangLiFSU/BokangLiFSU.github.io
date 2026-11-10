@@ -3,7 +3,7 @@
 :root{color-scheme:light;--text:#222;--secondary:#626262;--link:#176bb3;--rule:#dedede;--nav:#f8f8f8;--paper:#fff}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:100px;-webkit-tap-highlight-color:#176bb326}
-body{margin:0;background:var(--paper);color:var(--text);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--paper);color:var(--text);font:16px/1.48 "Times New Roman", Times, serif;-webkit-font-smoothing:antialiased}
 a{color:var(--link);text-decoration:none;text-underline-offset:3px}
 a:hover{text-decoration:underline;color:#104d82}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--link);outline-offset:4px}
@@ -52,7 +52,7 @@ li{margin-bottom:6px}
 .paper-resources summary::-webkit-details-marker{display:none}
 .paper-resources summary:hover{text-decoration:underline}
 .paper-resources details[open]{flex:1}
-pre{font:12px/1.5 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f7f7;border:1px solid var(--rule);padding:12px;margin:10px 0}
+pre{font:13px/1.45 "Times New Roman", Times, serif;white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f7f7;border:1px solid var(--rule);padding:12px;margin:10px 0}
 .copy-citation,.copy-status{font-size:12px}
 .copy-status{display:block;margin-top:5px}
 .publication-controls{display:flex;gap:12px;align-items:end;flex-wrap:wrap;padding-bottom:19px;margin-bottom:22px;border-bottom:1px solid #e5e5e5}
@@ -345,8 +345,8 @@ main > section:last-child, main > p:last-child { margin-bottom: 0; }
 
 /* Editorial hierarchy and interior page density. */
 :root {
-  --display-face: Georgia, "Times New Roman", serif;
-  --section-space: 29px;
+  --display-face: "Times New Roman", Times, serif;
+  --section-space: 24px;
   --column-gap: clamp(17px, 2.6vw, 28px);
   --ink-heading: #182b3b;
 }
@@ -360,7 +360,7 @@ main h1 {
   font-family: var(--display-face);
   color: var(--ink-heading);
   font-weight: 600;
-  font-size: clamp(29px, 4vw, 38px);
+  font-size: clamp(29px, 3.4vw, 35px);
   line-height: 1.12;
   letter-spacing: -0.022em;
   margin-bottom: 16px;
@@ -441,4 +441,51 @@ footer { margin-top: 27px; }
   }
   .topic-opening { gap: 10px; }
   .research-area-list .research-figure img, .topic-opening .research-figure img { max-height: 150px; }
+}
+
+/* One section rhythm. The rule belongs to the next heading. */
+main > section, .cv-layout section { display: flow-root; }
+main h1 { font-weight: 700; margin: 0 0 14px; }
+main h2, .section-heading h2 { font-weight: 700; font-size: 22px; }
+.section-heading, .page-section-title {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  padding: 9px 0 0;
+  margin: 0 0 10px;
+}
+main > .page-section-title { margin-top: 22px; }
+main > section > :last-child, .cv-layout section > :last-child { margin-bottom: 0; }
+#about { border: 0; padding: 0; margin-bottom: 19px; }
+.profile-copy > p:not(.profile-links) { margin: 0; }
+.profile-links { border: 0; padding: 0; margin: 9px 0 0; }
+#research .research-topics { margin-top: 10px; }
+#research .research-topics + p { margin-top: 8px; }
+.research-introduction, .topic-opening { margin-bottom: 14px; }
+.research-area-list > article { align-items: start; padding-block: 11px; }
+.research-area-list .research-figure img { object-position: left top; }
+.study-overview > .research-figure { margin-top: 0; }
+.study-overview .page-section-title { margin-top: 0; }
+.project-record, .publication-year .paper, .current-work { padding-block: 10px; }
+.current-work details { margin-bottom: 0; }
+.paper h3 { font-size: 17px; }
+.paper p, .paper .paper-explanation, .project-record p { font-size: 15px; }
+figcaption, .secondary { font-style: italic; }
+.cv-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(190px, 28%);
+  gap: var(--column-gap);
+  align-items: start;
+}
+.cv-layout section { margin: 0 0 var(--section-space); }
+.cv-layout .records > div { grid-template-columns: 112px minmax(0, 1fr); gap: 14px; padding-block: 8px; }
+.cv-layout .records dt { padding: 0; }
+.cv-aside { padding-top: 10px; }
+.cv-photo { margin: 0; }
+.cv-photo img { display: block; width: 100%; height: auto; }
+.cv-photo figcaption { margin-top: 6px; font-size: 13px; color: var(--secondary); }
+.cv-links { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 9px 0 0; font-size: 14px; }
+@media (max-width: 700px) {
+  .cv-layout { grid-template-columns: minmax(0, 1fr); gap: 0; margin-bottom: 20px; }
+  .cv-layout .records > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .cv-aside { max-width: 320px; padding: 0; }
 }
