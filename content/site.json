@@ -156,31 +156,131 @@
     }
   ],
   "service": [
-    "Transportation Research Part B: Methodological",
-    "Transportation Research Part C: Emerging Technologies",
-    "Transportation Research Part D: Transport and Environment",
-    "Transportation Research Part E: Logistics and Transportation Review",
-    "Computers & Industrial Engineering",
-    "Advanced Engineering Informatics",
-    "Applied Energy",
-    "Engineering Applications of Artificial Intelligence",
-    "Journal of Industrial Information Integration",
-    "Ocean Engineering",
-    "Journal of Rail Transport Planning & Management",
-    "Maritime Business Review",
-    "Maritime Transport Research",
-    "Transportation Research Interdisciplinary Perspectives",
-    "Journal of Traffic and Transportation Engineering (English Edition)",
-    "Cognition, Technology & Work",
-    "Scientific Reports",
-    "Discover Applied Sciences",
-    "Green Technologies and Sustainability",
-    "Mathematics",
-    "Axioms",
-    "Systems",
-    "Computers",
-    "Marine Systems & Ocean Technology",
-    "Systems and Soft Computing"
+    {
+      "journal": "Transportation Research Part B: Methodological",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Transportation Research Part C: Emerging Technologies",
+      "publisher": "Elsevier",
+      "since": 2026
+    },
+    {
+      "journal": "Transportation Research Part D: Transport and Environment",
+      "publisher": "Elsevier",
+      "since": 2026
+    },
+    {
+      "journal": "Transportation Research Part E: Logistics and Transportation Review",
+      "publisher": "Elsevier",
+      "since": 2024
+    },
+    {
+      "journal": "Computers & Industrial Engineering",
+      "publisher": "Elsevier",
+      "since": 2026
+    },
+    {
+      "journal": "Advanced Engineering Informatics",
+      "publisher": "Elsevier",
+      "since": 2024
+    },
+    {
+      "journal": "Applied Energy",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Engineering Applications of Artificial Intelligence",
+      "publisher": "Elsevier",
+      "since": 2023
+    },
+    {
+      "journal": "Journal of Industrial Information Integration",
+      "publisher": "Elsevier",
+      "since": 2024
+    },
+    {
+      "journal": "Ocean Engineering",
+      "publisher": "Elsevier",
+      "since": 2026
+    },
+    {
+      "journal": "Journal of Rail Transport Planning & Management",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Maritime Business Review",
+      "publisher": "Emerald",
+      "since": 2026
+    },
+    {
+      "journal": "Maritime Transport Research",
+      "publisher": "Elsevier",
+      "since": 2026
+    },
+    {
+      "journal": "Transportation Research Interdisciplinary Perspectives",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Journal of Traffic and Transportation Engineering (English Edition)",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Cognition, Technology & Work",
+      "publisher": "Springer Nature",
+      "since": 2025
+    },
+    {
+      "journal": "Scientific Reports",
+      "publisher": "Springer Nature",
+      "since": 2025
+    },
+    {
+      "journal": "Discover Applied Sciences",
+      "publisher": "Springer Nature",
+      "since": 2025
+    },
+    {
+      "journal": "Green Technologies and Sustainability",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Mathematics",
+      "publisher": "MDPI",
+      "since": 2025
+    },
+    {
+      "journal": "Axioms",
+      "publisher": "MDPI",
+      "since": 2025
+    },
+    {
+      "journal": "Systems",
+      "publisher": "MDPI",
+      "since": 2025
+    },
+    {
+      "journal": "Computers",
+      "publisher": "MDPI",
+      "since": 2025
+    },
+    {
+      "journal": "Marine Systems & Ocean Technology",
+      "publisher": "Springer Nature",
+      "since": 2024
+    },
+    {
+      "journal": "Systems and Soft Computing",
+      "publisher": "Elsevier",
+      "since": 2023
+    }
   ],
   "projects": [
     {
@@ -189,8 +289,11 @@
       "period": "December 2022 – May 2025",
       "sponsor": "U.S. Department of Defense / U.S. Department of the Air Force",
       "detail": "Optimization and AI-based decision support for strategic planning of humanitarian logistics operations.",
-      "context": "I helped develop an optimization model and a priority-based heuristic for humanitarian relief planning. The decision support system jointly selects participating organizations, allocates relief supplies, and chooses transport modes and delivery speeds. It compares supply, delay, fuel, and crew costs while respecting delivery priorities and resource availability.",
-      "url": "https://www.sbir.gov/awards/204832"
+      "context": "As a research assistant at Florida State University, I helped develop a model and a priority-based heuristic for strategic humanitarian relief planning. The model jointly selects participating organizations, allocates supplies, and chooses transport modes and delivery speeds. The objective accounts for supply, delay, fuel, and crew costs, subject to delivery priorities and available resources.",
+      "url": "https://www.sbir.gov/awards/204832",
+      "award": "$998,859 federal award",
+      "reference": "STTR Phase II · FA8750-23-C-0508",
+      "partner": "Awardee: Disaster Technologies Inc. · Research institution: Florida State University"
     },
     {
       "title": "Selection of Level Crossings for Closure in the State of Florida: An Optimization-based Approach",
@@ -199,7 +302,9 @@
       "sponsor": "Florida Department of Transportation",
       "detail": "Decision support for level-crossing closure selection, combining highway safety with freight-flow considerations.",
       "url": "https://doi.org/10.13140/RG.2.2.26835.80167",
-      "context": "I helped formulate and evaluate a decision support system for choosing which Florida highway–rail crossings to close. The model combines safety, economic, and environmental criteria with budget and closure-eligibility rules. The study considers rail and roadway exposure, truck and school-bus traffic, and existing delays. A tailored heuristic and planning interface let users compare closure portfolios under alternative priorities."
+      "context": "I helped formulate and evaluate a decision tool for selecting Florida highway–rail crossings for closure. It compares portfolios under a shared budget and eligibility rules, using safety, economic, and environmental criteria. The analysis uses rail and road traffic, truck and school-bus exposure, and existing delays. A planning interface lets users compare the portfolios selected under different priorities.",
+      "award": "$250,000 project funding",
+      "reference": "FDOT contract BED30 977-04"
     }
   ],
   "talks": [

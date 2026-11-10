@@ -1,7 +1,7 @@
 {
   "overview": [
-    "A schedule commits resources before all the information needed to carry it out is available. I study how those commitments should shape decisions about capacity, assignments, and recovery in systems where a delay or shortage can propagate across facilities, firms, or stages of service.",
-    "My published work develops mixed-integer formulations, exact decomposition, and learning-guided search. Berth scheduling and cross-docking provide settings in which to test whether a formulation preserves operating constraints and whether a search method improves feasible plans within a time budget. I extend these questions to supply chains, automated production, healthcare, and emergency operations, where the costs of revising a plan and the consequences of delay differ."
+    "A schedule commits resources before all the information needed to carry it out is available. I study how those commitments should shape capacity, assignments, and recovery when a delay or shortage can propagate across facilities, firms, or stages of service.",
+    "My published work examines three kinds of dependence: vessels compete for the same berths, outbound trucks depend on freight from inbound trucks, and a liner service must recover its schedule while facing fuel costs, speed incentives, and emissions rules. I use mixed-integer optimization, decomposition, and adaptive search to represent those dependencies and compare the resulting decisions. Ongoing research asks how these methods can support operations in supply chains, automated production, healthcare, and emergency response."
   ],
   "themes": {
     "algorithms": {
@@ -167,10 +167,10 @@
       "id": "berth-model",
       "doi": "10.1109/tits.2026.3686684",
       "title": "Compact formulations and decomposition for berth scheduling",
-      "summary": "A compact model assigns berths and service times together. Benders decomposition and column generation exploit the model structure to solve larger scheduling instances.",
+      "summary": "We assign vessels to discrete berths and choose when service begins. A compact mixed-integer model simplifies the sequencing decisions at each berth and supports two exact solution approaches, Benders decomposition and column generation.",
       "question": "How does formulation design affect the scalability of exact berth-scheduling optimization?",
       "approach": "The study minimizes total vessel service costs in dynamic, discrete berth scheduling. Two-dimensional decision variables, the removal of redundant model elements and simplified sequencing reduce the size of the mixed-integer formulation. Benders decomposition and column generation exploit the resulting structure to address larger scheduling instances.",
-      "evidence": "The computational study compares the formulation with five mathematical models and three metaheuristics. It reports solutions for instances with more than 260 vessels within two hours under the tested settings, alongside sensitivity analysis of operational parameters.",
+      "evidence": "We compared the formulation with five benchmark models and three metaheuristics. Under the study’s computational settings, instances with more than 260 vessels were solved in less than two hours. Sensitivity analyses varied key operating parameters.",
       "meaning": "The formulation removes redundant sequencing variables and constraints while retaining the decisions that determine a feasible berth schedule. That representation also provides a basis for Benders decomposition and column generation.",
       "source": "https://trid.trb.org/View/2780704",
       "connection": "The formulation and decomposition ideas may also apply to problems that combine resource assignments with sequencing.",
@@ -188,7 +188,7 @@
       "id": "crossdock-exact",
       "doi": "10.1016/j.tre.2026.105264",
       "title": "Integrated truck scheduling and freight-transfer coordination",
-      "summary": "A compact mixed-integer model links inbound and outbound truck service through freight transfers. Sequential fix-and-optimize and pricing-guided search use that structure to construct schedules under shared handling and storage constraints.",
+      "summary": "We schedule inbound unloading and outbound loading together, respecting when freight becomes available for transfer. Sequential fix-and-optimize builds a feasible plan in precedence-consistent batches. Pricing-guided search identifies single-truck moves that could reduce cost.",
       "question": "How should freight transfers, handling capacity and service precedence be represented in integrated truck schedules?",
       "approach": "The mixed-integer model coordinates dock assignments, service sequences and timing across inbound unloading, freight transfer and outbound loading. It accounts for waiting, handling, temporary storage and departure-delay costs. Sequential fix-and-optimize constructs precedence-consistent batches. Pricing-guided search uses reduced-cost information to identify promising single-truck reinsertions, with exact evaluation after discrete scheduling decisions are fixed.",
       "evidence": "The experiments compare the formulation with two established models and evaluate both solution frameworks. On large tested instances, reported objective improvements reach approximately 30% relative to the comparison methods. Pricing-guided search reduces mean runtime by more than 35% relative to solving the proposed model directly.",
@@ -209,7 +209,7 @@
       "id": "crossdock-learning",
       "doi": "10.1016/j.swevo.2026.102502",
       "title": "Thompson Sampling for adaptive scheduling heuristics",
-      "summary": "Thompson Sampling selects search operators as their performance changes. A repair and penalty scheme addresses infeasible truck schedules, and exact evaluation refines promising solutions.",
+      "summary": "Thompson Sampling updates which search operators the algorithm tries as it observes their performance. The method repairs or penalizes violations of inbound–outbound coordination, then uses exact optimization to evaluate promising schedules.",
       "question": "How can adaptive operator selection improve search while preserving reliable schedule evaluation?",
       "approach": "The Hybridized Thompson Sampling Hyperheuristic combines evolutionary search with an adaptive operator-selection controller. A repair-and-penalty mechanism handles inbound–outbound precedence constraints. Fast approximate fitness evaluation supports exploration, while exact optimization refines schedule evaluation.",
       "evidence": "On the reported benchmark instances, the algorithm produces solutions comparable with exact optimization for small problems and improves on the comparison metaheuristics. The paper reports improvements of up to approximately 24% and an average runtime of 186.71 seconds across its experimental setting.",
@@ -265,7 +265,7 @@
       "id": "schedule-recovery",
       "doi": "10.1016/j.trd.2023.103957",
       "title": "Ship schedule recovery under environmental policies",
-      "summary": "Multi-objective optimization examines the tension between schedule recovery, monetary losses and speed-reduction incentives.",
+      "summary": "We model two separate constraints on liner recovery: emission-control requirements and voluntary incentives for slower sailing. The analysis compares plans that trade off late arrivals against disruption losses and the cost of speeding up.",
       "question": "How should disruption recovery be planned when service targets conflict with environmental requirements and incentives?",
       "approach": "The model balances monetary losses and port-arrival delays while representing emission-control areas and voluntary speed-reduction incentives. These policies affect the recovery options directly: faster sailing may recover time, while reduced speed can earn an incentive. Dynamic secant approximation and an epsilon-constraint method generate alternative recovery plans.",
       "evidence": "Computational experiments use the South East Asia Pendulum shipping route, with sensitivity analysis exploring how different settings affect recovery choices.",
@@ -334,7 +334,7 @@
     {
       "title": "AI for transportation infrastructure inventories",
       "status": "Research proposals submitted in 2026",
-      "text": "I contributed to 2026 proposals on using computer vision and geospatial data to inventory and assess transportation infrastructure. One design question is how to validate detected facilities against field observations before using the inventory for planning."
+      "text": "I contributed to submitted proposals on using computer vision and geospatial data to inventory transportation infrastructure. A central design question is how to check detections of facilities such as sidewalks and bicycle lanes against field observations before using the inventory to assess coverage."
     },
     {
       "title": "Integrated scheduling and resource circulation",
@@ -344,17 +344,17 @@
     {
       "title": "Planning under time and capacity constraints",
       "status": "Ongoing research",
-      "text": "I examine how decisions made for one stage of service affect capacity and delays elsewhere. In elective surgery planning, operating-room and surgeon assignments determine downstream ward occupancy over the full stay. In flood response, access and resource availability can change while tasks are underway. I am interested in comparing plans by deferrals, waiting, and the cost of changing existing assignments."
+      "text": "In elective surgery planning, I study how operating-room and surgeon assignments affect ward occupancy throughout a patient’s stay. In flood response, I examine how to revise assignments when access or available resources change during an operation. The two settings motivate comparisons of feasible plans by deferrals, waiting, and the disruption caused by rescheduling."
     },
     {
       "title": "Service recovery in liner shipping networks",
       "status": "Ongoing research",
-      "text": "I study which port calls and cargo flows should be restored first when a disruption prevents a liner network from offering its full service. A reduced service may restore a high-priority flow sooner while leaving other cargo without a viable connection. The research examines how partial recovery affects service across directions and routes."
+      "text": "I study which port calls and cargo flows to restore first when a disruption makes the full liner service infeasible. A reduced rotation can restore a high-priority connection while leaving other cargo without a viable route. The question is how to compare partial-service plans by time to reconnect ports and the cargo flows each plan can still serve."
     },
     {
       "title": "Infrastructure investment and realized use",
-      "status": "Published study and continuing research",
-      "text": "My published shore-power study compares infrastructure commitments with evidence of actual vessel connection. It develops a framework for tracking implementation at the Northwest Seaport Alliance, with Seattle cruise operations as a comparison. An installed connection and the share of vessel calls able to use it measure different aspects of readiness."
+      "status": "Published research",
+      "text": "We traced how shore-power commitments at the Northwest Seaport Alliance translate into installation and use, with Seattle cruise operations as a comparison. The study distinguishes installed infrastructure, vessel calls eligible to connect, and documented connections. A question for further research is how vessel readiness and berth assignment affect the use of installed equipment."
     },
     {
       "title": "Language models and operational knowledge",
