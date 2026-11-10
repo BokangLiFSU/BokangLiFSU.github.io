@@ -83,17 +83,17 @@
     {
       "id": "algorithms",
       "title": "Artificial Intelligence and Mathematical Optimization",
-      "description": "Compact formulations, exact decomposition and adaptive search for problems with coupled assignments, schedules and resource constraints."
+      "description": "Developing mathematical formulations, exact decomposition and learning-guided search for decisions that share resources or constrain one another."
     },
     {
       "id": "maritime",
       "title": "Operations, Supply Chains and Maritime Logistics",
-      "description": "Coordination across production, storage, transport and distribution, with published studies in maritime and freight operations."
+      "description": "Coordinating production, inventory, transport and distribution across facilities and firms. Maritime logistics and freight terminals provide representative applications."
     },
     {
       "id": "resilience",
       "title": "Resilient and Sustainable Operations",
-      "description": "Preparedness, recovery and technology adoption, with attention to the costs of disruption, environmental impacts and continuity of service."
+      "description": "Designing capacity and operating policies that sustain service through disruptions and account for the practical demands of electrification and automation."
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -236,7 +236,7 @@
   ],
   "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus, and previously held a postdoctoral appointment at Florida State University. I earned a Ph.D. and a Master of Engineering in Civil Engineering from Florida State University and a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University. My doctoral research, advised by Dr. Maxim A. Dulebenets, focused on operations research and logistics optimization. I use mathematical optimization and artificial intelligence to study planning, scheduling, resource allocation, and disruption recovery in logistics, industrial, and service systems. I have contributed to federally and state-funded research projects and helped develop research proposals in collaboration with researchers at Florida State University and the University of Washington, Tacoma Campus. I have authored or coauthored 15+ peer-reviewed journal articles, with publications in Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering. I review for 20+ journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence."
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus, and previously held a postdoctoral appointment at Florida State University. I earned a Ph.D. and a Master of Engineering in Civil Engineering from Florida State University and a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University. My doctoral research, advised by Dr. Maxim A. Dulebenets, focused on operations research and logistics optimization. I use mathematical optimization and artificial intelligence to study planning, scheduling, resource allocation, and disruption recovery in logistics, industrial, and service systems. I have contributed to federally and state-funded research projects and helped develop research proposals in collaboration with researchers at Florida State University and the University of Washington, Tacoma Campus. I have published 15+ peer-reviewed journal articles, including work in leading journals such as Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering, among others. I serve as a reviewer for 20+ peer-reviewed journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence, among others."
   ],
   "homeResearch": [
     "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
@@ -362,7 +362,7 @@
     {
       "title": "Mathematical optimization and logistics",
       "people": "Dr. Maxim A. Dulebenets and collaborators",
-      "text": "My doctoral and postdoctoral research with Dr. Maxim A. Dulebenets developed formulations and algorithms for berth scheduling and cross-docking. This collaboration examines how compact models, decomposition and adaptive search can exploit operational structure, with published studies addressing both the design of solution methods and their computational performance.",
+      "text": "My work with Dr. Maxim A. Dulebenets examines how operational constraints can guide both the formulation and the solution method. In berth scheduling, we used a compact model to derive decomposition algorithms. In cross-docking, we combined exact optimization with adaptive search to coordinate truck service and freight transfers.",
       "url": "https://doi.org/10.1109/TITS.2026.3686684",
       "label": "Compact models and decomposition"
     },
@@ -467,7 +467,7 @@
       "caption": "Cross-docking operations in Fayetteville, North Carolina, 2010: supplies are staged for onward movement."
     }
   },
-  "homeResearchBrief": "My research asks how to coordinate decisions across activities that share resources or depend on one another. The three areas below address how to solve these problems, how coordination changes operating performance, and how to keep essential services available when conditions change.",
+  "homeResearchBrief": "I study how organizations coordinate planning and operating decisions when they share capacity, depend on upstream activities, or face disruption. Applications include maritime logistics, supply chains, automated production, healthcare and emergency operations, among others.",
   "academicLife": [
     {
       "title": "Teaching",

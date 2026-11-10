@@ -1,7 +1,7 @@
 {
   "overview": [
-    "I study decisions that are linked by shared resources, material flows and commitments over time. Production plans determine what can be shipped. Operating-room schedules affect demand for ward beds. A decision to restore one facility may have little effect until a supplier or transport link is available. Across these settings, I ask which decisions need to be made jointly and what is lost when they are made independently.",
-    "I approach these questions through mathematical modeling and algorithm design. My work on compact formulations and decomposition examines how much coordination a model must represent explicitly to produce a feasible plan or a useful bound. My work on adaptive search studies how to direct limited computation toward the most promising changes to a schedule. The published studies below test these ideas in maritime and freight operations. Current work considers how to apply them to automated facilities, service systems and recovery planning."
+    "My research combines operations research, mathematical optimization and artificial intelligence to study decisions linked by shared resources, material flows and commitments over time. I ask which decisions must be made jointly, what can be decided locally, and when better information changes the value of coordination.",
+    "I develop formulations that make these dependencies explicit, decomposition methods that exploit the parts that can be solved separately, and adaptive search methods that direct computation toward promising alternatives. Published studies in maritime and freight operations demonstrate these methods. My broader research extends to applications such as supply chains, automated production, healthcare and emergency operations."
   ],
   "themes": {
     "algorithms": {
