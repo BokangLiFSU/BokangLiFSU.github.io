@@ -341,7 +341,7 @@
     "pages": "3515",
     "type": "journal-article",
     "url": "https://doi.org/10.3390/ma14133515",
-    "topic": "maritime",
+    "topic": "materials",
     "featured": false,
     "bibtex": "@article{103390ma14133515,\n  title = {Mechanical and Microstructural Characteristics of Calcium Sulfoaluminate Cement Exposed to Early-Age Carbonation Curing},\n  author = {Weikang Wang and Xuanchun Wei and Xinhua Cai and Hongyang Deng and Bokang Li},\n  journal = {Materials},\n  year = {2021},\n  volume = {14},\n  pages = {3515},\n  doi = {10.3390/ma14133515}\n}",
     "contribution": "Tests how early carbonation curing changes the pore structure and compressive strength of calcium sulfoaluminate cement under different preparation and curing conditions."
