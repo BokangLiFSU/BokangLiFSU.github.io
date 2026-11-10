@@ -342,3 +342,103 @@ main > section:last-child, main > p:last-child { margin-bottom: 0; }
   .research-area-list .research-figure { max-width: min(280px, 100%); }
   .project-record { gap: 8px; }
 }
+
+/* Editorial hierarchy and interior page density. */
+:root {
+  --display-face: Georgia, "Times New Roman", serif;
+  --section-space: 29px;
+  --column-gap: clamp(17px, 2.6vw, 28px);
+  --ink-heading: #182b3b;
+}
+.site-name {
+  font-family: var(--display-face);
+  font-size: 19px;
+  letter-spacing: -0.01em;
+}
+main { padding-top: 27px; }
+main h1 {
+  font-family: var(--display-face);
+  color: var(--ink-heading);
+  font-weight: 600;
+  font-size: clamp(29px, 4vw, 38px);
+  line-height: 1.12;
+  letter-spacing: -0.022em;
+  margin-bottom: 16px;
+}
+main h2 {
+  font-family: var(--display-face);
+  color: var(--ink-heading);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.section-heading h2 { font-size: 23px; line-height: 1.2; }
+.page-section-title, .section-heading {
+  border-color: #cfd9e0;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+}
+main h3 { font-weight: 700; line-height: 1.36; }
+.profile-copy > p:not(.profile-links),
+.research-introduction > p:first-child, .topic-lead {
+  font-family: var(--display-face);
+  font-size: 16px;
+  line-height: 1.55;
+}
+.profile-copy strong { color: var(--ink-heading); }
+.profile-links { padding-top: 9px; margin-top: 12px; }
+.about { padding-bottom: 20px; }
+.research-introduction { max-width: 82ch; margin-bottom: 20px; }
+.research-introduction > p { margin-bottom: 10px; }
+.research-area-list > article {
+  grid-template-columns: minmax(0, 1fr) minmax(175px, 0.38fr);
+  align-items: center;
+  padding-block: 13px;
+}
+.research-area-list > article p { margin-bottom: 0; }
+.research-area-list .research-figure img { max-height: 126px; }
+.topic-opening { grid-template-columns: minmax(0, 1fr) 230px; gap: var(--column-gap); }
+.topic-opening figure { max-width: 230px; }
+.topic-opening .research-figure img { max-height: 145px; }
+.focus-list { margin-bottom: 15px; }
+.focus-list > div { padding-block: 9px; }
+.focus-list dt, .contribution-list dt { color: var(--ink-heading); }
+.study-list > article { padding-bottom: 9px; margin-bottom: 10px; }
+.page-related { padding-top: 10px; margin-top: 20px; }
+.study-overview .research-figure img { max-height: 235px; }
+.study-overview section { margin-bottom: 12px; }
+.publication-controls { padding-bottom: 10px; margin-bottom: 12px; }
+.publication-year { margin-bottom: 16px; }
+.publication-year .year-heading {
+  background: #f2f5f7;
+  border-bottom: 0;
+  padding: 5px 9px;
+  font-family: var(--display-face);
+  font-size: 18px;
+  color: var(--ink-heading);
+}
+.publication-year .paper { padding-block: 10px; }
+.paper h3 { font-size: 15.5px; font-weight: 700; }
+.paper .venue { color: var(--secondary); }
+.paper-resources a, .paper-resources summary { font-weight: 600; }
+.project-record { grid-template-columns: minmax(0, .55fr) minmax(0, 1fr); padding-block: 11px; }
+.project-record header p, .current-work .secondary { color: #54626e; }
+.project-record h3, .current-work h3, .collaboration-record h3 { color: var(--ink-heading); }
+.current-work { padding-block: 11px; }
+.collaboration-record { margin: 0; padding-block: 12px; border-bottom: 1px solid var(--rule); }
+.collaboration-record p:last-child { margin-bottom: 0; }
+.activity-gallery { gap: 16px; margin-top: 14px; }
+.activity-gallery > figure { padding-bottom: 15px; grid-template-columns: minmax(0, .48fr) minmax(0, 1fr); }
+.activity-gallery figcaption h2 { font-family: inherit; font-size: 17px; }
+.media-entry { margin-block: 14px; }
+footer { margin-top: 27px; }
+@media (max-width: 700px) {
+  main { padding-top: 21px; }
+  main h2, .section-heading h2 { font-size: 21px; }
+  .project-record, .activity-gallery > figure, .research-area-list > article {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+  .topic-opening { gap: 10px; }
+  .research-area-list .research-figure img, .topic-opening .research-figure img { max-height: 150px; }
+}
