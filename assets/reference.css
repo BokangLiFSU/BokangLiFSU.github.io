@@ -283,3 +283,62 @@ footer { padding-top: 16px; margin-top: 36px; }
 @media (max-width: 370px) {
   .dated-list li { grid-template-columns: 1fr; gap: 3px; }
 }
+
+/* Interior reading rhythm and project records. */
+main > h1 + .page-index { margin-bottom: 18px; }
+main > h1 + p { max-width: 78ch; }
+main > section:last-child, main > p:last-child { margin-bottom: 0; }
+.study-overview section { margin-bottom: 18px; }
+.study-overview section:last-child { margin-bottom: 0; }
+.study-source { margin-bottom: 14px; }
+.topic-opening { margin-bottom: 16px; }
+.topic-opening .topic-lead { margin-bottom: 0; }
+.topic-opening figure { max-width: 290px; justify-self: end; }
+.focus-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: var(--column-gap);
+  margin: 0 0 22px;
+}
+.focus-list > div {
+  border-top: 1px solid var(--rule);
+  margin: 0;
+  padding: 11px 0 13px;
+}
+.study-list > article { padding-bottom: 11px; margin-bottom: 13px; }
+.study-list > article p:last-child { margin-bottom: 0; }
+.research-area-list > article { grid-template-columns: minmax(0, 1fr) minmax(0, .52fr); }
+.research-area-list .research-figure img { max-height: 165px; }
+.publication-year { margin: 0 0 24px; }
+.publication-year .year-heading {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 6px;
+  margin-bottom: 0;
+}
+.publication-year .paper {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.publication-year .paper .paper-explanation { margin-top: 6px; max-width: 82ch; }
+.publication-controls { margin-bottom: 18px; padding-bottom: 13px; }
+.project-record {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1fr);
+  gap: var(--column-gap);
+  border-bottom: 1px solid var(--rule);
+  margin: 0;
+  padding: 14px 0;
+}
+.project-record:first-of-type { padding-top: 0; }
+.project-record p { margin: 0 0 7px; }
+.project-record p:last-child { margin-bottom: 0; }
+.supporting-visual .decision-diagram { max-width: 640px; margin-bottom: 0; }
+@media (max-width: 700px) {
+  .topic-opening figure { max-width: min(290px, 100%); }
+  .research-area-list > article, .project-record, .focus-list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  .research-area-list .research-figure { max-width: min(280px, 100%); }
+  .project-record { gap: 8px; }
+}
