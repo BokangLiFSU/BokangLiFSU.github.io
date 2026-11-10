@@ -236,7 +236,7 @@
   ],
   "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus, and previously held a postdoctoral appointment at Florida State University. I earned a Ph.D. and a Master of Engineering in Civil Engineering from Florida State University and a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University. My doctoral research, advised by Dr. Maxim A. Dulebenets, focused on operations research and logistics optimization. I use mathematical optimization and artificial intelligence to study planning, scheduling, resource allocation, and disruption recovery in logistics, industrial, and service systems. My collaborators and I developed a compact formulation for exact decomposition in berth scheduling and combined learning-guided search with exact optimization to coordinate truck service and freight transfers at cross-docks. I have contributed to federally and state-funded projects on humanitarian relief logistics and highway–rail crossing closures, as well as to the development of research proposals. My work has appeared in more than ten peer-reviewed journal articles, including in Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering. I am interested in where spare capacity and flexible operating policies can protect service during disruptions, and how operating data can help revise plans in automated facilities, healthcare, and emergency response. I review for more than twenty journals, including Transportation Research Parts B through E. My teaching experience includes graduate courses in optimization algorithms and freight operations, and I serve as an external master’s thesis committee member at the University of North Florida."
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus, and previously held a postdoctoral appointment at Florida State University. I earned a Ph.D. and a Master of Engineering in Civil Engineering from Florida State University and a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University. My doctoral research, advised by Dr. Maxim A. Dulebenets, focused on operations research and logistics optimization. I use mathematical optimization and artificial intelligence to study planning, scheduling, resource allocation, and disruption recovery in logistics, industrial, and service systems. I have contributed to federally and state-funded research projects and helped develop research proposals in collaboration with researchers at Florida State University and the University of Washington, Tacoma Campus. I have authored or coauthored 15+ peer-reviewed journal articles, with publications in Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering. I review for 20+ journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence."
   ],
   "homeResearch": [
     "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
@@ -485,5 +485,16 @@
       "title": "Languages",
       "text": "Mandarin Chinese and English."
     }
+  ],
+  "biographyJournals": [
+    "Transportation Research Parts D and E",
+    "IEEE Transactions on Intelligent Transportation Systems",
+    "Swarm and Evolutionary Computation",
+    "Reliability Engineering & System Safety",
+    "Computers & Industrial Engineering",
+    "Transportation Research Parts B/C/D/E",
+    "Applied Energy",
+    "Advanced Engineering Informatics",
+    "Engineering Applications of Artificial Intelligence"
   ]
 }
