@@ -16,7 +16,8 @@
     "url": "https://doi.org/10.1016/j.cstp.2026.102006",
     "topic": "resilience",
     "bibtex": "@article{101016jcstp2026102006,\n  title = {From shore power commitments to implementation accountability: Evidence from the Northwest Seaport Alliance},\n  author = {Bokang Li and Soud Mbegele and Angela E. Kitali},\n  journal = {Case Studies on Transport Policy},\n  year = {2026},\n  pages = {102006},\n  doi = {10.1016/j.cstp.2026.102006}\n}",
-    "featured": false
+    "featured": false,
+    "contribution": "Introduces a framework for tracking shore-power implementation and uses Northwest Seaport Alliance and Seattle cruise records to distinguish installed capability from actual connections."
   },
   {
     "doi": "10.1016/j.tre.2026.105264",
@@ -82,7 +83,8 @@
     "url": "https://doi.org/10.1016/j.seps.2026.102546",
     "topic": "maritime",
     "featured": false,
-    "bibtex": "@article{101016jseps2026102546,\n  title = {Closed-loop pharmaceutical supply chains: State of the art, emerging trends, and future research needs},\n  author = {Fatemeh Shekoohi and Payam Afkhami and Bokang Li and Mohsen Khabir and Nasrin Malekpoor Joneghani and Maxim A. Dulebenets},\n  journal = {Socio-Economic Planning Sciences},\n  year = {2026},\n  volume = {106},\n  pages = {102546},\n  doi = {10.1016/j.seps.2026.102546}\n}"
+    "bibtex": "@article{101016jseps2026102546,\n  title = {Closed-loop pharmaceutical supply chains: State of the art, emerging trends, and future research needs},\n  author = {Fatemeh Shekoohi and Payam Afkhami and Bokang Li and Mohsen Khabir and Nasrin Malekpoor Joneghani and Maxim A. Dulebenets},\n  journal = {Socio-Economic Planning Sciences},\n  year = {2026},\n  volume = {106},\n  pages = {102546},\n  doi = {10.1016/j.seps.2026.102546}\n}",
+    "contribution": "Synthesizes research on pharmaceutical distribution and reverse flows, linking the collection, recovery and disposal of unused medicines to resilience and sustainability."
   },
   {
     "doi": "10.1109/tits.2026.3686684",
@@ -126,7 +128,8 @@
     "url": "https://doi.org/10.1016/j.scs.2026.107485",
     "topic": "resilience",
     "featured": false,
-    "bibtex": "@article{101016jscs2026107485,\n  title = {A holistic multi-objective framework for level crossing resource allocation decisions with safety, environmental, and noise pollution considerations},\n  author = {Payam Afkhami and Fatemeh Shekoohi and Bokang Li and Amir M. Fathollahi-Fard and Ahvan Javanmardan and Maxim A. Dulebenets},\n  journal = {Sustainable Cities and Society},\n  year = {2026},\n  volume = {146},\n  pages = {107485},\n  doi = {10.1016/j.scs.2026.107485}\n}"
+    "bibtex": "@article{101016jscs2026107485,\n  title = {A holistic multi-objective framework for level crossing resource allocation decisions with safety, environmental, and noise pollution considerations},\n  author = {Payam Afkhami and Fatemeh Shekoohi and Bokang Li and Amir M. Fathollahi-Fard and Ahvan Javanmardan and Maxim A. Dulebenets},\n  journal = {Sustainable Cities and Society},\n  year = {2026},\n  volume = {146},\n  pages = {107485},\n  doi = {10.1016/j.scs.2026.107485}\n}",
+    "contribution": "Compares closure, grade separation and other crossing treatments within one resource allocation model, accounting for safety, delay, emissions and noise under budget constraints."
   },
   {
     "doi": "10.1016/j.tre.2025.104104",
@@ -174,7 +177,8 @@
     "url": "https://doi.org/10.1016/j.ress.2025.110839",
     "topic": "resilience",
     "featured": false,
-    "bibtex": "@article{101016jress2025110839,\n  title = {Resource allocation approaches for improving safety and operations at level crossings: State of the art, existing challenges, and future research needs},\n  author = {Payam Afkhami and Razieh Khayamim and Bokang Li and Marta Borowska-Stefańska and Szymon Wiśniewski and Amir M. Fathollahi-Fard and Yui-yip Lau and Maxim A. Dulebenets},\n  journal = {Reliability Engineering & System Safety},\n  year = {2025},\n  volume = {257},\n  pages = {110839},\n  doi = {10.1016/j.ress.2025.110839}\n}"
+    "bibtex": "@article{101016jress2025110839,\n  title = {Resource allocation approaches for improving safety and operations at level crossings: State of the art, existing challenges, and future research needs},\n  author = {Payam Afkhami and Razieh Khayamim and Bokang Li and Marta Borowska-Stefańska and Szymon Wiśniewski and Amir M. Fathollahi-Fard and Yui-yip Lau and Maxim A. Dulebenets},\n  journal = {Reliability Engineering & System Safety},\n  year = {2025},\n  volume = {257},\n  pages = {110839},\n  doi = {10.1016/j.ress.2025.110839}\n}",
+    "contribution": "Reviews how crossing safety studies allocate limited funds and compares the interventions, evaluation criteria and constraints represented in existing methods."
   },
   {
     "doi": "10.1108/mabr-12-2023-0086",
@@ -197,7 +201,8 @@
     "url": "https://doi.org/10.1108/mabr-12-2023-0086",
     "topic": "maritime",
     "featured": false,
-    "bibtex": "@article{101108mabr1220230086,\n  title = {Electric tugboat deployment in maritime transportation: detailed analysis of advantages and disadvantages},\n  author = {Shanmukh Devarapali and Ashley Manske and Razieh Khayamim and Edwina Jacobs and Bokang Li and Zeinab Elmi and Maxim A. Dulebenets},\n  journal = {Maritime Business Review},\n  year = {2024},\n  volume = {9},\n  pages = {263-291},\n  doi = {10.1108/mabr-12-2023-0086}\n}"
+    "bibtex": "@article{101108mabr1220230086,\n  title = {Electric tugboat deployment in maritime transportation: detailed analysis of advantages and disadvantages},\n  author = {Shanmukh Devarapali and Ashley Manske and Razieh Khayamim and Edwina Jacobs and Bokang Li and Zeinab Elmi and Maxim A. Dulebenets},\n  journal = {Maritime Business Review},\n  year = {2024},\n  volume = {9},\n  pages = {263-291},\n  doi = {10.1108/mabr-12-2023-0086}\n}",
+    "contribution": "Examines electric tugboat deployment, identifying trade-offs among emissions, charging infrastructure and operating requirements."
   },
   {
     "doi": "10.1016/j.ress.2024.110197",
@@ -245,7 +250,8 @@
     "url": "https://doi.org/10.1016/j.jii.2024.100561",
     "topic": "resilience",
     "featured": false,
-    "bibtex": "@article{101016jjii2024100561,\n  title = {Electric vehicle scheduling: State of the art, critical challenges, and future research opportunities},\n  author = {Junayed Pasha and Bokang Li and Zeinab Elmi and Amir M. Fathollahi-Fard and Yui-yip Lau and Abdolreza Roshani and Tomoya Kawasaki and Maxim A. Dulebenets},\n  journal = {Journal of Industrial Information Integration},\n  year = {2024},\n  volume = {38},\n  pages = {100561},\n  doi = {10.1016/j.jii.2024.100561}\n}"
+    "bibtex": "@article{101016jjii2024100561,\n  title = {Electric vehicle scheduling: State of the art, critical challenges, and future research opportunities},\n  author = {Junayed Pasha and Bokang Li and Zeinab Elmi and Amir M. Fathollahi-Fard and Yui-yip Lau and Abdolreza Roshani and Tomoya Kawasaki and Maxim A. Dulebenets},\n  journal = {Journal of Industrial Information Integration},\n  year = {2024},\n  volume = {38},\n  pages = {100561},\n  doi = {10.1016/j.jii.2024.100561}\n}",
+    "contribution": "Reviews electric vehicle scheduling methods and identifies where charging decisions, energy constraints and fleet operations need to be modeled together."
   },
   {
     "doi": "10.1016/j.trd.2023.103957",
@@ -291,7 +297,8 @@
     "url": "https://doi.org/10.1016/j.cie.2023.109472",
     "topic": "resilience",
     "featured": false,
-    "bibtex": "@article{101016jcie2023109472,\n  title = {An epsilon-constraint-based exact multi-objective optimization approach for the ship schedule recovery problem in liner shipping},\n  author = {Zeinab Elmi and Bokang Li and Benbu Liang and Yui-yip Lau and Marta Borowska-Stefańska and Szymon Wiśniewski and Maxim A. Dulebenets},\n  journal = {Computers & Industrial Engineering},\n  year = {2023},\n  volume = {183},\n  pages = {109472},\n  doi = {10.1016/j.cie.2023.109472}\n}"
+    "bibtex": "@article{101016jcie2023109472,\n  title = {An epsilon-constraint-based exact multi-objective optimization approach for the ship schedule recovery problem in liner shipping},\n  author = {Zeinab Elmi and Bokang Li and Benbu Liang and Yui-yip Lau and Marta Borowska-Stefańska and Szymon Wiśniewski and Maxim A. Dulebenets},\n  journal = {Computers & Industrial Engineering},\n  year = {2023},\n  volume = {183},\n  pages = {109472},\n  doi = {10.1016/j.cie.2023.109472}\n}",
+    "contribution": "Uses an exact multi-objective method to trace the trade-off between late arrivals and profit loss when liner services adjust speeds, port calls and cargo handling after disruption."
   },
   {
     "doi": "10.1093/jcde/qwad075",
@@ -314,7 +321,8 @@
     "url": "https://doi.org/10.1093/jcde/qwad075",
     "topic": "maritime",
     "featured": false,
-    "bibtex": "@article{101093jcdeqwad075,\n  title = {Berth allocation and scheduling at marine container terminals: A state-of-the-art review of solution approaches and relevant scheduling attributes},\n  author = {Bokang Li and Zeinab Elmi and Ashley Manske and Edwina Jacobs and Yui-yip Lau and Qiong Chen and Maxim A Dulebenets},\n  journal = {Journal of Computational Design and Engineering},\n  year = {2023},\n  volume = {10},\n  pages = {1707-1735},\n  doi = {10.1093/jcde/qwad075}\n}"
+    "bibtex": "@article{101093jcdeqwad075,\n  title = {Berth allocation and scheduling at marine container terminals: A state-of-the-art review of solution approaches and relevant scheduling attributes},\n  author = {Bokang Li and Zeinab Elmi and Ashley Manske and Edwina Jacobs and Yui-yip Lau and Qiong Chen and Maxim A Dulebenets},\n  journal = {Journal of Computational Design and Engineering},\n  year = {2023},\n  volume = {10},\n  pages = {1707-1735},\n  doi = {10.1093/jcde/qwad075}\n}",
+    "contribution": "Classifies berth-scheduling models by their operating assumptions and compares how exact, heuristic and hybrid methods handle those differences."
   },
   {
     "doi": "10.3390/ma14133515",
@@ -335,6 +343,7 @@
     "url": "https://doi.org/10.3390/ma14133515",
     "topic": "maritime",
     "featured": false,
-    "bibtex": "@article{103390ma14133515,\n  title = {Mechanical and Microstructural Characteristics of Calcium Sulfoaluminate Cement Exposed to Early-Age Carbonation Curing},\n  author = {Weikang Wang and Xuanchun Wei and Xinhua Cai and Hongyang Deng and Bokang Li},\n  journal = {Materials},\n  year = {2021},\n  volume = {14},\n  pages = {3515},\n  doi = {10.3390/ma14133515}\n}"
+    "bibtex": "@article{103390ma14133515,\n  title = {Mechanical and Microstructural Characteristics of Calcium Sulfoaluminate Cement Exposed to Early-Age Carbonation Curing},\n  author = {Weikang Wang and Xuanchun Wei and Xinhua Cai and Hongyang Deng and Bokang Li},\n  journal = {Materials},\n  year = {2021},\n  volume = {14},\n  pages = {3515},\n  doi = {10.3390/ma14133515}\n}",
+    "contribution": "Tests how early carbonation curing changes the pore structure and compressive strength of calcium sulfoaluminate cement under different preparation and curing conditions."
   }
 ]
