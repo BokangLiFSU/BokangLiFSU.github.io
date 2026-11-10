@@ -100,7 +100,7 @@
   "scholar": "https://scholar.google.com/citations?user=2nU8l8cAAAAJ",
   "linkedin": "https://www.linkedin.com/in/bokang-li-365596246/",
   "github": "https://github.com/BokangLiFSU",
-  "affiliation": "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. After earning my B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University, I entered Florida State University’s Civil Engineering Ph.D. program directly. Florida State awarded me a Master of Engineering en route in December 2024. I completed my Ph.D. in August 2025 under Dr. Maxim A. Dulebenets and then held a postdoctoral appointment at Florida State through May 2026.",
+  "affiliation": "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. I earned my Ph.D. in Civil Engineering at Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I then held a postdoctoral appointment at Florida State through May 2026. I hold a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University.",
   "education": [
     {
       "period": "Aug 2025",
@@ -110,9 +110,9 @@
     },
     {
       "period": "Dec 2024",
-      "degree": "Master of Engineering in Civil Engineering (awarded en route to Ph.D.)",
+      "degree": "Master of Engineering in Civil Engineering",
       "institution": "Florida State University",
-      "detail": "Florida State University conferred this degree in December 2024 as part of my direct B.S.-to-Ph.D. track."
+      "detail": "Awarded en route through the direct B.S.-to-Ph.D. track."
     },
     {
       "period": "Dec 2024",
@@ -256,7 +256,7 @@
   ],
   "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus, and previously held a postdoctoral appointment at Florida State University. After earning my B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University, I entered Florida State University’s Civil Engineering Ph.D. program directly. Florida State awarded me the Master of Engineering en route in December 2024 as part of the same doctoral program. I completed my Ph.D. in August 2025 under Dr. Maxim A. Dulebenets. My research combines operations research, mathematical optimization, and artificial intelligence to study how organizations plan, allocate resources, and adapt to disruptions in logistics, industrial, and service systems. Maritime logistics and supply chains are central applications. I have contributed to federally and state-funded research projects and helped develop research proposals in collaboration with researchers at Florida State University and the University of Washington, Tacoma Campus. I have published 15+ peer-reviewed journal articles, including work in leading journals such as Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering, among others. I serve as a reviewer for 20+ peer-reviewed journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence, among others."
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus, and previously held a postdoctoral appointment at Florida State University. I earned my Ph.D. in Civil Engineering at Florida State University under the supervision of Dr. Maxim A. Dulebenets. I hold a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University. My research combines operations research, mathematical optimization, and artificial intelligence to study how organizations plan, allocate resources, and adapt to disruptions in logistics, industrial, and service systems. Maritime logistics and supply chains are central applications. I have contributed to federally and state-funded research projects and helped develop research proposals in collaboration with researchers at Florida State University and the University of Washington, Tacoma Campus. I have published 15+ peer-reviewed journal articles, including work in leading journals such as Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering, among others. I serve as a reviewer for 20+ peer-reviewed journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence, among others."
   ],
   "homeResearch": [
     "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
@@ -265,7 +265,7 @@
     "My longer-term agenda links resilient and sustainable system design with technology adoption and adaptive operations. I am interested in how preparedness affects recovery, how electrification and automation change bottlenecks, and how information sharing and decision authority influence coordination. Broader goals include understanding when investment, organizational arrangements or better operating policies offer the most effective improvement."
   ],
   "academicContext": [
-    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. After earning my B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University, I entered Florida State University’s Civil Engineering Ph.D. program directly. Florida State awarded me a Master of Engineering en route in December 2024. I completed my Ph.D. in August 2025 under Dr. Maxim A. Dulebenets and then held a postdoctoral appointment at Florida State through May 2026.",
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. I earned my Ph.D. in Civil Engineering at Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. I then held a postdoctoral appointment at Florida State through May 2026. I hold a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University.",
     "My doctoral research examined how adaptive search and exact optimization can be combined in scheduling problems. During my graduate and postdoctoral appointments at Florida State University, I extended this work to freight distribution and contributed to sponsored projects in humanitarian logistics and infrastructure planning.",
     "I held a postdoctoral appointment at Florida State University from August 2025 through May 2026. At the University of Washington, Tacoma Campus, I have worked with Dr. Angela Kitali on transportation research and proposals involving computer vision and geospatial data for infrastructure inventories."
   ],
