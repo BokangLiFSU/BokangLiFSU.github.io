@@ -1,7 +1,7 @@
 {
   "overview": [
-    "A decision that improves one operation can move a bottleneck downstream. A berth assignment changes when cranes and yard capacity are needed. An inbound truck schedule determines when freight is available for outbound loading. I use operations research to identify which decisions need to be made together and which can be separated without sacrificing feasibility or useful bounds.",
-    "My methodological work combines mathematical programming and decomposition with adaptive search. A formulation makes the operating dependencies explicit, while learning can help allocate computation to the search moves most likely to improve a solution. I am extending this work to decisions made with incomplete information, where an operating policy must adapt without losing sight of capacity limits and prior commitments."
+    "I study decisions that are linked by shared resources, material flows and commitments over time. Production plans determine what can be shipped. Operating-room schedules affect demand for ward beds. A decision to restore one facility may have little effect until a supplier or transport link is available. Across these settings, I ask which decisions need to be made jointly and what is lost when they are made independently.",
+    "My methodological work combines mathematical programming, decomposition and adaptive search. Formulations identify the constraints that couple decisions. Decomposition exploits parts of the problem that can be solved separately, while learning can direct search toward more promising changes to a plan. My published work tests these ideas in freight and maritime operations. My current and prospective work extends them to automated systems, healthcare and disruption response."
   ],
   "themes": {
     "algorithms": {
@@ -22,7 +22,7 @@
         "How should computation be allocated between adaptive exploration and exact improvement?",
         "Under what conditions do learned strategies transfer across problem instances, and how should solver feedback guide AI-generated models and algorithms?"
       ],
-      "lead": "I develop mathematical models and algorithms for decisions coupled through assignments, timing and shared resources. The central methodological question is how problem structure should guide formulation, computation and learning.",
+      "lead": "I develop formulations and algorithms for optimization problems with coupled assignments, sequences and schedules. My work examines when a compact formulation can make exact optimization tractable, when to decompose a problem, and how to allocate computation between exploring alternatives and improving a promising solution.",
       "focus": [
         {
           "title": "Mathematical representation",
@@ -34,7 +34,7 @@
         },
         {
           "title": "Learning within decision processes",
-          "text": "My developing interests concern AI-assisted formulation, sequential decisions and coordinated agents. The question is what learning changes in the resulting model or decision."
+          "text": "I am investigating whether operating data can guide decisions under uncertainty and whether AI-assisted formulations preserve the constraints intended by the modeler. In both cases, the test is the feasibility and quality of the resulting decisions."
         },
         {
           "title": "Emerging computational methods",
@@ -76,7 +76,7 @@
         "How do information sharing, contractual commitments and decision authority affect coordination and the distribution of benefits?",
         "How should technology adoption and supporting infrastructure be planned alongside the operating policies that determine their value?"
       ],
-      "lead": "I study coordination within operating systems and across organizations. Production, inventory, transport and service decisions interact through capacity, material availability and time; coordinating them can create value that a local improvement misses.",
+      "lead": "I study how decisions made by producers, carriers, terminal operators and service providers affect one another. Port and freight operations offer concrete examples: an assignment at one stage changes the timing and capacity available at the next. The same coordination problem arises when firms plan production, inventory and distribution separately.",
       "focus": [
         {
           "title": "Maritime and freight operations",
@@ -92,7 +92,7 @@
         },
         {
           "title": "Product lifecycles and investment",
-          "text": "Pharmaceutical supply chains introduce returns and recovery; port electrification connects investment commitments with readiness and realized operating use."
+          "text": "My work on pharmaceutical supply chains considers product returns and recovery. My work on shore power examines how infrastructure commitments translate into implementation responsibilities and actual use."
         }
       ],
       "futureNotes": [
@@ -127,7 +127,7 @@
         "Which commitments should be protected or revised as disruption information changes?",
         "How can allocation models evaluate service and access together with energy, environmental and economic consequences?"
       ],
-      "lead": "I investigate how advance resource choices shape the operating options available later. Resilience, sustainability and service performance depend on these choices together with the policies used when conditions change.",
+      "lead": "I study how decisions made before a disruption shape the options available during recovery. Reserve capacity, alternative suppliers and flexible schedules protect different parts of a system. Their value depends on which services can continue, which resources can be reassigned, and in what order disrupted operations can resume.",
       "focus": [
         {
           "title": "Preparedness and recovery",
@@ -135,7 +135,7 @@
         },
         {
           "title": "Electrification and automation",
-          "text": "I am interested in investment, energy and equipment decisions evaluated through feasible schedules, utilization and service, rather than equipment capability alone."
+          "text": "I examine how electrification and automation affect schedules, equipment utilization and service. An investment may relieve one constraint while increasing demand for charging, maintenance or handling capacity elsewhere."
         },
         {
           "title": "Healthcare and laboratory services",
@@ -171,7 +171,7 @@
       "question": "How does formulation design affect the scalability of exact berth-scheduling optimization?",
       "approach": "The study minimizes total vessel service costs in dynamic, discrete berth scheduling. Two-dimensional decision variables, the removal of redundant model elements and simplified sequencing reduce the size of the mixed-integer formulation. Benders decomposition and column generation exploit the resulting structure to address larger scheduling instances.",
       "evidence": "The computational study compares the formulation with five mathematical models and three metaheuristics. It reports solutions for instances with more than 260 vessels within two hours under the tested settings, alongside sensitivity analysis of operational parameters.",
-      "meaning": "The formulation illustrates how modeling choices affect the scale at which exact optimization can be applied. Its reduced representation also supports decomposition, linking formulation design to the development of solution methods.",
+      "meaning": "The formulation removes redundant sequencing variables and constraints while retaining the decisions that determine a feasible berth schedule. That representation also provides a basis for Benders decomposition and column generation.",
       "source": "https://trid.trb.org/View/2780704",
       "connection": "The formulation and decomposition ideas may also apply to problems that combine resource assignments with sequencing.",
       "futureQuestion": "How can compact formulations be extended to coordinated resource decisions when berthing, handling and downstream service interact?",
@@ -192,7 +192,7 @@
       "question": "How should freight transfers, handling capacity and service precedence be represented in integrated truck schedules?",
       "approach": "The mixed-integer model coordinates dock assignments, service sequences and timing across inbound unloading, freight transfer and outbound loading. It accounts for waiting, handling, temporary storage and departure-delay costs. Sequential fix-and-optimize constructs precedence-consistent batches. Pricing-guided search uses reduced-cost information to identify promising single-truck reinsertions, with exact evaluation after discrete scheduling decisions are fixed.",
       "evidence": "The experiments compare the formulation with two established models and evaluate both solution frameworks. On large tested instances, reported objective improvements reach approximately 30% relative to the comparison methods. Pricing-guided search reduces mean runtime by more than 35% relative to solving the proposed model directly.",
-      "meaning": "The contribution concerns both representation and computation. Freight-transfer precedence and shared handling capacity must remain consistent when a truck is moved within a schedule. The two frameworks exploit that structure differently, through staged construction and targeted neighborhood improvement. Their computational evaluation explains when larger integrated plans can be obtained within a practical planning budget.",
+      "meaning": "The two methods exploit freight-transfer precedence in different ways. Sequential fix-and-optimize builds schedules in batches consistent with freight availability. Pricing-guided search uses cost information to select promising changes to truck assignments and sequences.",
       "source": "https://doi.org/10.1016/j.tre.2026.105264",
       "connection": "This work motivates my interest in coordinating schedules across processing, transfer and service stages.",
       "futureQuestion": "When should additional processing or storage capacity be preferred to improved coordination of inbound and outbound operations?",
@@ -213,7 +213,7 @@
       "question": "How can adaptive operator selection improve search while preserving reliable schedule evaluation?",
       "approach": "The Hybridized Thompson Sampling Hyperheuristic combines evolutionary search with an adaptive operator-selection controller. A repair-and-penalty mechanism handles inbound–outbound precedence constraints. Fast approximate fitness evaluation supports exploration, while exact optimization refines schedule evaluation.",
       "evidence": "On the reported benchmark instances, the algorithm produces solutions comparable with exact optimization for small problems and improves on the comparison metaheuristics. The paper reports improvements of up to approximately 24% and an average runtime of 186.71 seconds across its experimental setting.",
-      "meaning": "This study treats operator selection, constraint handling and schedule evaluation as separate design decisions within one algorithm. Thompson Sampling adapts the search operators; repair and penalties address precedence; approximate evaluation limits the cost of exploration. Exact optimization then refines evaluation. Their interaction explains the method’s computational design, beyond the label of a hybrid algorithm.",
+      "meaning": "Thompson Sampling uses observed improvements to choose among search operators. Repair and penalties address precedence violations, while approximate evaluation keeps exploration inexpensive. Exact service-time optimization refines the evaluation of promising schedules.",
       "source": "https://doi.org/10.1016/j.swevo.2026.102502",
       "connection": "A next question is whether the learned search strategies remain useful under different demand patterns and operating conditions.",
       "futureQuestion": "Can adaptive search strategies transfer between demand patterns and facilities while preserving feasible schedules?",
@@ -291,7 +291,7 @@
       },
       {
         "title": "Interpret the result",
-        "text": "Computational work connects feasibility and sensitivity with what a recommendation means for an engineering or managerial decision."
+        "text": "Students check whether a solution satisfies the operating constraints and examine which assumptions would change their recommendation."
       },
       {
         "title": "Develop independence",
@@ -300,7 +300,7 @@
     ],
     "community": [
       "I have participated in prospective-student outreach and supported students preparing research showcases and competitions.",
-      "Conference presentations, journal reviewing and research discussions connect my work with the wider operations research and transportation communities."
+      "I present research at operations research and transportation conferences and review manuscripts in optimization, logistics and transportation."
     ]
   },
   "agenda": [
@@ -334,7 +334,7 @@
     {
       "title": "AI for transportation infrastructure inventories",
       "status": "Research proposals submitted in 2026",
-      "text": "My transportation proposal work addresses infrastructure inventories, context-based speed management and sidewalk spatial-condition assessment. Proposed methods combine computer vision, imagery, LiDAR and GIS with independent field validation. I am a proposed co-principal investigator on the speed-management inventory and rural-to-town corridor studies, and a research assistant on the active-transportation inventory and sidewalk-assessment submissions."
+      "text": "In 2026, I helped develop proposals on infrastructure inventories, speed management and sidewalk condition assessment. The inventory and assessment proposals draw on computer vision and geospatial data, with field validation where proposed. My proposed roles are co-principal investigator on the speed-management inventory and rural-to-town corridor studies and research assistant on the active-transportation inventory and sidewalk-assessment studies."
     },
     {
       "title": "Integrated scheduling and resource circulation",

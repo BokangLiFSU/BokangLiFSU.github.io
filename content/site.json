@@ -83,17 +83,17 @@
     {
       "id": "algorithms",
       "title": "Artificial Intelligence and Mathematical Optimization",
-      "description": "How should a decision problem be represented, decomposed and solved, and where can learning improve the process?"
+      "description": "Formulation design, decomposition and learning-guided search for decisions coupled by timing, precedence and shared resources."
     },
     {
       "id": "maritime",
       "title": "Operations, Supply Chains and Maritime Logistics",
-      "description": "How do production, inventory, transport and service decisions interact within facilities and across organizations?"
+      "description": "Coordination of production, inventory, transport and service decisions across facilities and organizations."
     },
     {
       "id": "resilience",
       "title": "Resilient and Sustainable Operations",
-      "description": "How do preparedness, technology investment and operating policies shape recovery, sustainability and access to services?"
+      "description": "Capacity, investment and operating policies for disruption recovery, service continuity and sustainable operations."
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -236,10 +236,10 @@
   ],
   "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. Before joining UW in June 2026, I was a Postdoctoral Research Scholar at Florida State University, where I earned my Ph.D. in Civil Engineering under the supervision of Dr. Maxim A. Dulebenets. My doctoral research focused on operations research and logistics optimization. I also hold a Master of Engineering in Civil Engineering from Florida State University and a B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University.",
-    "My research examines how to design and operate systems whose decisions are interdependent. I develop mathematical formulations, decomposition algorithms and learning-guided search for problems in scheduling, resource allocation and recovery from disruptions. Maritime logistics and freight operations have been central to this work. At container terminals, I study where and when vessels should be served as they compete for berth capacity. At cross-docks, I study how to schedule inbound and outbound trucks when loading depends on which freight has arrived and how quickly it can be transferred.",
-    "I am extending these questions to supply chains, automated production and essential services, including healthcare and humanitarian logistics. I am particularly interested in which investments give operators room to respond when a facility or transport link fails, and when learning from operating data changes a decision enough to justify its cost. These questions connect long-term choices about capacity and technology with the operating policies that determine how those investments perform.",
-    "My work has appeared in Transportation Research Part E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, and Reliability Engineering & System Safety. I have contributed to federally and state-funded projects in humanitarian logistics and transportation infrastructure, including research on emergency supply delivery and highway–rail crossing closures. I have taught and mentored students at the undergraduate and master’s levels and review for journals in operations research, logistics and transportation."
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus. Before joining UW in June 2026, I was a Postdoctoral Research Scholar at Florida State University, where I earned my Ph.D. in Civil Engineering with a focus on operations research and logistics optimization. Dr. Maxim A. Dulebenets advised my dissertation. I also hold a Master of Engineering in Civil Engineering from Florida State University and a B.S. in Harbor, Waterway and Coastal Engineering from Wuhan University.",
+    "My research brings together operations research, mathematical optimization and artificial intelligence to study how logistics, industrial and service systems are designed and operated. I focus on operational planning, scheduling, resource allocation and disruption management, particularly when decisions at one facility or stage constrain what can be done elsewhere. My collaborators and I have used this perspective to develop compact formulations and decomposition algorithms for berth scheduling, and to combine adaptive search with exact optimization in truck scheduling. These studies illustrate a broader methodological interest in how the structure of a decision problem can guide both modeling and computation.",
+    "My published work spans maritime transportation, freight distribution, infrastructure safety and sustainable operations. It has appeared in Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, and Reliability Engineering & System Safety. As a research assistant, I contributed to federally sponsored work on humanitarian relief logistics and to a Florida Department of Transportation study on highway–rail crossing closures. I have also helped develop research proposals, taught graduate courses as a teaching assistant, mentored undergraduate and master’s researchers, and reviewed for more than 20 peer-reviewed journals.",
+    "I am interested in how organizations can prepare for disruption through capacity, inventory and operating flexibility, and how they should revise plans as new information becomes available. In automated production and distribution, this means examining how investments in equipment change the constraints on daily operations. In healthcare and emergency response, I am interested in how local scheduling and allocation decisions affect access and continuity of service. Across these settings, I study where learning can improve a decision and how optimization can preserve the operating requirements that make it feasible."
   ],
   "homeResearch": [
     "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
@@ -249,8 +249,8 @@
   ],
   "academicContext": [
     "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. Florida State University also awarded me a Master of Engineering in Civil Engineering in December 2024 during my doctoral studies. I received my Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
-    "My doctoral research developed adaptive hyperheuristics for berth scheduling. Subsequent work has combined compact mathematical formulations, decomposition and learning-guided search in freight and terminal operations. My broader program addresses optimization and AI in logistics, industrial and service systems, including supply chain coordination, disruption management, automation, electrification, healthcare and emergency operations.",
-    "I was a Postdoctoral Research Scholar at Florida State University from August 2025 to May 2026 and joined the University of Washington, Tacoma Campus in June 2026. My work with Dr. Angela Kitali includes transportation research and proposal development involving computer vision, geospatial analysis and infrastructure information. Alongside these collaborations, I pursue methodological and application research across operations research, AI and operations management."
+    "My dissertation developed adaptive hyperheuristics for berth scheduling at marine container terminals. During my graduate and postdoctoral appointments at Florida State University, I also worked on mathematical formulations and solution methods for freight distribution and on sponsored research in humanitarian logistics and transportation infrastructure.",
+    "I held a postdoctoral appointment at Florida State University from August 2025 through May 2026. At the University of Washington, Tacoma Campus, I have worked with Dr. Angela Kitali on transportation research and proposals involving computer vision and geospatial data for infrastructure inventories."
   ],
   "portrait": {
     "file": "portrait-approved-a-clear.jpg",
@@ -379,7 +379,7 @@
     {
       "title": "Safety and resource allocation",
       "people": "Dr. Ren Moses, Dr. Eren E. Ozguven, Dr. John Sobanjo and research coauthors",
-      "text": "Our highway–rail crossing publications connect mathematical optimization with safety and infrastructure planning. The work ranges from closure selection to multi-objective allocation among closures, countermeasures and grade separation. A collaborative review examines how these approaches represent costs, collision risk, sustainability and community considerations. The publications identify the specific author teams and study designs.",
+      "text": "Our joint work uses mathematical optimization to prioritize highway–rail crossing closures and allocate safety investments. The linked study considers safety, economic and environmental outcomes. Related work compares closure, countermeasure installation and grade separation under budget and eligibility constraints.",
       "url": "https://doi.org/10.1016/j.ress.2024.110197",
       "label": "Rail-crossing decision study"
     },
@@ -470,7 +470,7 @@
       "caption": "Cross-docking operations in Fayetteville, North Carolina, 2010: supplies are staged for onward movement."
     }
   },
-  "homeResearchBrief": "Three questions organize my research. How can a formulation expose the structure that a solver or a learning method can use? Which operating decisions need to be coordinated across facilities and firms? Where should a system hold spare capacity or flexibility so that it can continue serving customers and communities when conditions change?",
+  "homeResearchBrief": "I study how to coordinate decisions across facilities, organizations and time horizons. The research below covers three connected questions: how to formulate and solve coupled decisions, how to coordinate operations across a system, and how to protect service as conditions change.",
   "academicLife": [
     {
       "title": "Teaching",
