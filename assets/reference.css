@@ -132,3 +132,18 @@ main{padding-top:30px}h1{font-size:30px;line-height:36px}h2,.section-heading h2{
 /* Context photographs and an original scheduling example. */
 .context-pair{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:24px 0 29px;align-items:start}.context-pair .research-figure img{width:100%;height:auto}.decision-diagram{margin:24px 0 30px}.decision-diagram img{width:100%;height:auto;border:1px solid var(--rule)}
 @media(max-width:600px){.context-pair{grid-template-columns:1fr;gap:22px}.decision-diagram figcaption{font-size:12px}}
+
+/* Homepage biography */
+.profile-role {
+  margin: -6px 0 10px;
+  color: var(--secondary);
+  font-size: 14px;
+}
+.profile-bio-heading {
+  margin: 19px 0 9px;
+  font-size: 17px;
+}
+.profile-bio-continuation {
+  max-width: 78ch;
+  margin-top: 12px;
+}
