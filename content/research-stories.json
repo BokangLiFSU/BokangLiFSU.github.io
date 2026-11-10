@@ -1,7 +1,7 @@
 {
   "overview": [
     "I study decisions that are linked by shared resources, material flows and commitments over time. Production plans determine what can be shipped. Operating-room schedules affect demand for ward beds. A decision to restore one facility may have little effect until a supplier or transport link is available. Across these settings, I ask which decisions need to be made jointly and what is lost when they are made independently.",
-    "My methodological work combines mathematical programming, decomposition and adaptive search. Formulations identify the constraints that couple decisions. Decomposition exploits parts of the problem that can be solved separately, while learning can direct search toward more promising changes to a plan. My published work tests these ideas in freight and maritime operations. My current and prospective work extends them to automated systems, healthcare and disruption response."
+    "I approach these questions through mathematical modeling and algorithm design. My work on compact formulations and decomposition examines how much coordination a model must represent explicitly to produce a feasible plan or a useful bound. My work on adaptive search studies how to direct limited computation toward the most promising changes to a schedule. The published studies below test these ideas in maritime and freight operations. Current work considers how to apply them to automated facilities, service systems and recovery planning."
   ],
   "themes": {
     "algorithms": {
@@ -34,7 +34,7 @@
         },
         {
           "title": "Learning within decision processes",
-          "text": "I am investigating whether operating data can guide decisions under uncertainty and whether AI-assisted formulations preserve the constraints intended by the modeler. In both cases, the test is the feasibility and quality of the resulting decisions."
+          "text": "I study two roles for learning in optimization. One is to choose which search moves deserve further computation. The other is to use observations to revise a plan as conditions change. In both cases, the resulting decision must satisfy the operating constraints."
         },
         {
           "title": "Emerging computational methods",
@@ -84,7 +84,7 @@
         },
         {
           "title": "Production and organizational coordination",
-          "text": "I am interested in when sourcing, inventory, production and distribution require joint planning, and how shared information or capacity agreements distribute the resulting benefits."
+          "text": "A production schedule determines when goods are available for shipment, while inventory can buffer a delay at the cost of holding stock. I study when joint planning is valuable and how organizations can share the information or capacity needed to coordinate."
         },
         {
           "title": "Automation and resource circulation",
@@ -131,7 +131,7 @@
       "focus": [
         {
           "title": "Preparedness and recovery",
-          "text": "Alternative supply, inventory, reserve equipment and access routes protect different activities. Their value depends on restoration order and dependencies elsewhere in a network."
+          "text": "Inventory can bridge a short disruption, while backup suppliers or equipment can restore capacity over a longer period. I am interested in which safeguards remain useful when several facilities or connections fail together."
         },
         {
           "title": "Electrification and automation",
@@ -283,7 +283,7 @@
       "I am interested in teaching the relationship between descriptive evidence, prediction and decisions. A more accurate prediction may have little operating value when capacity or prior commitments prevent a response. Projects can ask students to compare alternatives under changing assumptions and explain the consequences. Generative AI can support exploration, with students responsible for checking evidence, calculations and their own conclusions.",
       "Staged project proposals, preliminary analyses and revisions provide opportunities for feedback as students develop independence. Different levels of mathematical and programming preparation call for clear expectations, targeted practice and opportunities for consultation. My instructional plans emphasize individual reasoning alongside collaborative work, including interpretation, sensitivity analysis and communication to technical and managerial audiences."
     ],
-    "mentoring": "I have guided undergraduate and master’s researchers at Florida State University and currently support master’s research at the University of North Florida, where I serve as an external master’s thesis committee member. My approach connects question development, study design, analytical methods, interpretation and scholarly writing. As projects progress, students assume greater responsibility for technical decisions and develop questions of their own. My longer-term mentoring goals include sustained undergraduate investigations, graduate research and opportunities for presentations and coauthored publications.",
+    "mentoring": "At Florida State University, I guided undergraduate and master’s researchers in developing questions, selecting methods and interpreting results. I also serve as an external master’s thesis committee member at the University of North Florida. In mentoring, I ask students to take increasing responsibility for the decisions they can defend, from choosing assumptions and comparison methods to explaining what their results establish.",
     "principles": [
       {
         "title": "Formulate the question",

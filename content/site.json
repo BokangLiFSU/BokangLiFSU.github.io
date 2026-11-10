@@ -83,17 +83,17 @@
     {
       "id": "algorithms",
       "title": "Artificial Intelligence and Mathematical Optimization",
-      "description": "Formulation design, decomposition and learning-guided search for decisions coupled by timing, precedence and shared resources."
+      "description": "Compact formulations, exact decomposition and adaptive search for problems with coupled assignments, schedules and resource constraints."
     },
     {
       "id": "maritime",
       "title": "Operations, Supply Chains and Maritime Logistics",
-      "description": "Coordination of production, inventory, transport and service decisions across facilities and organizations."
+      "description": "Coordination across production, storage, transport and distribution, with published studies in maritime and freight operations."
     },
     {
       "id": "resilience",
       "title": "Resilient and Sustainable Operations",
-      "description": "Capacity, investment and operating policies for disruption recovery, service continuity and sustainable operations."
+      "description": "Preparedness, recovery and technology adoption, with attention to the costs of disruption, environmental impacts and continuity of service."
     }
   ],
   "workEmail": "bokangli@uw.edu",
@@ -133,14 +133,14 @@
       "level": "Graduate · in person",
       "institution": "Florida State University",
       "role": "Teaching Assistant with Delegated Instructor Responsibilities",
-      "detail": "My responsibilities included lectures and discussions on evolutionary algorithms, classical metaheuristics, local search, hybrid methods and selected exact approaches. I assessed assignments and guided group projects in scheduling, resource allocation and logistics, helping students relate algorithmic choices to the structure and computational behavior of their models."
+      "detail": "I taught lectures and led discussions on evolutionary algorithms, local search, hybrid methods and selected exact approaches. In group projects on scheduling and resource allocation, I helped students explain why they chose a particular algorithm and interpret its computational performance."
     },
     {
       "course": "TTE 5074 · Freight Terminals and Distribution Facilities",
       "level": "Graduate · online",
       "institution": "Florida State University",
       "role": "Teaching Assistant",
-      "detail": "I supported graduate instruction on freight terminals and distribution facilities through Canvas. My responsibilities included organizing course materials, moderating discussions, assisting students, grading assignments and developing assessments that connected facility operations with analytical methods."
+      "detail": "I supported online graduate instruction through Canvas by preparing course materials and assessments, moderating discussions and giving feedback on assignments about freight terminals and distribution facilities."
     }
   ],
   "awards": [
@@ -236,8 +236,11 @@
   ],
   "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "Postdoctoral Scholar at the University of Washington, Tacoma campus (Tacoma, WA), with prior postdoctoral research experience at Florida State University (Tallahassee, FL). Holds a Ph.D. in Civil Engineering with a focus on Operations Research and Logistics Optimization from Florida State University, and a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University (Wuhan, China). Research interests include operational planning and scheduling, resource allocation, disruption management, and resilience in logistics, industrial, and service systems, with a methodological focus on operations research, mathematical optimization, and artificial intelligence. I am particularly interested in how organizations coordinate operating decisions and adapt them when demand or capacity changes.",
-    "Has contributed to multiple research projects funded by federal and state agencies and the development of multiple research proposals. Research findings have appeared in 10+ peer-reviewed journal articles, including publications in leading journals such as Transportation Research Part D/E, IEEE Transactions on Intelligent Transportation Sys- tems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering. Serves as a reviewer for 20+ international peer-reviewed journals, including Transportation Research Part B/C/D/E, among others."
+    "Postdoctoral Scholar at the University of Washington, Tacoma campus (Tacoma, WA), with prior postdoctoral research experience at Florida State University (Tallahassee, FL). Holds a Ph.D. in Civil Engineering with a focus on Operations Research and Logistics Optimization from Florida State University, and a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University (Wuhan, China). I also completed a Master of Engineering in Civil Engineering at Florida State University, where my doctoral dissertation, advised by Dr. Maxim A. Dulebenets, developed adaptive search methods for berth scheduling.",
+    "Research interests include operational planning and scheduling, resource allocation, disruption management, and resilience in logistics, industrial, and service systems, with a methodological focus on operations research, mathematical optimization, and artificial intelligence. My work connects planning decisions made at different scales, from allocating capacity across a network to scheduling operations that share equipment or staff. For example, my collaborators and I developed a compact formulation that supports exact decomposition for berth scheduling, and combined learning-guided search with exact optimization to coordinate truck service and freight transfers at cross-docks.",
+    "Has contributed to multiple research projects funded by federal and state agencies and the development of multiple research proposals. As a research assistant, I worked on planning the delivery of humanitarian supplies under resource and cost constraints and on comparing highway–rail crossing closure strategies for the Florida Department of Transportation. Research findings have appeared in 10+ peer-reviewed journal articles, including publications in leading journals such as Transportation Research Part D/E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering.",
+    "Looking ahead, I want to understand where spare capacity and flexible operating policies are most valuable when a system is disrupted. In automated facilities, this means studying how new equipment changes the rest of the schedule. In healthcare and emergency response, it means accounting for how one allocation decision affects access to services elsewhere. I am also interested in using operating data to revise plans while honoring commitments already made.",
+    "Serves as a reviewer for 20+ international peer-reviewed journals, including Transportation Research Part B/C/D/E, among others. My teaching experience includes graduate courses in optimization algorithms and freight operations. I have guided undergraduate and master’s research and serve as an external master’s thesis committee member at the University of North Florida."
   ],
   "homeResearch": [
     "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
@@ -247,7 +250,7 @@
   ],
   "academicContext": [
     "I earned my Ph.D. in Civil Engineering from Florida State University in August 2025 under the supervision of Dr. Maxim A. Dulebenets. Florida State University also awarded me a Master of Engineering in Civil Engineering in December 2024 during my doctoral studies. I received my Bachelor of Science in Harbor, Waterway and Coastal Engineering from Wuhan University in June 2022.",
-    "My dissertation developed adaptive hyperheuristics for berth scheduling at marine container terminals. During my graduate and postdoctoral appointments at Florida State University, I also worked on mathematical formulations and solution methods for freight distribution and on sponsored research in humanitarian logistics and transportation infrastructure.",
+    "My doctoral research examined how adaptive search and exact optimization can be combined in scheduling problems. During my graduate and postdoctoral appointments at Florida State University, I extended this work to freight distribution and contributed to sponsored projects in humanitarian logistics and infrastructure planning.",
     "I held a postdoctoral appointment at Florida State University from August 2025 through May 2026. At the University of Washington, Tacoma Campus, I have worked with Dr. Angela Kitali on transportation research and proposals involving computer vision and geospatial data for infrastructure inventories."
   ],
   "portrait": {
@@ -468,7 +471,7 @@
       "caption": "Cross-docking operations in Fayetteville, North Carolina, 2010: supplies are staged for onward movement."
     }
   },
-  "homeResearchBrief": "I study how to coordinate decisions across facilities, organizations and time horizons. The research below covers three connected questions: how to formulate and solve coupled decisions, how to coordinate operations across a system, and how to protect service as conditions change.",
+  "homeResearchBrief": "My research asks how to coordinate decisions across activities that share resources or depend on one another. The three areas below address how to solve these problems, how coordination changes operating performance, and how to keep essential services available when conditions change.",
   "academicLife": [
     {
       "title": "Teaching",
