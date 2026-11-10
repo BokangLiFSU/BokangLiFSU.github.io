@@ -1,7 +1,7 @@
 {
   "overview": [
-    "My research asks how decisions about system design, resources and operations should be connected. A capacity investment changes the schedules a system can support; a local operating decision changes what is possible downstream. I develop models and algorithms to study these dependencies under uncertainty.",
-    "Method development is central to this work: formulations expose the relevant dependencies, algorithms exploit their structure, and learning can guide repeated computational or operating decisions. Maritime and logistics studies provide established applications; developing work in automated, healthcare, laboratory and emergency operations investigates different forms of resource dependence and service."
+    "A decision that improves one operation can move a bottleneck downstream. A berth assignment changes when cranes and yard capacity are needed. An inbound truck schedule determines when freight is available for outbound loading. I use operations research to identify which decisions need to be made together and which can be separated without sacrificing feasibility or useful bounds.",
+    "My methodological work combines mathematical programming and decomposition with adaptive search. A formulation makes the operating dependencies explicit, while learning can help allocate computation to the search moves most likely to improve a solution. I am extending this work to decisions made with incomplete information, where an operating policy must adapt without losing sight of capacity limits and prior commitments."
   ],
   "themes": {
     "algorithms": {
