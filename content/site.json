@@ -106,7 +106,7 @@
       "period": "Aug 2025",
       "degree": "Ph.D., Civil Engineering",
       "institution": "Florida State University",
-      "detail": "My dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” developed adaptive search methods under the supervision of Dr. Maxim A. Dulebenets. My doctoral training focused on operations research and logistics optimization."
+      "detail": "My dissertation, “Effective Hyperheuristic Algorithms for the Berth Scheduling Problem at Marine Container Terminals,” developed adaptive search methods under the supervision of Dr. Maxim A. Dulebenets. My doctoral training focused on operations research, optimization, and the planning of logistics, industrial, and service systems."
     },
     {
       "period": "Dec 2024",
@@ -157,11 +157,6 @@
   ],
   "service": [
     {
-      "journal": "Transportation Research Part B: Methodological",
-      "publisher": "Elsevier",
-      "since": 2025
-    },
-    {
       "journal": "Transportation Research Part C: Emerging Technologies",
       "publisher": "Elsevier",
       "since": 2026
@@ -172,34 +167,9 @@
       "since": 2026
     },
     {
-      "journal": "Transportation Research Part E: Logistics and Transportation Review",
-      "publisher": "Elsevier",
-      "since": 2024
-    },
-    {
       "journal": "Computers & Industrial Engineering",
       "publisher": "Elsevier",
       "since": 2026
-    },
-    {
-      "journal": "Advanced Engineering Informatics",
-      "publisher": "Elsevier",
-      "since": 2024
-    },
-    {
-      "journal": "Applied Energy",
-      "publisher": "Elsevier",
-      "since": 2025
-    },
-    {
-      "journal": "Engineering Applications of Artificial Intelligence",
-      "publisher": "Elsevier",
-      "since": 2023
-    },
-    {
-      "journal": "Journal of Industrial Information Integration",
-      "publisher": "Elsevier",
-      "since": 2024
     },
     {
       "journal": "Ocean Engineering",
@@ -207,13 +177,8 @@
       "since": 2026
     },
     {
-      "journal": "Journal of Rail Transport Planning & Management",
+      "journal": "Results in Engineering",
       "publisher": "Elsevier",
-      "since": 2025
-    },
-    {
-      "journal": "Maritime Business Review",
-      "publisher": "Emerald",
       "since": 2026
     },
     {
@@ -222,7 +187,22 @@
       "since": 2026
     },
     {
-      "journal": "Transportation Research Interdisciplinary Perspectives",
+      "journal": "Computing",
+      "publisher": "Springer Nature",
+      "since": 2026
+    },
+    {
+      "journal": "Maritime Business Review",
+      "publisher": "Emerald",
+      "since": 2026
+    },
+    {
+      "journal": "Transportation Research Part B: Methodological",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Applied Energy",
       "publisher": "Elsevier",
       "since": 2025
     },
@@ -232,12 +212,27 @@
       "since": 2025
     },
     {
-      "journal": "Cognition, Technology & Work",
-      "publisher": "Springer Nature",
+      "journal": "Journal of Rail Transport Planning & Management",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Transportation Research Interdisciplinary Perspectives",
+      "publisher": "Elsevier",
+      "since": 2025
+    },
+    {
+      "journal": "Green Technologies and Sustainability",
+      "publisher": "Elsevier",
       "since": 2025
     },
     {
       "journal": "Scientific Reports",
+      "publisher": "Springer Nature",
+      "since": 2025
+    },
+    {
+      "journal": "Cognition, Technology & Work",
       "publisher": "Springer Nature",
       "since": 2025
     },
@@ -247,8 +242,13 @@
       "since": 2025
     },
     {
-      "journal": "Green Technologies and Sustainability",
-      "publisher": "Elsevier",
+      "journal": "Computers",
+      "publisher": "MDPI",
+      "since": 2025
+    },
+    {
+      "journal": "Systems",
+      "publisher": "MDPI",
       "since": 2025
     },
     {
@@ -262,19 +262,29 @@
       "since": 2025
     },
     {
-      "journal": "Systems",
-      "publisher": "MDPI",
-      "since": 2025
+      "journal": "Transportation Research Part E: Logistics and Transportation Review",
+      "publisher": "Elsevier",
+      "since": 2024
     },
     {
-      "journal": "Computers",
-      "publisher": "MDPI",
-      "since": 2025
+      "journal": "Advanced Engineering Informatics",
+      "publisher": "Elsevier",
+      "since": 2024
+    },
+    {
+      "journal": "Journal of Industrial Information Integration",
+      "publisher": "Elsevier",
+      "since": 2024
     },
     {
       "journal": "Marine Systems & Ocean Technology",
       "publisher": "Springer Nature",
       "since": 2024
+    },
+    {
+      "journal": "Engineering Applications of Artificial Intelligence",
+      "publisher": "Elsevier",
+      "since": 2023
     },
     {
       "journal": "Systems and Soft Computing",
@@ -361,7 +371,7 @@
   ],
   "researchStatement": "Operations research, mathematical optimization and artificial intelligence for logistics, industrial and service systems.",
   "biography": [
-    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus (Tacoma, WA), with prior postdoctoral research experience at Florida State University (Tallahassee, FL). I earned a Ph.D. in Civil Engineering from Florida State University, where I focused on operations research and logistics optimization under the supervision of Dr. Maxim A. Dulebenets. I hold a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University (Wuhan, China). Research interests include operational planning and scheduling, resource allocation, disruption management, and resilience in logistics, industrial, and service systems, with a methodological focus on operations research, mathematical optimization, and artificial intelligence. I have contributed to research projects funded by the U.S. Air Force and the Florida Department of Transportation. I have also helped develop proposals for research programs administered by the U.S. Department of Transportation and the Washington State Department of Transportation. I have published 15+ peer-reviewed journal articles, including work in leading journals such as Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering, among others. I serve as a reviewer for 20+ peer-reviewed journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence, among others."
+    "I am a Postdoctoral Scholar at the University of Washington, Tacoma Campus (Tacoma, WA), with prior postdoctoral research experience at Florida State University (Tallahassee, FL). I earned a Ph.D. in Civil Engineering from Florida State University, where I focused on operations research and logistics optimization under the supervision of Dr. Maxim A. Dulebenets. I hold a B.S. in Harbor, Waterway, and Coastal Engineering from Wuhan University (Wuhan, China). Research interests include operational planning and scheduling, resource allocation, disruption management, and resilience in logistics, industrial, and service systems, with a methodological focus on operations research, mathematical optimization, and artificial intelligence. I have contributed to research projects funded by the U.S. Air Force and the Florida Department of Transportation. I have also helped develop proposals for research programs administered by the U.S. Department of Transportation and the Washington State Department of Transportation. I have published 15+ peer-reviewed journal articles, including work in leading journals such as Transportation Research Parts D and E, IEEE Transactions on Intelligent Transportation Systems, Swarm and Evolutionary Computation, Reliability Engineering & System Safety, and Computers & Industrial Engineering, among others. I serve as a reviewer for 25+ peer-reviewed journals, including Transportation Research Parts B/C/D/E, Computers & Industrial Engineering, Applied Energy, Advanced Engineering Informatics, and Engineering Applications of Artificial Intelligence, among others."
   ],
   "homeResearch": [
     "I am interested in how strategic, tactical and operational decisions should be connected. System design and investment determine the capacity available for daily operations; schedules and allocation policies determine how effectively that capacity serves demand. My research examines these relationships within facilities, across networks and among organizations with different objectives. Coordination, uncertainty and the distribution of operating benefits and risks are central questions.",
@@ -621,5 +631,25 @@
     "Applied Energy",
     "Advanced Engineering Informatics",
     "Engineering Applications of Artificial Intelligence"
+  ],
+  "acceptedPublications": [
+    {
+      "title": "An Island Hyperheuristic Algorithm for Timely and Cost-Effective Berth Scheduling at Marine Terminals",
+      "authors": [
+        "Bokang Li",
+        "Fatemeh Shekoohi",
+        "Payam Afkhami",
+        "Marta Borowska-Stefańska",
+        "Szymon Wiśniewski",
+        "Yui-Yip Lau",
+        "Maxim A. Dulebenets"
+      ],
+      "journal": "Advanced Engineering Informatics",
+      "year": 2026,
+      "status": "Accepted",
+      "url": "https://profile.cpce-polyu.edu.hk/en/publications/an-island-hyperheuristic-algorithm-for-timely-and-cost-effective-/",
+      "topic": "maritime",
+      "bibtex": "@article{Li2026IslandHyperheuristic,\n  title = {An Island Hyperheuristic Algorithm for Timely and Cost-Effective Berth Scheduling at Marine Terminals},\n  author = {Bokang Li and Fatemeh Shekoohi and Payam Afkhami and Marta Borowska-Stefańska and Szymon Wiśniewski and Yui-Yip Lau and Maxim A. Dulebenets},\n  journal = {Advanced Engineering Informatics},\n  year = {2026},\n  note = {Accepted},\n  url = {https://profile.cpce-polyu.edu.hk/en/publications/an-island-hyperheuristic-algorithm-for-timely-and-cost-effective-/}\n}"
+    }
   ]
 }
